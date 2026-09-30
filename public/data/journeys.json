@@ -1,0 +1,486 @@
+{
+  "journeys": [
+    {
+      "color": "#e4572e",
+      "id": "chili",
+      "name": "Chili Pepper",
+      "stops": [
+        {
+          "country": "Bolivia",
+          "dishTerms": [],
+          "era": "c. 6000 BCE",
+          "lat": -17.0,
+          "lon": -64.0,
+          "note": "Wild capsicum peppers are domesticated in the Americas. No chili exists anywhere else on Earth yet.",
+          "place": "Bolivian Highlands",
+          "year": -6000
+        },
+        {
+          "country": "Mexico",
+          "dishTerms": [
+            "chilli",
+            "chili",
+            "jalapeno",
+            "chipotle"
+          ],
+          "era": "c. 1200",
+          "lat": 19.4,
+          "lon": -99.1,
+          "note": "Aztec and Maya kitchens build moles and salsas around dozens of chili varieties, fresh, dried and smoked.",
+          "place": "Valley of Mexico",
+          "year": 1200
+        },
+        {
+          "country": "Spain",
+          "dishTerms": [
+            "piri"
+          ],
+          "era": "1493",
+          "lat": 37.4,
+          "lon": -6.0,
+          "note": "Columbus carries capsicum back from the Caribbean. Within decades it is sailing on Portuguese ships to Africa and Asia.",
+          "place": "Seville",
+          "year": 1493
+        },
+        {
+          "country": "India",
+          "dishTerms": [
+            "chilli",
+            "chili"
+          ],
+          "era": "c. 1540",
+          "lat": 15.3,
+          "lon": 74.1,
+          "note": "Portuguese traders land chili in Goa. India makes it its own so completely that most people now assume it was always Indian.",
+          "place": "Goa",
+          "year": 1540
+        },
+        {
+          "country": "Thailand",
+          "dishTerms": [
+            "thai",
+            "pad",
+            "tom yum"
+          ],
+          "era": "c. 1600",
+          "lat": 13.75,
+          "lon": 100.5,
+          "note": "Via Portuguese Malacca, chili reaches Siam and becomes the heat at the centre of Thai cooking.",
+          "place": "Bangkok",
+          "year": 1600
+        },
+        {
+          "country": "China",
+          "dishTerms": [
+            "kung pao",
+            "mapo",
+            "sichuan"
+          ],
+          "era": "c. 1700",
+          "lat": 30.6,
+          "lon": 104.1,
+          "note": "Chili climbs inland to Sichuan, where it meets the local peppercorn. Mala, the numbing heat, is born.",
+          "place": "Chengdu, Sichuan",
+          "year": 1700
+        },
+        {
+          "country": "Hungary",
+          "dishTerms": [
+            "goulash",
+            "paprika"
+          ],
+          "era": "c. 1800",
+          "lat": 47.5,
+          "lon": 19.0,
+          "note": "Dried and ground, capsicum becomes paprika. By the 1800s it has fully replaced black pepper in Hungarian cooking, goulash included.",
+          "place": "Budapest",
+          "year": 1800
+        }
+      ],
+      "tagline": "An American fruit that conquered Asia in 200 years",
+      "sources": [
+        {
+          "label": "Wikipedia: Chili pepper",
+          "url": "https://en.wikipedia.org/wiki/Chili_pepper"
+        },
+        {
+          "label": "Smithsonian Magazine: What's So Hot About Chili Peppers?",
+          "url": "https://www.smithsonianmag.com/science-nature/whats-so-hot-about-chili-peppers-116907465/"
+        }
+      ]
+    },
+    {
+      "color": "#d64541",
+      "id": "tomato",
+      "name": "Tomato",
+      "stops": [
+        {
+          "country": "Peru",
+          "dishTerms": [],
+          "era": "c. 500 BCE",
+          "lat": -10.0,
+          "lon": -75.0,
+          "note": "Wild tomatoes grow in the Andes. Small, green and nothing like the modern fruit.",
+          "place": "Andes",
+          "year": -500
+        },
+        {
+          "country": "Mexico",
+          "dishTerms": [
+            "salsa",
+            "tomato"
+          ],
+          "era": "c. 1400",
+          "lat": 19.4,
+          "lon": -99.1,
+          "note": "The Aztecs domesticate it as tomatl and cook it with chili, the pairing that will circle the planet.",
+          "place": "Valley of Mexico",
+          "year": 1400
+        },
+        {
+          "country": "Spain",
+          "dishTerms": [
+            "gazpacho"
+          ],
+          "era": "1544",
+          "lat": 37.4,
+          "lon": -6.0,
+          "note": "First described in Europe. A nightshade, so polite society fears it is poisonous and grows it as decoration.",
+          "place": "Seville",
+          "year": 1544
+        },
+        {
+          "country": "Italy",
+          "dishTerms": [
+            "pasta",
+            "pizza",
+            "pomodoro",
+            "tomato",
+            "spaghetti",
+            "ragu"
+          ],
+          "era": "c. 1700",
+          "lat": 40.85,
+          "lon": 14.27,
+          "note": "Poor southern Italians ignore the fear and cook it. Within a century Naples pairs it with pasta and flatbread, and pizza sauce follows.",
+          "place": "Naples",
+          "year": 1700
+        },
+        {
+          "country": "India",
+          "dishTerms": [
+            "tomato"
+          ],
+          "era": "c. 1850",
+          "lat": 19.07,
+          "lon": 72.87,
+          "note": "Tomato reaches Indian kitchens in force under the British and quietly becomes the sour base of countless curries.",
+          "place": "Mumbai",
+          "year": 1850
+        },
+        {
+          "country": "China",
+          "dishTerms": [
+            "tomato egg",
+            "tomato"
+          ],
+          "era": "c. 1920",
+          "lat": 23.1,
+          "lon": 113.3,
+          "note": "By the early 1900s tomato is a Chinese home staple, most famously stir-fried with egg, a dish that did not exist a century earlier.",
+          "place": "Guangzhou",
+          "year": 1920
+        }
+      ],
+      "tagline": "Feared as poison in Europe, then adopted by everyone",
+      "sources": [
+        {
+          "label": "Smithsonian Magazine: the 'poison apple' years",
+          "url": "https://WWW.SMITHSONIANMAG.COM/history/how-the-misrepresentation-of-tomatoes-as-stinking-poison-apples-that-provoked-vomiting-made-people-afraid-of-them-for-more-than-200-years-863735/"
+        },
+        {
+          "label": "UC Davis: Tracing Tomato Timelines",
+          "url": "https://prizedwriting.ucdavis.edu/sites/g/files/dgvnsk15806/files/media/documents/tomato.pdf"
+        }
+      ]
+    },
+    {
+      "color": "#c98f2d",
+      "id": "potato",
+      "name": "Potato",
+      "stops": [
+        {
+          "country": "Peru / Bolivia",
+          "dishTerms": [],
+          "era": "c. 5000 BCE",
+          "lat": -15.9,
+          "lon": -69.3,
+          "note": "Andean farmers domesticate the potato high in the mountains and breed thousands of varieties, freeze-drying them into chuño.",
+          "place": "Lake Titicaca",
+          "year": -5000
+        },
+        {
+          "country": "Spain",
+          "dishTerms": [
+            "tortilla",
+            "potato"
+          ],
+          "era": "c. 1570",
+          "lat": 37.4,
+          "lon": -6.0,
+          "note": "Spanish ships bring potatoes from South America. Europe is suspicious; it feeds animals first, people later.",
+          "place": "Seville",
+          "year": 1570
+        },
+        {
+          "country": "China",
+          "dishTerms": [
+            "potato"
+          ],
+          "era": "c. 1650",
+          "lat": 26.1,
+          "lon": 119.3,
+          "note": "Potato reaches coastal China, likely with Dutch and Portuguese trade, and spreads as a famine-proof crop.",
+          "place": "Fujian",
+          "year": 1650,
+          "bias": "Chinese"
+        },
+        {
+          "country": "Ireland",
+          "dishTerms": [
+            "colcannon",
+            "potato",
+            "stew"
+          ],
+          "era": "c. 1700",
+          "lat": 53.3,
+          "lon": -8.2,
+          "note": "Ireland adopts the potato more completely than anywhere. The dependence ends in catastrophe with the blight and famine of 1845.",
+          "place": "Ireland",
+          "year": 1700
+        },
+        {
+          "country": "Germany",
+          "dishTerms": [
+            "potato",
+            "schnitzel"
+          ],
+          "era": "1756",
+          "lat": 52.5,
+          "lon": 13.4,
+          "note": "Frederick the Great orders his subjects to plant potatoes, guards fields to make them seem precious, and it works.",
+          "place": "Berlin, Prussia",
+          "year": 1756
+        },
+        {
+          "country": "India",
+          "dishTerms": [
+            "potato"
+          ],
+          "era": "c. 1820",
+          "lat": 22.5,
+          "lon": 88.3,
+          "note": "Under the British, aloo embeds itself in Indian cooking: dum aloo, aloo paratha, and the potato inside the Bengali biryani.",
+          "place": "Kolkata",
+          "year": 1820
+        }
+      ],
+      "tagline": "The Andean tuber that fed industrial Europe",
+      "sources": [
+        {
+          "label": "YaleGlobal: From Famine to Fries",
+          "url": "http://archive-yaleglobal.yale.edu/famine-fries-potato-has-come-long-way"
+        },
+        {
+          "label": "The potato famine in Ireland (Edisco textbook unit)",
+          "url": "https://www.edisco.it/the-green-planet/wp-content/uploads/sites/117/2024/05/The_potato_famine_in_Ireland.pdf"
+        }
+      ]
+    },
+    {
+      "color": "#8a5a33",
+      "id": "coffee",
+      "name": "Coffee",
+      "stops": [
+        {
+          "country": "Ethiopia",
+          "dishTerms": [],
+          "era": "c. 850",
+          "lat": 7.2,
+          "lon": 36.2,
+          "note": "Coffee grows wild in Ethiopia's highlands. The goat-herder discovery story is legend, but the plant is real and local.",
+          "place": "Kaffa",
+          "year": 850
+        },
+        {
+          "country": "Yemen",
+          "dishTerms": [
+            "shawarma",
+            "hummus",
+            "falafel"
+          ],
+          "era": "c. 1450",
+          "lat": 13.3,
+          "lon": 43.3,
+          "note": "Sufi monks in Yemen brew coffee to stay awake for night prayer. The port of Mocha gives the drink its first famous name.",
+          "place": "Mocha",
+          "year": 1450
+        },
+        {
+          "country": "Turkey",
+          "dishTerms": [
+            "turkish",
+            "coffee",
+            "baklava"
+          ],
+          "era": "1554",
+          "lat": 41.0,
+          "lon": 28.97,
+          "note": "The world's first coffeehouses open in Istanbul. Authorities try to ban them; the coffeehouses win.",
+          "place": "Istanbul",
+          "year": 1554
+        },
+        {
+          "country": "Italy",
+          "dishTerms": [
+            "risotto",
+            "tiramisu",
+            "espresso"
+          ],
+          "era": "1615",
+          "lat": 45.44,
+          "lon": 12.33,
+          "note": "Venetian traders bring coffee from the Levant. Clergy call it the devil's drink until the Pope tastes it and, legend says, blesses it.",
+          "place": "Venice",
+          "year": 1615
+        },
+        {
+          "country": "Indonesia",
+          "dishTerms": [
+            "coffee",
+            "rendang"
+          ],
+          "era": "1699",
+          "lat": -6.2,
+          "lon": 106.8,
+          "note": "The Dutch break the Arab monopoly by planting coffee in Java. 'Java' becomes slang for coffee itself.",
+          "place": "Batavia, Java",
+          "year": 1699
+        },
+        {
+          "country": "Brazil",
+          "dishTerms": [],
+          "era": "c. 1850",
+          "lat": -23.5,
+          "lon": -46.6,
+          "note": "Coffee reaches Brazil in the 1700s and explodes. By the mid-1800s Brazil supplies most of the world's coffee, built on enslaved labour until 1888.",
+          "place": "São Paulo",
+          "year": 1850
+        }
+      ],
+      "tagline": "From Ethiopian hillsides to every office on Earth",
+      "sources": [
+        {
+          "label": "Britannica: History of coffee",
+          "url": "https://www.britannica.com/topic/history-of-coffee?copilot_analytics_metadata=eyJldmVudEluZm9fY2xpY2tTb3VyY2UiOiJjaXRhdGlvbkxpbmsiLCJldmVudEluZm9fY29udmVyc2F0aW9uSWQiOiJrdTJVazFoRzNOZGd4VHB3a2I0cUUiLCJldmVudEluZm9fbWVzc2FnZUlkIjoib3JCcUNWZ21Hc0d0dTdHOXFBUlN0IiwiZXZlbnRJbmZvX2NsaWNrRGVzdGluYXRpb24iOiJodHRwczpcL1wvd3d3LmJyaXRhbm5pY2EuY29tXC90b3BpY1wvaGlzdG9yeS1vZi1jb2ZmZWUifQ%3D%3D&citationMarker=9F742443-6C92-4C44-BF58-8F5A7C53B6F1"
+        },
+        {
+          "label": "Wikipedia: History of coffee",
+          "url": "https://en.wikipedia.org/wiki/History_of_coffee"
+        }
+      ]
+    },
+    {
+      "color": "#d9a441",
+      "id": "sugar",
+      "name": "Sugar",
+      "stops": [
+        {
+          "country": "Papua New Guinea",
+          "dishTerms": [],
+          "era": "c. 6000 BCE",
+          "lat": -5.4,
+          "lon": 141.0,
+          "note": "Sugarcane is domesticated in New Guinea and chewed fresh for millennia before anyone learns to crystallise it.",
+          "place": "New Guinea",
+          "year": -6000
+        },
+        {
+          "country": "India",
+          "dishTerms": [],
+          "era": "c. 350",
+          "lat": 26.8,
+          "lon": 80.9,
+          "note": "Indian refiners crack crystallised sugar. The Sanskrit word khanda travels west and becomes 'candy'.",
+          "place": "Gangetic Plain",
+          "year": 350
+        },
+        {
+          "country": "Persia (Iran)",
+          "dishTerms": [
+            "baklava",
+            "halva"
+          ],
+          "era": "c. 600",
+          "lat": 32.2,
+          "lon": 48.7,
+          "note": "Persian refiners industrialise sugar-making, and Arab expansion carries cane and technique across the Mediterranean world.",
+          "place": "Khuzestan",
+          "year": 600
+        },
+        {
+          "country": "Egypt",
+          "dishTerms": [
+            "kunafa",
+            "baklava",
+            "halva"
+          ],
+          "era": "c. 900",
+          "lat": 30.0,
+          "lon": 31.2,
+          "note": "Egypt becomes a sugar powerhouse, building the syrupy dessert tradition that still defines the region's sweets.",
+          "place": "Cairo",
+          "year": 900
+        },
+        {
+          "country": "Portugal",
+          "dishTerms": [
+            "portuguese",
+            "prego"
+          ],
+          "era": "c. 1450",
+          "lat": 32.7,
+          "lon": -17.2,
+          "note": "Portugal plants cane on Atlantic islands, prototyping the plantation model, and its enslaved workforce, that will move to the Americas.",
+          "place": "Madeira",
+          "year": 1450
+        },
+        {
+          "country": "Barbados",
+          "dishTerms": [
+            "pudding",
+            "treacle"
+          ],
+          "era": "1640",
+          "lat": 13.19,
+          "lon": -59.54,
+          "note": "The Caribbean sugar revolution. Enslaved Africans produce the sweetness Europe craves, at a human cost in the millions. Rum is born from the waste molasses.",
+          "place": "Barbados",
+          "year": 1640
+        }
+      ],
+      "tagline": "Sweetness that redrew maps, and cost millions of lives",
+      "sources": [
+        {
+          "label": "Wikipedia: History of sugar",
+          "url": "https://en.wikipedia.org/wiki/History_of_sugar"
+        },
+        {
+          "label": "LSU AgCenter: Sugarcane History",
+          "url": "https://www.lsuagcenter.com/portals/communications/publications/agmag/archive/2002/fall/sugarcane-history"
+        }
+      ]
+    }
+  ],
+  "notes": "Journeys are editorial summaries of well-established food history (Columbian exchange, Portuguese and Dutch trade routes, Arab sugar expansion). Dates marked c. are approximate. Recipes are matched live from the TheMealDB snapshot by name and ingredient keywords, so a stop with no matches simply shows its story."
+}
