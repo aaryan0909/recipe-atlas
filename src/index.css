@@ -152,6 +152,17 @@ button { font-family: inherit; cursor: pointer; }
 }
 .tick.on { color: #fff; border-color: var(--accent); background: color-mix(in srgb, var(--accent) 32%, transparent); }
 
+/* --- 2026-09-30 UX polish: 44px targets, 16px mobile inputs, reduced motion --- */
+.tab { min-height: 44px; }
+.chip { min-height: 44px; padding: 10px 14px; }
+.tick { min-height: 40px; padding: 9px 12px; }
+.close { width: 44px; height: 44px; }
+.explorer input[type='search'] { font-size: 16px; }
+@media (prefers-reduced-motion: reduce) {
+  .pulse { animation: none; }
+  .card, .tab, .dish { transition: none; }
+}
+
 .stop-card {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -282,4 +293,10 @@ footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px;
   .stage { grid-template-columns: 1fr; }
   .timeline input[type='range'] { width: 44%; }
   .ingredients { grid-template-columns: 1fr; }
+}
+
+/* --- 2026-09-30 UX polish: full-width mobile timeline slider --- */
+@media (max-width: 900px) {
+  .timeline input[type='range'] { width: 100%; margin-top: 10px; height: 32px; }
+  .year-read { margin: 0 0 0 12px; }
 }
