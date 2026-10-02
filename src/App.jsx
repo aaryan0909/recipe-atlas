@@ -207,6 +207,7 @@ function FilmView({ ing, meals, geo, onBack, onOpenMeal, onPantryArea }) {
 
   const active = chapters[activeIdx]
   const fullRoute = { type: 'LineString', coordinates: chapters.map((c) => [c.lon, c.lat]) }
+  const [initTx, initTy] = geo.projection([chapters[0].lon, chapters[0].lat])
 
   const onCountry = (name) => {
     const a = COUNTRY_TO_AREA[name]
@@ -275,7 +276,7 @@ function FilmView({ ing, meals, geo, onBack, onOpenMeal, onPantryArea }) {
                       </g>
                     )
                   })}
-                  <g ref={travelerRef}>
+                  <g ref={travelerRef} transform={`translate(${initTx} ${initTy})`}>
                     <circle r="20" className="traveler-pulse" />
                     <text className="traveler" textAnchor="middle" dy="0.36em">{ing.icon}</text>
                   </g>
