@@ -313,6 +313,10 @@ function FilmView({ ing, meals, geo, onBack, onOpenMeal, onPantryArea }) {
               <h2>{active.title}</h2>
               <p className="country-name">{active.place}, {active.country}</p>
               <p className="story">{active.story}</p>
+              {active.use && <p className="use-line"><strong>How they used it:</strong> {active.use}</p>}
+              {active.dish && (
+                <p className="dish-line"><strong>Highlight dish:</strong> {active.dish}{active.dishWhy ? ` — ${active.dishWhy}` : ''}</p>
+              )}
               <p className="exam-fuel"><strong>Exam fuel:</strong> {active.exam}</p>
               <div className="scene-nav">
                 <button onClick={() => goChapter(activeIdx - 1)} disabled={activeIdx === 0}>← Prev scene</button>

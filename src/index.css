@@ -376,6 +376,16 @@ footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px;
 .title-card h2 { font-family: var(--serif); font-size: 2rem; margin: 0; line-height: 1.15; font-weight: 400; }
 .title-card .country-name { color: var(--muted); margin: 4px 0 14px; font-size: 0.95rem; }
 .title-card .story { line-height: 1.65; font-size: 1.02rem; }
+.use-line {
+  background: var(--panel-2); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0;
+  padding: 10px 14px; font-size: 0.95rem; line-height: 1.55; margin: 14px 0 0;
+}
+.use-line strong { color: var(--accent); }
+.dish-line {
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 14px; font-size: 0.95rem; line-height: 1.55; margin: 12px 0 0;
+}
+.dish-line strong { color: var(--accent); }
 .exam-fuel {
   background: var(--panel-2); border: 1px dashed var(--accent); border-radius: 10px;
   padding: 12px 14px; font-size: 0.92rem; line-height: 1.5; margin: 16px 0 0;
