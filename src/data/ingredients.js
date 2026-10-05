@@ -105,10 +105,10 @@ export const INGREDIENTS = [
     matchTerms: ["tomato", "tomatoes", "marinara", "passata", "salsa"],
     chapters: [
       {
-        place: "Andean Coast", country: "Peru", lon: -77.0, lat: -9.0, year: -5000, era: "5000 BCE",
+        place: "Andean Coast", country: "Peru", lon: -77.0, lat: -9.0, year: -5000, era: "c. 5000 BCE",
         title: "A wild berry",
-        story: "The tomato started as a small wild berry on the dry Peruvian coast. Nobody ate much of it; it was a weed with attitude. It drifted north to Mexico, where someone finally decided to cook with it, and everything changed.",
-        exam: "The tomato is native to western South America and was first cultivated in Mexico.",
+        story: "The tomato started as a small wild berry on the dry Peruvian coast. Genetic evidence says people in Peru and Ecuador were tending intermediate forms about 7,000 years ago, but the big domesticated fruit was finished later in Mexico: two stages, not one clean origin.",
+        exam: "The tomato was tended early in South America (c. 5000 BCE) and its domestication was completed in Mexico.",
       },
       {
         place: "Tenochtitlan", country: "Mexico", lon: -99.1, lat: 19.4, year: 1400, era: "1400s",
@@ -159,15 +159,15 @@ export const INGREDIENTS = [
       },
       {
         place: "Paris", country: "France", lon: 2.35, lat: 48.85, year: 1785, era: "1780s",
-        title: "The guarded field trick",
-        story: "To convince suspicious French peasants, the pharmacist Parmentier planted potatoes in a field guarded by soldiers by day and left unguarded at night. Peasants stole the plants, exactly as planned. Desire did what lectures could not.",
-        exam: "Parmentier popularized the potato in France with a staged 'guarded field' that peasants raided at night.",
+        title: "The guarded-field legend",
+        story: "The famous story says Parmentier planted potatoes in a field guarded by soldiers by day and left unguarded at night, so peasants would steal the plants out of desire. It is a great story, and probably mostly legend: his campaign did work, and by the 1780s Paris was eating potatoes, but the night-raid trick reads like retrospective myth-making.",
+        exam: "Parmentier's campaign popularized the potato in France; the 'guarded field' trick is famous but likely legend.",
       },
       {
         place: "Potsdam", country: "Prussia", lon: 13.05, lat: 52.4, year: 1750, era: "1700s",
         title: "Ordered by the king",
-        story: "Frederick the Great of Prussia issued decrees forcing peasants to plant potatoes, threatening to cut off the noses of anyone who refused. Prussia's army then marched on potatoes. Coercion worked: the tuber conquered northern Europe.",
-        exam: "Frederick the Great forced potato cultivation in Prussia by royal decree in the 1700s.",
+        story: "Frederick the Great of Prussia really did issue potato decrees in 1756, threatening punishment for peasants who refused to plant. It mostly did not work: his subjects largely ignored the orders, and the potato only took hold decades later, after the Napoleonic Wars, when hunger made the argument royal decrees could not.",
+        exam: "Frederick's 1756 potato decrees were real but largely ignored; the potato won northern Europe on hunger, not orders.",
       },
       {
         place: "County Cork", country: "Ireland", lon: -8.5, lat: 51.9, year: 1845, era: "1845",
@@ -216,8 +216,8 @@ INGREDIENTS.push(
       {
         place: "Pará", country: "Brazil", lon: -52.0, lat: -1.5, year: 1727, era: "1727",
         title: "Smuggled in a bouquet",
-        story: "Brazil wanted coffee but the Dutch guarded their plants. A Portuguese officer, Francisco de Melo Palheta, seduced the French governor's wife in Guiana, and she hid fertile coffee seeds in a bouquet of flowers as a farewell gift. Brazil is now the largest coffee producer on earth, all from a love affair.",
-        exam: "Coffee reached Brazil in 1727 via seeds smuggled by Palheta; Brazil became the world's top producer.",
+        story: "Brazil wanted coffee but the Dutch guarded their plants. Legend says a Portuguese officer, Francisco de Melo Palheta, wooed the French governor's wife in Guiana, and she hid fertile coffee seeds in a bouquet of flowers as a farewell gift. What is documented: Palheta left Cayenne in 1727 with viable seeds, and Brazil became the largest coffee producer on earth.",
+        exam: "Coffee reached Brazil in 1727 via seeds Palheta brought from Guiana (the bouquet story is legend); Brazil became the world's top producer.",
       },
     ],
   },
@@ -231,10 +231,10 @@ INGREDIENTS.push(
     matchTerms: ["sugar", "caramel", "jaggery"],
     chapters: [
       {
-        place: "New Guinea", country: "Papua New Guinea", lon: 141.0, lat: -6.0, year: -6000, era: "6000 BCE",
+        place: "New Guinea", country: "Papua New Guinea", lon: 141.0, lat: -6.0, year: -4900, era: "c. 4900 BCE",
         title: "Chewed, not refined",
-        story: "Sugarcane grew wild in New Guinea, where people chewed the stalks for sweetness thousands of years ago. Nobody imagined crystallizing it. The plant then traveled west with human migration toward Asia, sweetening everything in its path.",
-        exam: "Sugarcane was first domesticated in New Guinea, where stalks were chewed for sweetness.",
+        story: "At the Kuk wetlands in the New Guinea highlands, people were planting wild cane on purpose by about 4900 BCE, some of the earliest farming anywhere. Nobody imagined crystallizing it; stalks were cut fresh and chewed for their juice. The plant then traveled west with human migration toward Asia, sweetening everything in its path.",
+        exam: "Sugarcane was first domesticated at Kuk Swamp, New Guinea, c. 4900 BCE, and chewed fresh for millennia.",
       },
       {
         place: "Gupta Empire", country: "India", lon: 78.0, lat: 21.0, year: 500, era: "500 CE",
