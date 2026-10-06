@@ -110,283 +110,611 @@
       ]
     },
     {
-      "color": "#d64541",
       "id": "tomato",
       "name": "Tomato",
+      "color": "#d64541",
+      "tagline": "Feared as poison in Europe, then adopted by everyone",
+      "standard": "new",
+      "framing": "A sour Andean berry that Europe feared, Italy rebuilt into a sauce civilisation, and industry then turned into the world's default red flavour, from curry bases to ketchup to Chinese home cooking.",
       "stops": [
         {
-          "country": "Peru",
-          "dishTerms": [],
-          "era": "c. 500 BCE",
-          "lat": -10.0,
-          "lon": -75.0,
-          "note": "Wild tomatoes grow in the Andes. Small, green and nothing like the modern fruit.",
-          "place": "Andes",
-          "year": -500
+          "place": "Ceja de Montana",
+          "country": "Ecuador / Peru",
+          "lat": -4.0,
+          "lon": -79.2,
+          "year": -1000,
+          "era": "c. 1000 BCE (debated)",
+          "note": "No arrival: the wild homeland. Cherry-sized wild tomatoes grew in the wet eastern Andean foothills of southern Ecuador and northern Peru, and, on the genomic account, local peoples cultivated intermediate forms into medium-sized fruit. The evidence here is genetic and botanical, not culinary: no menu, recipe or named dish from this stage survives.",
+          "use": "Small, intensely flavoured fruit eaten fresh and cultivated at small scale; nothing like the large, mild, watery modern tomato.",
+          "highlightDish": {
+            "name": "The wild cherry tomato itself",
+            "blurb": "Cherry-sized, sour fruit, closer to a condiment berry than a vegetable.",
+            "why": "No named Andean tomato dish from this stage survives, and inventing one would be dishonest. The fruit itself is the honest highlight: this is what the tomato was before Mexico and Europe changed it."
+          }
         },
         {
-          "country": "Mexico",
-          "dishTerms": [
-            "salsa",
-            "tomato"
-          ],
-          "era": "c. 1400",
-          "lat": 19.4,
-          "lon": -99.1,
-          "note": "The Aztecs domesticate it as tomatl and cook it with chili, the pairing that will circle the planet.",
           "place": "Valley of Mexico",
-          "year": 1400
+          "country": "Mexico",
+          "lat": 19.43,
+          "lon": -99.13,
+          "year": 1400,
+          "era": "c. 1400",
+          "note": "Reached Mesoamerica from South America in pre-Columbian times; the route and mechanism are unknown. The large-fruited tomato was completed in Mexico (the traditional account says domestication happened here; 2020 genomic work points to a two-stage process starting in Ecuador and Peru, so the sequence is debated). By the 1400s Tlatelolco market vendors sold large, small, leaf and 'serpent' tomatoes in colours from yellow to bright red (Florentine Codex).",
+          "use": "Eaten ripe and cooked with chili, the pairing that would later circle the planet: sauces of tomato with chili and ground squash seeds, ground in the molcajete/metate tradition.",
+          "highlightDish": {
+            "name": "Salsa roja (tomatl, chili and squash-seed sauce)",
+            "blurb": "Tomatoes ground with chilies and seeds, served with meats and tortillas.",
+            "why": "Documented in the Florentine Codex market lists. It establishes that the tomato's defining role, cooked sour sauce base, is Mexican before it is Italian."
+          }
         },
         {
-          "country": "Spain",
-          "dishTerms": [
-            "gazpacho"
-          ],
-          "era": "1544",
-          "lat": 37.4,
-          "lon": -6.0,
-          "note": "First described in Europe. A nightshade, so polite society fears it is poisonous and grows it as decoration.",
-          "place": "Seville",
-          "year": 1544
-        },
-        {
+          "place": "Siena",
           "country": "Italy",
-          "dishTerms": [
-            "pasta",
-            "pizza",
-            "pomodoro",
-            "tomato",
-            "spaghetti",
-            "ragu"
-          ],
-          "era": "c. 1700",
+          "lat": 43.32,
+          "lon": 11.33,
+          "year": 1544,
+          "era": "1544",
+          "note": "Spanish ships carried seed from Mexico to Seville in the early 16th century; Spain and Italy were the first Europeans to adopt the tomato as food. The first known European description is Italian: herbalist Pietro Andrea Mattioli in 1544, calling it 'golden apple' (pomo d'oro) and classifying it as a nightshade and mandrake relative, yet recording that some ate it as eggplant was eaten.",
+          "use": "Mattioli recorded the earliest European preparation: eaten like eggplant, fried in oil with salt and pepper. Europe split in two: the Spanish-Italian south began eating the tomato in the 1500s while France and northern Europe grew it as an ornamental and regarded it with suspicion as a nightshade relative.",
+          "highlightDish": {
+            "name": "Fried golden apple, Mattioli-style",
+            "blurb": "Sliced tomato fried in oil with salt and black pepper, eaten like eggplant.",
+            "why": "The earliest European tomato preparation actually described, and its plainness is the evidence: in 1544 the tomato entered Europe as a fried curiosity, not a sauce."
+          }
+        },
+        {
+          "place": "Naples",
+          "country": "Italy",
           "lat": 40.85,
           "lon": 14.27,
-          "note": "Poor southern Italians ignore the fear and cook it. Within a century Naples pairs it with pasta and flatbread, and pizza sauce follows.",
-          "place": "Naples",
-          "year": 1700
+          "year": 1692,
+          "era": "1692",
+          "note": "Established in Spanish-ruled Naples through the 1600s. Antonio Latini, steward to the Spanish viceroy's household, published the earliest surviving European tomato sauce recipes in Lo scalco alla moderna (1692/1694): a sauce alla spagnola for boiled meats, NOT a pasta sauce. The first known printed pairing of tomato sauce with pasta came almost a century later, in Francesco Leonardi's L'Apicio moderno (1790).",
+          "use": "Latini's sauce (roasted tomatoes chopped with onion, chili, salt, oil and vinegar) was a condiment for boiled meats. Through the 1800s poor Neapolitans put tomato on flatbread and pasta at scale (54 pizzerias recorded in Naples by 1807), then canning made it southern Italy's cheap, storable acidity and colour.",
+          "highlightDish": {
+            "name": "Spaghetti al pomodoro, after Leonardi (1790)",
+            "blurb": "Pasta with cooked tomato sauce.",
+            "why": "The first documented pasta-tomato pairing in print. It corrects the old claim that Naples had pasta and pizza sauce by c. 1700: that was roughly a century too early."
+          }
         },
         {
+          "place": "Mumbai",
           "country": "India",
-          "dishTerms": [
-            "tomato"
-          ],
-          "era": "c. 1850",
           "lat": 19.07,
           "lon": 72.87,
-          "note": "Tomato reaches Indian kitchens in force under the British and quietly becomes the sour base of countless curries.",
-          "place": "Mumbai",
-          "year": 1850
+          "year": 1850,
+          "era": "c. 1850",
+          "note": "Two waves, often conflated. The tomato first reached India with the Portuguese in the 16th century, alongside chili. Widespread cultivation and kitchen adoption, however, came under the British in the 19th century: commercial cultivation is recorded around Dehradun from c. 1815-1830, spreading to hill stations and then nationally through the 20th century.",
+          "use": "Cooked down fresh or as puree into the base gravy: bulk, mild sourness and umami, partly displacing older souring agents (tamarind, kokum, curd, dried mango) depending on region. In the south it joined tamarind in rasam and sambar-style cooking rather than erasing them. India is now the world's second-largest tomato producer.",
+          "highlightDish": {
+            "name": "Tomato rasam",
+            "blurb": "Thin, peppery South Indian soup of tomato with tamarind, black pepper and cumin, eaten with rice.",
+            "why": "Rasam shows the negotiation, not the takeover: an older tamarind-and-pepper sour soup absorbs the newcomer as co-souring agent, which is exactly how the tomato entered most Indian kitchens, as a base, not a star."
+          }
         },
         {
+          "place": "Pittsburgh",
+          "country": "United States",
+          "lat": 40.44,
+          "lon": -79.99,
+          "year": 1876,
+          "era": "1876",
+          "note": "A return journey: North America received the tomato from Europe, not directly from Mexico. Jefferson grew tomatoes at Monticello in 1781; the fruit was eaten in Louisiana by 1812 but reached the northeastern states only around 1835. In 1876 Henry J. Heinz launched his bottled tomato ketchup in Pittsburgh, standardising rather than inventing it: the first published tomato ketchup recipe was James Mease's in 1812.",
+          "use": "Industrial: cooked, sweetened, vinegared and bottled. The word ketchup descends from Chinese ke-tsiap, a pickled-fish sauce, via 18th-century British mushroom and walnut ketchups. Heinz's version was eventually preservative-free and high-vinegar, in clear glass to advertise purity.",
+          "highlightDish": {
+            "name": "Heinz Tomato Ketchup itself",
+            "blurb": "The branded industrial sauce, served with everything.",
+            "why": "At this stop the 'dish' really is the transformation, fresh fruit to shelf-stable global condiment. Any copy saying 'Heinz invented tomato ketchup in 1876' is wrong by 64 years."
+          }
+        },
+        {
+          "place": "Paris",
+          "country": "France",
+          "lat": 48.86,
+          "lon": 2.35,
+          "year": 1903,
+          "era": "1903",
+          "note": "No new arrival; a delayed acceptance. France, which had grown the tomato as an ornamental and suspicion object in the 1500s-1700s (the pomme d'amour), adopted it through Provencal and Mediterranean cooking in the 19th century, then canonised it: Auguste Escoffier codified sauce tomate as one of the five mother sauces in Le Guide Culinaire (1903).",
+          "use": "Tomato with pork belly, onion, herbs, garlic and roux: a foundation sauce from which other sauces are derived, the form in which French technique exported tomato cookery globally.",
+          "highlightDish": {
+            "name": "Sauce tomate (Escoffier's mother sauce)",
+            "blurb": "Tomato with pork belly, onion, herbs, garlic and roux.",
+            "why": "Documentary proof of canonisation, dated and printed. It contrasts with the Naples stop: Naples made the tomato popular from below, Paris certified it from above."
+          }
+        },
+        {
+          "place": "Shanghai",
           "country": "China",
-          "dishTerms": [
-            "tomato egg",
-            "tomato"
-          ],
-          "era": "c. 1920",
-          "lat": 23.1,
-          "lon": 113.3,
-          "note": "By the early 1900s tomato is a Chinese home staple, most famously stir-fried with egg, a dish that did not exist a century earlier.",
-          "place": "Guangzhou",
-          "year": 1920
+          "lat": 31.23,
+          "lon": 121.47,
+          "year": 1925,
+          "era": "c. 1925",
+          "note": "The tomato (fan qie, 'foreign eggplant') reached China in the Ming period via maritime trade and was long grown as an ornamental: into the 1880s local evaluations still called it pretty but inedible. Eating it spread through Western restaurants in late-Qing and early-Republican treaty ports, above all cosmopolitan Shanghai, whose surrounding farmers began growing tomatoes to supply them.",
+          "use": "Chinese cooks adopted the tomato on Chinese terms: quick, hot, brief cooking. In the 1920s-30s Shanghai restaurants sold stir-fried tomato with scrambled egg, a technique with a two-millennia Chinese pedigree applied to the foreign fruit; home-cooked records appear in the 1940s, after which it became a nationwide household standard. China is now the world's largest tomato producer.",
+          "highlightDish": {
+            "name": "Stir-fried tomato and scrambled eggs",
+            "blurb": "Soft scrambled egg folded with juicy, lightly sweetened tomato.",
+            "why": "The adoption mechanism made edible: an ancient Chinese technique domesticating a Ming-dynasty ornamental. It corrects the old copy, which said Guangzhou c. 1920 (it was Shanghai restaurants in the 1920s-30s, home cooking in the 1940s)."
+          }
         }
       ],
-      "tagline": "Feared as poison in Europe, then adopted by everyone",
       "sources": [
         {
-          "label": "Smithsonian Magazine: the 'poison apple' years",
+          "label": "Britannica: Tomato - Description, Cultivation, & History",
+          "url": "https://www.britannica.com/plant/tomato?source=NEWS1210"
+        },
+        {
+          "label": "Razifard et al. 2020 (via UMass Amherst): domestication genomics",
+          "url": "https://www.massachusetts.edu/ada-exception-archive/umass-amherst-research-team-traces-evolution-domesticated-tomato"
+        },
+        {
+          "label": "Smithsonian: the 'poison apple' years",
           "url": "https://WWW.SMITHSONIANMAG.COM/history/how-the-misrepresentation-of-tomatoes-as-stinking-poison-apples-that-provoked-vomiting-made-people-afraid-of-them-for-more-than-200-years-863735/"
         },
         {
-          "label": "UC Davis: Tracing Tomato Timelines",
-          "url": "https://prizedwriting.ucdavis.edu/sites/g/files/dgvnsk15806/files/media/documents/tomato.pdf"
+          "label": "Smithsonian: A Passion for Tomatoes",
+          "url": "https://www.smithsonianmag.com/science-nature/a-passion-for-tomatoes-947254/"
+        },
+        {
+          "label": "Antonio Latini, Lo scalco alla moderna (1692)",
+          "url": "https://en.wikipedia.org/wiki/Antonio_Latini"
+        },
+        {
+          "label": "Livemint: How tomatoes conquered Indian cooking",
+          "url": "https://www.livemint.com/mint-lounge/ideas/how-tomatoes-conquered-indian-cooking-111638454966233.html"
+        },
+        {
+          "label": "IOSR Journal: history of the tomato in Uttarakhand",
+          "url": "https://iosrjournals.org/iosr-jhss/papers/Vol. 22 Issue8/Version-3/G2208033134.pdf"
+        },
+        {
+          "label": "Saveur: Seeing Red (ketchup history)",
+          "url": "https://www.saveur.com/article/Kitchen/Seeing-Red/"
+        },
+        {
+          "label": "Adweek / Heinz History Center",
+          "url": "https://www.adweek.com/brand-marketing/how-heinz-created-americas-and-ed-sheerans-favorite-condiment/"
+        },
+        {
+          "label": "Stir-fried tomato and scrambled eggs (history)",
+          "url": "https://en.wikipedia.org/wiki/Stir-fried_tomato_and_scrambled_eggs"
+        },
+        {
+          "label": "Emory: history of the tomato in Italy and China",
+          "url": "https://scholarblogs.emory.edu/noodles/2018/07/03/history-of-the-tomato-in-italy-and-china-tracing-the-role-of-tomatoes-in-italian-and-chinese-cooking/"
         }
       ]
     },
     {
-      "color": "#c98f2d",
       "id": "potato",
       "name": "Potato",
+      "color": "#c98f2d",
+      "tagline": "The Andean tuber that fed industrial Europe",
+      "standard": "new",
+      "framing": "The Andes' freeze-dried survival ration that crossed the Atlantic as a sailor's curiosity, spent two centuries feared as poisonous animal feed, then became the crop that fed Europe's industrial working class, emptied Ireland, and ended up identical in every fast-food fryer on Earth.",
       "stops": [
         {
+          "place": "Lake Titicaca basin",
           "country": "Peru / Bolivia",
-          "dishTerms": [],
-          "era": "c. 5000 BCE",
-          "lat": -15.9,
-          "lon": -69.3,
-          "note": "Andean farmers domesticate the potato high in the mountains and breed thousands of varieties, freeze-drying them into chuño.",
-          "place": "Lake Titicaca",
-          "year": -5000
+          "lat": -15.84,
+          "lon": -70.02,
+          "year": -8000,
+          "era": "c. 8000 BCE",
+          "note": "No arrival: the homeland. Communities around the lake selected wild bitter potatoes; the FAO dates domestication to about 8,000 years ago (academic range 6,000-10,000). The archaeological record shows chuno production at Tiwanaku on the Collao Plateau before the Inca Empire, and Jose de Acosta described chuno in 1590.",
+          "use": "Freeze-drying, not cooking, was the transformative technique: bitter frost-resistant potatoes spread on the Altiplano to freeze overnight and sun-thaw by day, trampled over days until storable for years. Fresh potatoes went into stews; dried ones were ground into flour to thicken soups or rehydrated. The Inca stored chuno in state warehouses and marched it with armies.",
+          "highlightDish": {
+            "name": "Chupe de papas",
+            "blurb": "Potatoes and rehydrated chuno simmered into a thick highland soup.",
+            "why": "The dish that only exists because of the processing innovation: the chew and body of the stew come from a tuber that was dried years earlier and carried hundreds of miles, which is the whole Andean point."
+          }
         },
         {
-          "country": "Spain",
-          "dishTerms": [
-            "tortilla",
-            "potato"
-          ],
-          "era": "c. 1570",
-          "lat": 37.4,
-          "lon": -6.0,
-          "note": "Spanish ships bring potatoes from South America. Europe is suspicious; it feeds animals first, people later.",
-          "place": "Seville",
-          "year": 1570
+          "place": "Santa Cruz de Tenerife",
+          "country": "Canary Islands, Spain",
+          "lat": 28.47,
+          "lon": -16.25,
+          "year": 1562,
+          "era": "1562",
+          "note": "Spanish ships returning from the Andes, presumed to have carried tubers as ships' provisions. The Canaries are the first place outside the Americas with documented potato cultivation: a 28 November 1567 receipt records potatoes shipped from Las Palmas to Antwerp, and Seville hospital records show them on sale by 1573. Genetic work on surviving Canarian landraces supports multiple early introductions rather than a single landing.",
+          "use": "Sailors ate them on voyages; in Spain they were hospital and poorhouse food and a botanist's curiosity (Carolus Clusius illustrated 'Papas Peruanorum' in 1601). The Canaries became the tuber's first European seed bank.",
+          "highlightDish": {
+            "name": "Papas arrugadas con mojo",
+            "blurb": "Small potatoes boiled unpeeled in heavily salted water until a wrinkled salt crust forms, served with mojo picon (garlic, chili, cumin, vinegar).",
+            "why": "Cooked from papas antiguas, Andean-descended landraces with Protected Designation of Origin status that Smithsonian reporting calls direct descendants of the 16th-century arrivals: a living fossil of the first European potato."
+          }
         },
         {
-          "country": "China",
-          "dishTerms": [
-            "potato"
-          ],
-          "era": "c. 1650",
-          "lat": 26.1,
-          "lon": 119.3,
-          "note": "Potato reaches coastal China, likely with Dutch and Portuguese trade, and spreads as a famine-proof crop.",
-          "place": "Fujian",
-          "year": 1650,
-          "bias": "Chinese"
-        },
-        {
-          "country": "Ireland",
-          "dishTerms": [
-            "colcannon",
-            "potato",
-            "stew"
-          ],
-          "era": "c. 1700",
-          "lat": 53.3,
-          "lon": -8.2,
-          "note": "Ireland adopts the potato more completely than anywhere. The dependence ends in catastrophe with the blight and famine of 1845.",
           "place": "Ireland",
-          "year": 1700
+          "country": "Ireland",
+          "lat": 53.35,
+          "lon": -6.26,
+          "year": 1650,
+          "era": "c. 1650",
+          "note": "Arrived between 1586 and 1600, most plausibly via Spain; the exact carrier is not documented, and the famous stories crediting Raleigh or Drake are myths with no evidence. By the 1700s the potato was the subsistence crop of the rural poor; by the early 1800s Ireland depended almost entirely on one high-yielding clone, the Irish Lumper, a monoculture with no genetic backup.",
+          "use": "Boiled in their skins and eaten with buttermilk or salt, the potato became a near-total diet: the poorest labourers ate 8 to 14 pounds a day. More than a third of the harvest also fed the cattle that were Ireland's main export.",
+          "highlightDish": {
+            "name": "Boxty",
+            "blurb": "Grated raw potato mixed with mashed potato, formed into pancakes and fried.",
+            "why": "Poverty cooking in its purest form, the tuber stretched with itself and fried in whatever fat existed: exactly what the potato was in Ireland before 1845."
+          }
         },
         {
-          "country": "Germany",
-          "dishTerms": [
-            "potato",
-            "schnitzel"
-          ],
+          "place": "Derry, New Hampshire",
+          "country": "United States",
+          "lat": 42.88,
+          "lon": -71.33,
+          "year": 1719,
+          "era": "1719",
+          "note": "Sixteen Scotch-Irish families settled Nutfield (soon renamed Londonderry, now Derry) in April 1719 and planted the first permanent potato field crop in New England. Correction: not the first potato planting in North America, the English had grown potatoes in Bermuda and Virginia in the early 1600s, but the first permanent field crop in what became the United States, and the one that stuck.",
+          "use": "A field crop for settler farms, grown alongside flax; the potato entered American English as the 'Irish potato.' English neighbours were suspicious: a Scotch-Irish family tradition holds that neighbours given seed tubers threw them in a swamp fearing poison.",
+          "highlightDish": {
+            "name": "New potatoes boiled in their skins, with salt",
+            "blurb": "The settler's staple: no sauce, no technique beyond a pot of water.",
+            "why": "The absence of a recipe is the evidence. The potato entered America as survival food, not cuisine; the first American recipe of note came eighty years later, when Jefferson served 'potatoes fried in the French manner' at a White House dinner in 1802."
+          }
+        },
+        {
+          "place": "Potsdam",
+          "country": "Prussia (Germany)",
+          "lat": 52.4,
+          "lon": 13.06,
+          "year": 1756,
           "era": "1756",
-          "lat": 52.5,
-          "lon": 13.4,
-          "note": "Frederick the Great orders his subjects to plant potatoes, guards fields to make them seem precious, and it works.",
-          "place": "Berlin, Prussia",
-          "year": 1756
+          "note": "Not the tuber: potatoes had been grown in Bavaria since 1647 and in Brandenburg gardens since the 1650s. What arrived in 1756 was paperwork, Frederick II's 24 March Kartoffelbefehl ordering Silesian officials to plant potatoes (one of about fifteen such decrees, with pastors enlisted to preach the tuber). The people largely ignored them; widespread adoption came only after the Napoleonic wars ended in 1815. The famous story of Frederick posting guards so peasants would steal the tubers is a myth: he himself never ate a potato.",
+          "use": "The decrees promoted field-scale planting as famine insurance after the Pomeranian famine. The real engine of adoption was hunger, not royal marketing: successive famines did what fifteen decrees could not, and the potato became the German peasant staple of the 19th century.",
+          "highlightDish": {
+            "name": "Pellkartoffeln mit Quark",
+            "blurb": "Potatoes boiled 'in jackets', peeled at the table and eaten with quark, chives and salt.",
+            "why": "The dish the decrees were really about: the cheapest complete peasant meal in northern Germany, adopted through necessity rather than trickery."
+          }
         },
         {
+          "place": "Paris",
+          "country": "France",
+          "lat": 48.85,
+          "lon": 2.35,
+          "year": 1789,
+          "era": "1789",
+          "note": "Antoine-Augustin Parmentier's campaign. An army pharmacist taken prisoner in Prussia during the Seven Years' War and fed on potatoes, he won the 1771 Besancon Academy prize, hosted all-potato dinners for guests including Benjamin Franklin and Antoine Lavoisier, and saw his Treatise on the Culture and Use of the Potato printed by royal order in 1789. (The guarded demonstration field at Sablons was attributed to him posthumously and is near-certainly apocryphal; the bad harvests of 1785 did more for adoption than any stunt.)",
+          "use": "Propaganda as much as science: elite endorsement plus public demonstration. The potato went from a crop the Paris Parlement had restricted in 1748 amid claims it caused leprosy, to a patriotic republican staple. France's population grew roughly 50 percent between 1770 and 1820, and the potato gets part of the credit.",
+          "highlightDish": {
+            "name": "Hachis Parmentier",
+            "blurb": "Chopped leftover beef (traditionally pot-au-feu meat) under a layer of mashed potato, baked golden.",
+            "why": "Starting in the 1870s, France began naming potato dishes after Parmentier. The dish is later than the man, which is the point: the feared tuber became a namesake honour, absorbed so completely into French cooking that it carries his name."
+          }
+        },
+        {
+          "place": "Bengal",
           "country": "India",
-          "dishTerms": [
-            "potato"
-          ],
-          "era": "c. 1820",
-          "lat": 22.5,
-          "lon": 88.3,
-          "note": "Under the British, aloo embeds itself in Indian cooking: dum aloo, aloo paratha, and the potato inside the Bengali biryani.",
-          "place": "Kolkata",
-          "year": 1820
+          "lat": 22.57,
+          "lon": 88.36,
+          "year": 1800,
+          "era": "c. 1800",
+          "note": "Two landings. The Portuguese brought the potato to India's west coast in the 17th century: Edward Terry recorded potatoes at a banquet at Ajmer in 1675. The British then pushed it in Bengal in the late 1700s as a famine-proof crop, reportedly offering 100 rupees to farmers who would switch, and by the end of the 18th century it was cultivated across the northern hill areas.",
+          "use": "From a colonial garden novelty to a core Indian vegetable: dry-fried with spices, stuffed into breads and pastries, simmered in curries. It asked nothing of the cook that Indian kitchens did not already have, turmeric, cumin, mustard oil, a tawa, and it bulked out meals where meat was absent for religious or economic reasons. India is now the world's second-largest potato producer.",
+          "highlightDish": {
+            "name": "Aloo gobi",
+            "blurb": "Potatoes and cauliflower dry-fried with turmeric, cumin and ginger, eaten with roti.",
+            "why": "It shows the potato not as a colonial import or a side dish but as an Indian vegetable among vegetables, cooked with the standard home tempering: total domestication into the everyday sabzi."
+          }
+        },
+        {
+          "place": "Paris",
+          "country": "France",
+          "lat": 48.85,
+          "lon": 2.35,
+          "year": 1855,
+          "era": "c. 1855",
+          "note": "The modern fry was born in Paris around 1855, according to food historian Pierre Leclercq: not the first fried potato, but the crisp, twice-fried street-food form. Two myths die here: the Belgian claim that Meuse villagers were frying potatoes in the 1680s (an unproduced manuscript, a 1980s misreading), and the story that WWI doughboys coined 'French fries' (a 1990s invention). What survives is the technique: the double fry, and the fry shack as an institution.",
+          "use": "Street vendors fried potato strips in bubbling fat and sold them in paper cones: the first potato form that was a standalone business rather than something cooked at home. The Belgians made it national culture through the fritkot (fry shack), served with mayonnaise and dozens of sauces.",
+          "highlightDish": {
+            "name": "Frites",
+            "blurb": "Potato strips fried twice, crisp outside and fluffy inside, served in a paper cornet with mayonnaise.",
+            "why": "It is the technique, not the tuber, that travelled. The fry turned the potato from a boiled staple into a craveable street food, and the fritkot turned a cooking method into a national identity."
+          }
+        },
+        {
+          "place": "Moscow",
+          "country": "Russia",
+          "lat": 55.75,
+          "lon": 37.62,
+          "year": 1860,
+          "era": "c. 1860",
+          "note": "Catherine the Great promoted cultivation from 1765; in the 1830s-40s the state forced potato planting on peasants. The result was the potato riots: more than 500,000 peasants rising, destroying sowings, being shot, exiled to Siberia or drafted. Within a generation, Lucien Olivier at Moscow's celebrated Hermitage restaurant invented the original Olivier salad in the 1860s: hazel grouse, crayfish tails, potatoes, and a secret mayonnaise-based dressing.",
+          "use": "From forced crop to haute cuisine: the Soviet simplification, potatoes, carrots, peas, pickles, eggs and mayonnaise, became salat Olivye, the mandatory New Year's dish across the former USSR.",
+          "highlightDish": {
+            "name": "Olivier salad (salat Olivye)",
+            "blurb": "Diced boiled potatoes, carrots, peas, pickles and egg or meat bound with mayonnaise.",
+            "why": "The riots' endpoint in a bowl. A tuber peasants died refusing became, within decades, the centrepiece of Russia's most festive table, and the Soviet simplification proves the absorption was total."
+          }
+        },
+        {
+          "place": "Boise, Idaho",
+          "country": "United States",
+          "lat": 43.62,
+          "lon": -116.2,
+          "year": 1967,
+          "era": "1967",
+          "note": "J.R. Simplot's company began commercializing frozen french fries at scale in 1953, after chemist Ray L. Dunlap worked out the blanch-and-quick-freeze process. In 1966/67 (sources differ on the year) Simplot shook hands with McDonald's CEO Ray Kroc on a deal to supply the chain with frozen fries, replacing the fresh-cut potatoes Kroc had insisted on.",
+          "use": "The frozen fry standardized the potato: Russet Burbank, bred for high solids and good freezing behaviour, blanched, frozen, shipped, and fried to an identical result in every restaurant. The United States became the world's frozen-fry exporter.",
+          "highlightDish": {
+            "name": "The frozen French fry",
+            "blurb": "The industrial product itself.",
+            "why": "Every earlier stop transformed the potato by cooking or processing it by hand; this stop transformed it by removing the cook. The fry you eat in one city is engineered to be the fry you eat in every city, the final transformation of the journey: from Andean freeze-drying to American deep-freezing."
+          }
         }
       ],
-      "tagline": "The Andean tuber that fed industrial Europe",
       "sources": [
         {
-          "label": "YaleGlobal: From Famine to Fries",
-          "url": "http://archive-yaleglobal.yale.edu/famine-fries-potato-has-come-long-way"
+          "label": "FAO: the potato's travel through ages and continents",
+          "url": "https://farming.co.uk/news/fao-the-potatos-travel-through-ages-and-continents"
         },
         {
-          "label": "The potato famine in Ireland (Edisco textbook unit)",
-          "url": "https://www.edisco.it/the-green-planet/wp-content/uploads/sites/117/2024/05/The_potato_famine_in_Ireland.pdf"
+          "label": "Rodriguez 2010: Origins and evolution of cultivated potato (SciELO)",
+          "url": "http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S0120-99652010000100002&lng=en&nrm=iso"
+        },
+        {
+          "label": "Newswise: spud origin controversy solved (Crop Science 2007)",
+          "url": "https://www.newswise.com/articles/spud-origin-controversy-solved"
+        },
+        {
+          "label": "Cambridge: Immigrant Potatoes",
+          "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/46D247BCC4281E145ADD0FF361C234D2/9781108484060c1_23-51.pdf/immigrant_potatoes.pdf"
+        },
+        {
+          "label": "Tasting Table: how potatoes became part of Irish cuisine",
+          "url": "https://www.tastingtable.com/1041962/how-potatoes-became-an-important-part-of-irish-cuisine/"
+        },
+        {
+          "label": "HISTORY.com: potato famine mystery solved",
+          "url": "http://history.com/articles/after-168-years-potato-famine-mystery-solved"
+        },
+        {
+          "label": "Cornell Chronicle: blight pathogen originated in Mexico (PNAS 2014)",
+          "url": "https://news.cornell.edu/stories/2014/06/irish-potato-famine-pathogen-originated-mexico"
+        },
+        {
+          "label": "Futurity: whole-genome evidence for Andes origin of blight (PLOS One 2025)",
+          "url": "https://www.futurity.org/irish-potato-famine-pathogen-3266282/"
+        },
+        {
+          "label": "AP: Frederick the Great potato myth debunked (2025)",
+          "url": "https://srnnews.com/generations-of-germans-believe-frederick-the-great-brought-potatoes-to-germany-its-a-myth/"
+        },
+        {
+          "label": "Rebecca Earle 2017: Promoting potatoes in 18th-century Europe (Warwick)",
+          "url": "https://wrap-test.warwick.ac.uk/89714/7/WRAP-promoting-potatoes-Eighteenth-Century-Europe-Earle-2017.pdf"
+        },
+        {
+          "label": "National Geographic: how the potato went from banned to beloved",
+          "url": "https://www.nationalgeographic.com/history/article/potato-history-france-western-europe"
+        },
+        {
+          "label": "HISTORY.com: who invented French fries? (Leclercq)",
+          "url": "https://www.history.com/articles/french-fries-origin"
+        },
+        {
+          "label": "Boston Globe / Darra Goldstein: Olivier salad",
+          "url": "https://bostonglobe-prod.cdn.arcpublishing.com/2024/06/10/lifestyle/salad-newsletter-boston-globe-salad-olivier/"
+        },
+        {
+          "label": "The Hindu Business Line: journey of the potato from Andes to outer space",
+          "url": "https://www.thehindubusinessline.com/blink/takeaway/journey-of-the-potato-from-andes-to-outer-space/article29290450.ece/amp/"
+        },
+        {
+          "label": "Potato Grower: McDonald's chefs visit Idaho grower",
+          "url": "https://www.potatogrower.com/2016/11/mcdonalds-chefs-visit-idaho-grower"
+        },
+        {
+          "label": "Smithsonian: the best and worst of Canarian food",
+          "url": "https://smithsonianmag.com/arts-culture/the-best-and-worst-of-canarian-food-97297130/"
+        },
+        {
+          "label": "Germanfoods: Pellkartoffeln mit Quark",
+          "url": "https://germanfoods.org/pellkartoffeln-mit-quark/"
+        },
+        {
+          "label": "EBSCO: 500-year-old freeze-dried Inca potatoes",
+          "url": "https://news.eb.com/level1/perfectly-preserved-potatoes/"
         }
       ]
     },
     {
-      "color": "#8a5a33",
       "id": "coffee",
       "name": "Coffee",
+      "color": "#8a5a33",
+      "tagline": "From Ethiopian hillsides to every office on Earth",
+      "standard": "new",
+      "framing": "A wild Ethiopian forest berry that Yemenis learned to roast and brew, Ottomans turned into a public institution, Europeans stole as living plants to grow with enslaved labour across the tropics, and Italians and Swiss industrialists then compressed into shots, froth and powder, making it the world's most ritualised everyday stimulant.",
       "stops": [
         {
+          "place": "Kaffa cloud forests",
           "country": "Ethiopia",
-          "dishTerms": [],
-          "era": "c. 850",
-          "lat": 7.2,
-          "lon": 36.2,
-          "note": "Coffee grows wild in Ethiopia's highlands. The goat-herder discovery story is legend, but the plant is real and local.",
-          "place": "Kaffa",
-          "year": 850
+          "lat": 7.27,
+          "lon": 36.24,
+          "year": 900,
+          "era": "c. 900",
+          "note": "No arrival: the homeland. Wild Coffea arabica still grows in the shaded understory of the southwestern Ethiopian cloud forests, and the Kafa people foraged the cherries for centuries. The goat-herder Kaldi story is a legend (written form 1671 at the earliest), but the foraging tradition it points at is real. There is no documented date for first human use in Ethiopia.",
+          "use": "Cherries were chewed raw or mixed with fat and grain as travel food; later, the long ritual of roasting green beans in a pan, pounding them, and boiling them in the black clay jebena developed. Coffee was domestic and social, not a commodity, and Ethiopia still drinks roughly half of what it grows.",
+          "highlightDish": {
+            "name": "Buna (Ethiopian coffee ceremony)",
+            "blurb": "Green beans roasted in front of guests, ground, boiled in a jebena, poured from a height into small handleless cups in three rounds, abol, tona, baraka ('blessing'), with incense and popcorn.",
+            "why": "It preserves the oldest layer of coffee use, social and ceremonial, roasted fresh per cup, and shows what coffee was before anyone shipped it: a host's duty, not a product."
+          }
         },
         {
+          "place": "Al-Makha (Mocha)",
           "country": "Yemen",
-          "dishTerms": [
-            "shawarma",
-            "hummus",
-            "falafel"
-          ],
+          "lat": 13.32,
+          "lon": 43.25,
+          "year": 1450,
           "era": "c. 1450",
-          "lat": 13.3,
-          "lon": 43.3,
-          "note": "Sufi monks in Yemen brew coffee to stay awake for night prayer. The port of Mocha gives the drink its first famous name.",
-          "place": "Mocha",
-          "year": 1450
+          "note": "Cherries and seeds crossed the Red Sea from Ethiopia (traditionally by Sufi dervishes and traders; the exact first crossing is not documented). By the 15th century Yemeni Sufis were cultivating coffee on terraced mountain slopes. The port of Mocha shipped beans across the Islamic world and held the global supply for roughly two centuries; only roasted or boiled beans left Yemen, so they could not be planted abroad.",
+          "use": "The Yemeni invention was the technology of coffee: roast the beans to develop flavour, grind them, boil the grounds. The drink, qahwa (a word that once meant wine), was taken in Sufi monasteries to stay awake for midnight prayers and study, then moved into daily life.",
+          "highlightDish": {
+            "name": "Qishr",
+            "blurb": "A warm drink brewed from the dried husks of the coffee cherry, spiced with ginger and sometimes cinnamon or cardamom, low in caffeine.",
+            "why": "It proves Yemeni coffee culture used the whole cherry, not just the seed, and it is the older layer of use surviving inside the monopoly: a drink that needs no roasting at all."
+          }
         },
         {
-          "country": "Turkey",
-          "dishTerms": [
-            "turkish",
-            "coffee",
-            "baklava"
-          ],
-          "era": "1554",
-          "lat": 41.0,
-          "lon": 28.97,
-          "note": "The world's first coffeehouses open in Istanbul. Authorities try to ban them; the coffeehouses win.",
           "place": "Istanbul",
-          "year": 1554
+          "country": "Ottoman Empire",
+          "lat": 41.01,
+          "lon": 28.98,
+          "year": 1555,
+          "era": "1555",
+          "note": "Carried up the Red Sea trade into the Arab provinces and to the capital in the early 1500s, by merchants, hajj pilgrims and Sufi dervishes. The Ottoman chronicler Pecevi records that before 1554 there was 'no coffee and no coffeehouses in Rum', and that in that year two merchants, Hakam of Aleppo and Shams of Damascus, opened the first institutional coffeehouses in Tahtakale. (The claim of a 1475 Kiva Han is disputed.)",
+          "use": "The Ottoman transformation was the coffeehouse and the cezve: coffee ground powder-fine, boiled with water and sugar in a small long-handled pot, served unfiltered so the grounds settle in the cup. Coffeehouses became the city's public living rooms, places of news, poetry, chess and politics. Religious and imperial bans failed; coffeehouses multiplied.",
+          "highlightDish": {
+            "name": "Turk kahvesi (Turkish coffee)",
+            "blurb": "Powder-fine coffee boiled in a cezve, served in a small cup, grounds and all.",
+            "why": "The Ottoman brewing technology in miniature, the unfiltered cup Europe first encountered, and the fortune-telling in the dregs shows how deep the embedding went: coffee as social ritual, divination and habit at once."
+          }
         },
         {
-          "country": "Italy",
-          "dishTerms": [
-            "risotto",
-            "tiramisu",
-            "espresso"
-          ],
-          "era": "1615",
-          "lat": 45.44,
-          "lon": 12.33,
-          "note": "Venetian traders bring coffee from the Levant. Clergy call it the devil's drink until the Pope tastes it and, legend says, blesses it.",
-          "place": "Venice",
-          "year": 1615
+          "place": "London",
+          "country": "England",
+          "lat": 51.51,
+          "lon": -0.09,
+          "year": 1652,
+          "era": "1652",
+          "note": "Venetian trade had brought coffee drinking to Italy in the early 1600s; England learned it from Ottoman Turkey via the Levant Company. In 1652 Pasqua Rosee, a Greek servant of the Levant merchant Daniel Edwards, opened London's first coffeehouse, a stall against the churchyard wall in St Michael's Alley off Cornhill.",
+          "use": "Coffee was sold by the 'dish' and drunk Turkish-style, black and gritty. The houses became 'penny universities': for a penny, news, pamphlets, debate, business. Lloyd's of London began as a coffeehouse. Charles II issued a proclamation to suppress the coffeehouses on 29 December 1675, then withdrew it within days under public outcry. (The Pope Clement VIII 'baptising' coffee story is a legend, with no documented decree.)",
+          "highlightDish": {
+            "name": "A dish of coffee, Cornhill style (1652)",
+            "blurb": "Black, gritty, Turkish-brewed, sold with the handbill The Vertue of the 'COFFEE' Drink.",
+            "why": "The handbill prescribed coffee for dropsy, scurvy, gout and 'mis-carryings', which shows the real evidence of the stop: coffee entered England as a medicine and a novelty, and people acquired the taste before they had any idea what it was for."
+          }
         },
         {
-          "country": "Indonesia",
-          "dishTerms": [
-            "coffee",
-            "rendang"
-          ],
-          "era": "1699",
-          "lat": -6.2,
-          "lon": 106.8,
-          "note": "The Dutch break the Arab monopoly by planting coffee in Java. 'Java' becomes slang for coffee itself.",
-          "place": "Batavia, Java",
-          "year": 1699
+          "place": "Batavia (Jakarta)",
+          "country": "Java",
+          "lat": -6.21,
+          "lon": 106.85,
+          "year": 1706,
+          "era": "c. 1706",
+          "note": "At the urging of Amsterdam burgomaster Nicolaes Witsen, the Dutch East India Company got live plants out of Yemen's Mocha monopoly in the 1690s (early shipments failed; viable plants reached Java in the late 1690s). By 1719 'Java coffee' was supplying Europe's demand. A Dutch plant gifted to the French at the Treaty of Utrecht (1713) became the ancestor of France's Caribbean coffee. (Baba Budan smuggling seven beans to India is popular legend.)",
+          "use": "The Dutch transformation was agronomic and commercial: coffee as a plantation monoculture run by colonial labour, processed at scale, shipped in bulk. 'Mocha-Java' became Europe's first named coffee blend.",
+          "highlightDish": {
+            "name": "Kopi tubruk",
+            "blurb": "Javanese coffee: coarse grounds boiled with sugar in the pot and drunk unfiltered, grounds settling at the bottom.",
+            "why": "The colonial export crop came home as a local brew, unfiltered like the Ottoman original but coarse and sweet, proof that the plantation island developed its own coffee culture under the export machine."
+          }
         },
         {
+          "place": "Cap-Francais, Saint-Domingue",
+          "country": "Haiti",
+          "lat": 19.76,
+          "lon": -72.2,
+          "year": 1788,
+          "era": "1788",
+          "note": "The French planted coffee in Saint-Domingue from 1715 (Martinique from the 1720s), from Dutch-Javanese stock via the Paris botanical garden. De Clieu's 1723 voyage to Martinique is his own 1774 account, but Saint-Domingue and Dutch Suriname (1718) already had coffee before him. By 1788 Saint-Domingue exported about 77 million pounds of coffee, roughly half the world's supply, worked by enslaved Africans. The Haitian Revolution (1791-1804) burned it down; by 1801 most plantations were destroyed.",
+          "use": "Plantation monoculture on an industrial scale, worked by enslaved Africans under brutal conditions. By 1788 French colonial coffee outsold both Mocha and Java beans. The collapse soared prices and pulled Brazil and Cuba into the lead: coffee's geography has been moving ever since.",
+          "highlightDish": {
+            "name": "Haitian cafe",
+            "blurb": "Coffee roasted dark, brewed strong, drunk sweet.",
+            "why": "It is what remains. Haiti still grows coffee on smallholder plots, and the drink is the everyday residue of the plantation century: the colony that fed the world's habit now drinks the habit itself."
+          }
+        },
+        {
+          "place": "Sao Paulo",
           "country": "Brazil",
-          "dishTerms": [],
-          "era": "c. 1850",
-          "lat": -23.5,
-          "lon": -46.6,
-          "note": "Coffee reaches Brazil in the 1700s and explodes. By the mid-1800s Brazil supplies most of the world's coffee, built on enslaved labour until 1888.",
-          "place": "São Paulo",
-          "year": 1850
+          "lat": -23.55,
+          "lon": -46.63,
+          "year": 1727,
+          "era": "1727 (rise: 1800s)",
+          "note": "In 1727 the Portuguese-Brazilian officer Francisco de Melo Palheta, sent to Cayenne in French Guiana on a border mission, smuggled coffee out. The famous story, that the French governor's wife hid seedlings in a farewell bouquet, is popular legend; what is documented is Palheta's 1733 letter reporting over a thousand seeds and four seedlings. After the Haitian collapse and with American demand rising came a 19th-century explosion: coffee barons, railroads, vast fazendas worked first by enslaved Africans and, after abolition in 1888, by subsidised European immigrants. When the 1929 crash collapsed prices, Getulio Vargas's government bought surpluses and burned them: about 78 million sacks destroyed between 1931 and 1944.",
+          "use": "For decades a domestic crop, then a state-managed commodity on a continental scale; Brazil's industrialisation was financed by bean money. The crop-burning is the starkest image in coffee history: food destroyed to save a price.",
+          "highlightDish": {
+            "name": "Cafezinho",
+            "blurb": "A tiny cup of strong, dark, heavily sweetened filtered coffee, served to guests everywhere in Brazil, at shops, offices and homes.",
+            "why": "The world's greatest producer drinks coffee as a miniature ritual of hospitality, not a morning drug; it shows the producer's culture, small, sweet and constant, against the exporter's bulk."
+          }
+        },
+        {
+          "place": "Milan",
+          "country": "Italy",
+          "lat": 45.46,
+          "lon": 9.19,
+          "year": 1906,
+          "era": "1906",
+          "note": "No new plant: this stop is about the machine. Angelo Moriondo of Turin patented a steam-driven 'instantaneous' coffee machine in 1884; Luigi Bezzera improved it (1901 patent, adding the portafilter and multiple brew heads) and Desiderio Pavoni commercialised it, debuting the 'Ideale' at the 1906 Milan Fair, promising 1,000 coffees an hour. Achille Gaggia's 1948 lever machine raised pressure to 8-10 atmospheres and created the crema-topped shot we know today.",
+          "use": "The Italian transformation was extraction under pressure: hot water forced through finely ground coffee in seconds instead of minutes, served in a small cup, drunk standing at the bar. The milk drinks followed: the Viennese Kapuziner, coffee with a little cream named for the brown of Capuchin friars' robes on late-1700s Habsburg menus, became the Italian cappuccino. (The story that the Capuchin friar Marco d'Aviano invented it at Vienna in 1683 is likely apocryphal.)",
+          "highlightDish": {
+            "name": "Cappuccino",
+            "blurb": "Espresso with steamed milk and foam, roughly a third each, drunk in Italy only before late morning.",
+            "why": "The name carries the whole route in it, from Viennese menus to the Capuchin robe, and the drink is Europe's answer to Ottoman bitterness: keep the strength, soften it with milk, serve it in minutes."
+          }
+        },
+        {
+          "place": "Vevey",
+          "country": "Switzerland",
+          "lat": 46.46,
+          "lon": 6.85,
+          "year": 1938,
+          "era": "1938",
+          "note": "No plant at all: this stop is about dehydration. In 1930 the Brazilian government, drowning in surplus (the same surplus it would later burn), asked Nestle to find a use for it; Nestle chemist Max Morgenthaler spent eight years on the problem, and in 1938 the company launched Nescafe, instant coffee, in Switzerland.",
+          "use": "The 20th-century industrial transformation: coffee as a shelf-stable powder. Earlier steps included vacuum packing (c. 1900), decaffeination, and George Washington's commercial instant coffee in the US from 1909. Instant coffee boomed as military ration coffee in both World Wars, teaching whole populations to drink it. It is still roughly a quarter of world coffee sales.",
+          "highlightDish": {
+            "name": "A cup of Nescafe (1938 formula)",
+            "blurb": "Brewed coffee, spray-dried to powder, reconstituted with hot water.",
+            "why": "The least romantic coffee in the dossier and therefore the most honest evidence of the stop: coffee as pure logistics, invented to absorb a glut, carried into war by soldiers' ration kits, and still the daily drink of hundreds of millions."
+          }
         }
       ],
-      "tagline": "From Ethiopian hillsides to every office on Earth",
       "sources": [
         {
-          "label": "Britannica: History of coffee",
-          "url": "https://www.britannica.com/topic/history-of-coffee?copilot_analytics_metadata=eyJldmVudEluZm9fY2xpY2tTb3VyY2UiOiJjaXRhdGlvbkxpbmsiLCJldmVudEluZm9fY29udmVyc2F0aW9uSWQiOiJrdTJVazFoRzNOZGd4VHB3a2I0cUUiLCJldmVudEluZm9fbWVzc2FnZUlkIjoib3JCcUNWZ21Hc0d0dTdHOXFBUlN0IiwiZXZlbnRJbmZvX2NsaWNrRGVzdGluYXRpb24iOiJodHRwczpcL1wvd3d3LmJyaXRhbm5pY2EuY29tXC90b3BpY1wvaGlzdG9yeS1vZi1jb2ZmZWUifQ%3D%3D&citationMarker=9F742443-6C92-4C44-BF58-8F5A7C53B6F1"
+          "label": "Univ. at Buffalo: newly sequenced genome reveals coffee's prehistoric origin (2024)",
+          "url": "https://phys.org/news/2024-04-newly-sequenced-genome-reveals-coffee.html"
         },
         {
-          "label": "Wikipedia: History of coffee",
-          "url": "https://en.wikipedia.org/wiki/History_of_coffee"
+          "label": "Coffee production in Ethiopia (Kaldi legend, foraging history)",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia"
+        },
+        {
+          "label": "MDPI Humanities: coffee and coffeehouses among the Ottomans (2025)",
+          "url": "https://www.mdpi.com/2076-0760/15/8/555"
+        },
+        {
+          "label": "Lafayette: Charles II proclamation for the suppression of coffee-houses (1675)",
+          "url": "https://exhibits.lafayette.edu/s/mate/item/34276"
+        },
+        {
+          "label": "Coffee t&i: Marooned, history's forgotten coffee islands (de Clieu)",
+          "url": "http://www.coffeeteaimagazine.com/marooned-historys-forgotten-coffee-islands/"
+        },
+        {
+          "label": "Coffee production in Haiti",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Haiti"
+        },
+        {
+          "label": "Barista Hustle: a history of coffee in Brazil (Palheta)",
+          "url": "https://www.baristahustle.com/lesson/cbgb-0-04-a-history-of-coffee-in-brazil/"
+        },
+        {
+          "label": "UMass / Fausto 1999: Brazil's surplus destruction 1931-1944",
+          "url": "https://www.umass.edu/economics/book/export/html/349"
+        },
+        {
+          "label": "Barista Hustle: who really invented the first espresso machine?",
+          "url": "https://www.baristahustle.com/research-papers/part-1-who-really-invented-the-first-espresso-machine/"
+        },
+        {
+          "label": "Tasting Table: instant coffee history (Nescafe 1938)",
+          "url": "https://www.tastingtable.com/849248/instant-coffee-has-been-around-longer-than-you-may-think/"
+        },
+        {
+          "label": "Cappuccino (etymology, Kapuziner)",
+          "url": "https://en.wikipedia.org/wiki/Cappuccino"
+        },
+        {
+          "label": "Coffee or Die: qishr, Yemen's ginger coffee",
+          "url": "https://www.coffeeordie.com/article/qishr-ginger-coffee"
+        },
+        {
+          "label": "Coffee ceremony of Ethiopia and Eritrea",
+          "url": "https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea"
         }
       ]
     },
