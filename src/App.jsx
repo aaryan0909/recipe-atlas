@@ -6,20 +6,6 @@ import worldData from 'world-atlas/countries-110m.json'
 const W = 960
 const H = 500
 
-const AREA_TO_COUNTRY = {
-  Algerian: 'Algeria', Australian: 'Australia', British: 'United Kingdom',
-  Canadian: 'Canada', Chinese: 'China', Croatian: 'Croatia', Egyptian: 'Egypt',
-  Filipino: 'Philippines', Greek: 'Greece', Irish: 'Ireland', Italian: 'Italy',
-  Jamaican: 'Jamaica', Japanese: 'Japan', Kenyan: 'Kenya', Malaysian: 'Malaysia',
-  Mexican: 'Mexico', Moroccan: 'Morocco', Polish: 'Poland', Portuguese: 'Portugal',
-  Russian: 'Russia', 'Saudi Arabian': 'Saudi Arabia', Spanish: 'Spain',
-  Syrian: 'Syria', Thai: 'Thailand', Tunisian: 'Tunisia', Turkish: 'Turkey',
-  Ukrainian: 'Ukraine', Uruguayan: 'Uruguay', Vietnamese: 'Vietnam',
-}
-const COUNTRY_TO_AREA = Object.fromEntries(
-  Object.entries(AREA_TO_COUNTRY).map(([a, c]) => [c, a]),
-)
-
 function fmtYear(y) {
   if (y < 0) return `${Math.abs(y).toLocaleString()} BCE`
   if (y < 1000) return `${y} CE`
@@ -52,12 +38,8 @@ export default function App() {
   const [year, setYear] = useState(-6000)
   const [playing, setPlaying] = useState(false)
   const [pickedStop, setPickedStop] = useState(null)
-  const [query, setQuery] = useState('')
-  const [area, setArea] = useState('All')
-  const [showAll, setShowAll] = useState(false)
   const [meal, setMeal] = useState(null)
   const [mapNote, setMapNote] = useState(null)
-  const explorerRef = useRef(null)
   const timerRef = useRef(null)
 
   useEffect(() => {
@@ -156,29 +138,14 @@ export default function App() {
   }
 
   const onCountry = (name) => {
-    const a = COUNTRY_TO_AREA[name]
-    if (a) {
-      setArea(a)
-      setShowAll(false)
-      setMapNote(`${name}: showing ${a} recipes from the snapshot below.`)
-      explorerRef.current?.scrollIntoView({ behavior: 'smooth' })
-    } else {
-      setMapNote(`${name}: no cuisine snapshot in the current catalog yet.`)
-    }
+    // Phase B: the catalog is demoted out of the primary UI. Country taps
+    // now just explain; dishes live only inside the stop cards.
+    const inJourney = stops.some((s) => s.country === name
+      || (s.country || '').includes(name) || name.includes(s.country))
+    setMapNote(inJourney
+      ? `${name}: on the ${journey.name} journey \u2014 follow the stops below.`
+      : `${name}: no journey passes through ${name} yet.`)
   }
-
-  const q = query.trim().toLowerCase()
-  const filtered = meals.filter((m) => {
-    if (area !== 'All' && m.area !== area) return false
-    if (!q) return true
-    return (
-      m.name.toLowerCase().includes(q) ||
-      m.area.toLowerCase().includes(q) ||
-      m.category.toLowerCase().includes(q) ||
-      m.ingredients.some((i) => i.name.toLowerCase().includes(q))
-    )
-  })
-  const visibleMeals = showAll ? filtered : filtered.slice(0, 48)
 
   return (
     <div className="page" style={{ '--accent': journey.color }}>
@@ -321,42 +288,6 @@ export default function App() {
         </aside>
       </section>
 
-      <section className="explorer" ref={explorerRef}>
-        <div className="explorer-head">
-          <h2>Recipe explorer</h2>
-          <input
-            type="search"
-            placeholder="Search 472 recipes, ingredients, cuisines…"
-            value={query}
-            onChange={(e) => { setQuery(e.target.value); setShowAll(false) }}
-            aria-label="Search recipes"
-          />
-        </div>
-        <div className="area-chips">
-          {['All', ...meta.areas].map((a) => (
-            <button key={a} className={area === a ? 'chip on' : 'chip'} onClick={() => { setArea(a); setShowAll(false) }}>
-              {a}
-            </button>
-          ))}
-        </div>
-        <p className="count">{filtered.length} recipe{filtered.length === 1 ? '' : 's'}{area !== 'All' ? ` · ${area}` : ''}{q ? ` · "${query.trim()}"` : ''}</p>
-        {filtered.length === 0 ? (
-          <p className="empty">Nothing in the snapshot matches that yet. Try a broader ingredient, like "chicken" or "tomato".</p>
-        ) : (
-          <div className="grid">
-            {visibleMeals.map((m) => (
-              <button key={m.id} className="card" onClick={() => setMeal(m)}>
-                <img src={m.thumb} alt="" loading="lazy" />
-                <span className="card-name">{m.name}</span>
-                <span className="card-meta">{m.area} · {m.category}</span>
-              </button>
-            ))}
-          </div>
-        )}
-        {!showAll && filtered.length > 48 && (
-          <button className="show-all" onClick={() => setShowAll(true)}>Show all {filtered.length}</button>
-        )}
-      </section>
 
       <footer>
         <p>{bundle.notes}</p>
