@@ -1,111 +1,169 @@
 {
  "journeys": [
   {
-   "color": "#e4572e",
    "id": "chili",
    "name": "Chili Pepper",
+   "color": "#e4572e",
+   "standard": "new",
+   "tagline": "An American fruit that conquered Asia in 200 years",
+   "framing": "A set of American fruits that, within about 150 years of 1492, rewired how India, Thailand, China, Korea and Hungary taste heat, replacing or joining older pungencies (black pepper, Sichuan pepper, mustard, ginger) almost everywhere it landed.",
    "stops": [
     {
+     "place": "Lowland Bolivia",
      "country": "Bolivia",
-     "dishTerms": [],
+     "lat": -18.5,
+     "lon": -63.5,
+     "year": -6000,
      "era": "c. 6000 BCE",
-     "lat": -17.0,
-     "lon": -64.0,
-     "note": "Wild capsicum peppers are domesticated in the Americas. No chili exists anywhere else on Earth yet.",
-     "place": "Bolivian Highlands",
-     "year": -6000
+     "note": "No arrival: this is the homeland. Wild Capsicum diversified here, and local peoples brought C. baccatum (the aji amarillo lineage) into cultivation in the Andean foothills and adjacent lowlands; C. pubescens was domesticated at mid-elevations nearby. There was no single 'chili domestication': five species were domesticated independently — C. annuum in south-central Mexico, C. baccatum in the Andean foothills, C. chinense in north-central Amazonia, C. pubescens in the mid-elevation Andes, and C. frutescens probably in Central America or the Caribbean.",
+     "use": "Fresh and later dried pods ground into sauces; heat, colour and vitamin-rich seasoning for bland, filling staples (maize, potatoes, quinoa), plus medicinal uses. Birds, immune to capsaicin, dispersed the wild seeds. Heat became a farmable, storable flavour rather than a foraged one.",
+     "highlightDish": {
+      "name": "Llajwa",
+      "blurb": "Bolivia's raw ground sauce of locoto (rocoto) chili with tomato and herbs, ground on a stone batan.",
+      "why": "It is the homeland's own format, chili pounded fresh into a table sauce rather than cooked into a stew, and it shows the two American partners, chili and tomato, already paired at source."
+     }
     },
     {
-     "country": "Mexico",
-     "dishTerms": [
-      "chilli",
-      "chili",
-      "jalapeno",
-      "chipotle"
-     ],
-     "era": "c. 1200",
-     "lat": 19.4,
-     "lon": -99.1,
-     "note": "Aztec and Maya kitchens build moles and salsas around dozens of chili varieties, fresh, dried and smoked.",
      "place": "Valley of Mexico",
-     "year": 1200
+     "country": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "year": 1400,
+     "era": "c. 1400",
+     "note": "C. annuum, domesticated in south-central Mexico, arrived overland through Indigenous farming and trade networks centuries before the Aztec (Mexica) state; by the 1400s market vendors in Tenochtitlan sold dozens of named varieties, fresh, dried and smoked. Chili became a system, not a spice: heat levels, colours and smoke were deliberately graded and combined, the template every later cuisine would copy with local ingredients.",
+     "use": "The core technique was transformation by drying and smoking (the chipotle is a smoked jalapeño) and by grinding toasted dried chilies with tomato, squash seeds and herbs on a metate into sauces: chilmolli, 'chili sauce,' in Nahuatl. Chili was food, medicine (toothache, coughs) and tribute.",
+     "highlightDish": {
+      "name": "Chilmolli",
+      "blurb": "Pre-Hispanic chili sauce, the ancestor of mole: turkey or game in a ground sauce of toasted dried chilies, tomato and seeds.",
+      "why": "It proves the complex chili sauce is Indigenous, not colonial. Sahagun records no chocolate in savory mollis — the chocolate-rich mole poblano is a later, colonial-era development, not a pre-Hispanic recipe."
+     }
     },
     {
-     "country": "Spain",
-     "dishTerms": [
-      "piri"
-     ],
-     "era": "1493",
-     "lat": 37.4,
-     "lon": -6.0,
-     "note": "Columbus carries capsicum back from the Caribbean. Within decades it is sailing on Portuguese ships to Africa and Asia.",
      "place": "Seville",
-     "year": 1493
+     "country": "Spain",
+     "lat": 37.39,
+     "lon": -5.99,
+     "year": 1493,
+     "era": "1493",
+     "note": "Columbus's ships from the Caribbean in 1493; Columbus described the local aji in his journal on 1 January 1493 as more valuable than black or melegueta pepper, and Chanca, physician on the second voyage, brought seeds back. Monks grew peppers as garden curiosities and early adopters in Spain and Portugal began eating them. A perishable American fruit became a durable European spice powder — the form in which chili could travel on any ship and keep for years.",
+     "use": "In Iberia the key move was drying: fresh pods spoiled on long journeys, dried pods kept. In La Vera, pods were smoke-dried over oak and ground into pimenton; elsewhere sweet and hot powders seasoned sausages and stews as a cheap local substitute for imported black pepper.",
+     "highlightDish": {
+      "name": "Chorizo seasoned with pimenton de la Vera",
+      "blurb": "Pork sausage coloured and preserved with smoked ground chili.",
+      "why": "It shows Spain's specific transformation — smoke plus grinding plus pork fat — and pimenton's antimicrobial, colour-giving role in cured meat, not just heat for its own sake."
+     }
     },
     {
-     "country": "India",
-     "dishTerms": [
-      "chilli",
-      "chili"
-     ],
-     "era": "c. 1540",
-     "lat": 15.3,
-     "lon": 74.1,
-     "note": "Portuguese traders land chili in Goa. India makes it its own so completely that most people now assume it was always Indian.",
      "place": "Goa",
-     "year": 1540
+     "country": "India",
+     "lat": 15.49,
+     "lon": 73.83,
+     "year": 1528,
+     "era": "c. 1528",
+     "note": "Carried by the Portuguese, who had it in Brazil and Iberia; food historian Lizzie Collingham notes it was planted in Iberia after 1492 and that by 1528 at the latest the Portuguese had introduced it to the Malabar Coast, with several varieties being grown in Goa. Exact first-landing dates and the Africa-to-Goa hops proposed by some writers are debated. Within generations India made chili so completely its own that its American origin was forgotten.",
+     "use": "Fresh green and dried red chilies entered pickles, masalas and daily cooking across castes and regions, joining and often displacing black pepper as the everyday source of heat because chili was far cheaper to grow locally. Goan Catholic cooks, free to eat pork, ground dried red chilies into vinegar-based marinades.",
+     "highlightDish": {
+      "name": "Pork vindalho",
+      "blurb": "Pork marinated and cooked in palm vinegar, garlic and dried red chilies, from the Portuguese carne de vinha d'alhos (meat in wine and garlic).",
+      "why": "Two colonial substitutions in one pot (palm vinegar for wine, American chili for part of the heat) make it the clearest edible record of the Goa landing. Fact-check: traditional vindalho contains NO potato; potatoes entered restaurant versions through confusion of Portuguese alhos (garlic) with Hindi aloo (potato)."
+     }
     },
     {
+     "place": "Ayutthaya",
      "country": "Thailand",
-     "dishTerms": [
-      "thai",
-      "pad",
-      "tom yum"
-     ],
-     "era": "c. 1600",
-     "lat": 13.75,
-     "lon": 100.5,
-     "note": "Via Portuguese Malacca, chili reaches Siam and becomes the heat at the centre of Thai cooking.",
-     "place": "Bangkok",
-     "year": 1600
+     "lat": 14.35,
+     "lon": 100.58,
+     "year": 1650,
+     "era": "c. 1600s",
+     "note": "Reached Siam during the Ayutthaya period, in the 16th-17th centuries, most plausibly via Portuguese traders (Portugal took Malacca in 1511 and sent envoys to Ayutthaya the same year) and regional trade. The precise carrier and date are NOT documented; claims of a single neat 'via Malacca in 1600' handoff should be read as approximate.",
+     "use": "Before chili, Thai heat came from black pepper and other pungent roots. Chili, fresh, dried and pounded, moved into the mortar: curry pastes and nam prik (chili dips/pastes) were rebuilt around it, combined with shrimp paste, garlic, lime and fermented fish. Small, fierce bird's eye chilies (prik ki nu) became the signature form. Heat shifted from peppery warmth to capsaicin fire layered with sour, salty and fermented flavours.",
+     "highlightDish": {
+      "name": "Nam prik kapi",
+      "blurb": "Pounded dip of fresh and dried chilies with shrimp paste, garlic, lime juice and palm sugar, eaten with vegetables and fried fish.",
+      "why": "The mortar paste is where the substitution actually happened (an older black-pepper paste format refilled with an American ingredient), so the dish documents the technique, not just the flavour."
+     }
     },
     {
+     "place": "Guiyang, Guizhou",
      "country": "China",
-     "dishTerms": [
-      "kung pao",
-      "mapo",
-      "sichuan"
-     ],
-     "era": "c. 1700",
-     "lat": 30.6,
-     "lon": 104.1,
-     "note": "Chili climbs inland to Sichuan, where it meets the local peppercorn. Mala, the numbing heat, is born.",
-     "place": "Chengdu, Sichuan",
-     "year": 1700
+     "lat": 26.65,
+     "lon": 106.63,
+     "year": 1722,
+     "era": "c. 1722",
+     "note": "Chili first appears in a Chinese written record in 1591, near the coast (Gao Lian, writing near modern Shanghai, treated it as an ornamental). From the coasts it travelled inland via trade and migration and was taken up first not in Sichuan but in landlocked, salt-poor Guizhou in the early Qing period. In China chili began as a poor person's salt substitute and flavouring of necessity in the southwest, carrying a low-status, 'coarse' reputation among elites for over a century.",
+     "use": "A local chronicler in 1722 recorded that 'sea pepper' (hai jiao, the name betraying its maritime arrival) was used by Miao communities to replace salt, which the imperial salt monopoly made expensive. Chili was eaten fresh, dried, fermented and scorched; it flavoured sauces, vinegar, oils and preserved vegetables.",
+     "highlightDish": {
+      "name": "Scorched chili dip (hujiao / burnt-chili zhan shui)",
+      "blurb": "Dried chilies blackened, pounded and mixed as a dipping seasoning.",
+      "why": "It is Guizhou's necessity cooking in miniature — maximum flavour extracted from one cheap dried ingredient where salt itself was unaffordable."
+     }
     },
     {
+     "place": "Szeged",
      "country": "Hungary",
-     "dishTerms": [
-      "goulash",
-      "paprika"
-     ],
+     "lat": 46.25,
+     "lon": 20.15,
+     "year": 1800,
      "era": "c. 1800",
-     "lat": 47.5,
-     "lon": 19.0,
-     "note": "Dried and ground, capsicum becomes paprika. By the 1800s it has fully replaced black pepper in Hungarian cooking, goulash included.",
-     "place": "Budapest",
-     "year": 1800
+     "note": "Not from Spain directly: peppers reached Hungary through Ottoman mediation and Balkan trade during the Ottoman occupation (1526-1699), first recorded in the 16th century as decorative, supposedly poisonous plants in aristocratic gardens.",
+     "use": "The Hungarian transformation was to dry and grind peppers into paprika. Herdsmen and peasants adopted it through the 18th century as a cheap substitute for black pepper, a substitution boosted when Napoleonic-era blockades made black pepper scarce; by the 19th century the Szeged and Kalocsa regions were breeding graded sweet-to-hot paprikas and blooming the powder in fat at the start of cooking. (It did NOT fully replace black pepper — the old journey copy was wrong: pepper remained in the kitchen.)",
+     "highlightDish": {
+      "name": "Gulyas (goulash soup)",
+      "blurb": "Beef, onion and abundant paprika bloomed in fat.",
+      "why": "It corrects the usual shorthand twice over. Goulash existed for centuries before paprika, and paprika did not fully replace black pepper in Hungarian cooking: it displaced pepper in peasant and national dishes while pepper remained. The dish is evidence of a 19th-century reinvention, not an ancient recipe."
+     }
+    },
+    {
+     "place": "Chengdu, Sichuan",
+     "country": "China",
+     "lat": 30.67,
+     "lon": 104.06,
+     "year": 1874,
+     "era": "c. 1874",
+     "note": "Chili reached Sichuan late, carried inland from Hunan as Hunanese migrants repopulated Sichuan in the Qing period, centuries after its 1591 coastal debut. Sichuan was not an early adopter; it was the last of China's now-spicy southwestern provinces to take chili up at scale.",
+     "use": "Sichuan's original contribution was a pairing: American capsaicin heat (la) fused with the indigenous numbing tingle (ma) of Sichuan pepper, plus fermentation — notably Pixian doubanjiang, broad beans fermented with chili. Dried chilies were fried in oil to perfume it, fresh and pickled chilies added sour heat. The mala combination redefined Sichuan identity in the Qing period and after.",
+     "highlightDish": {
+      "name": "Mapo tofu",
+      "blurb": "Tofu in a chili-bean-paste sauce with minced meat and ground Sichuan pepper, created c. 1874 at a Chengdu restaurant run by the Chen family (the name refers to the pockmarked proprietor).",
+      "why": "It is datable, it contains the full mala equation (fermented chili paste plus Sichuan pepper) in one bowl, and its youth is the point: Sichuan's most famous flavour is younger than the telephone patent era."
+     }
+    },
+    {
+     "place": "Seoul",
+     "country": "Korea",
+     "lat": 37.57,
+     "lon": 126.98,
+     "year": 1890,
+     "era": "c. 1890",
+     "note": "Chili was introduced to Korea in the early 17th century via Portuguese-linked trade (the first Korean mention is in the encyclopedia Jibong yuseol, 1614; some accounts route it via Japan during the Imjin War period, and the exact path is debated). For two centuries it remained a minor ingredient. Sun-dried and ground into flakes and powder (gochugaru), chili entered ferments — and chili use in kimchi became widespread only in the 19th century. Whole-head napa-cabbage kimchi in its modern form is described only in the late-19th-century cookbook Siuijeonseo.",
+     "use": "Chili recoloured a national food: kimchi went from white/pale to red, gained preservative and appetite-driving heat, and kimjang, the communal winter kimchi-making, was later inscribed by UNESCO (2013) as Intangible Cultural Heritage.",
+     "highlightDish": {
+      "name": "Baechu kimchi (whole napa-cabbage kimchi)",
+      "blurb": "Salted cabbage fermented with gochugaru, garlic, ginger and jeotgal (salted seafood).",
+      "why": "It is a 19th-century invention wearing ancient clothes, and it proves the Atlas point perfectly: an American ingredient can become so central that a cuisine's identity is now unthinkable without it."
+     }
     }
    ],
-   "tagline": "An American fruit that conquered Asia in 200 years",
    "sources": [
     {
-     "label": "Wikipedia: Chili pepper",
-     "url": "https://en.wikipedia.org/wiki/Chili_pepper"
+     "label": "Smithsonian Magazine: 'What's So Hot About Chili Peppers?' (Bolivian origins, 8,000 years)",
+     "url": "https://www.smithsonianmag.com/science-nature/whats-so-hot-about-chili-peppers-116907465/"
     },
     {
-     "label": "Smithsonian Magazine: What's So Hot About Chili Peppers?",
-     "url": "https://www.smithsonianmag.com/science-nature/whats-so-hot-about-chili-peppers-116907465/"
+     "label": "Kraft et al.: paleobiolinguistics of domesticated chili pepper (five domestication centres)",
+     "url": "http://carrels.distantreader.org/journal-ethnobiologyLetters-ojsoai/cache/ebl-2.pdf"
+    },
+    {
+     "label": "Collingham, Curry: Portuguese introduction to the Malabar Coast by 1528; vindalho",
+     "url": "https://en.wikipedia.org/wiki/Vindaloo"
+    },
+    {
+     "label": "Brian R. Dott, The Chile Pepper in China (2020): 1591 debut, Guizhou, Sichuan late (via NatGeo)",
+     "url": "https://www.nationalgeographic.com/history/article/chili-crisp-condiment-pepper-china"
+    },
+    {
+     "label": "Hungarian Conservative: 'Paprika and Peppers: A Brief History' (Ottoman route, paprika)",
+     "url": "https://www.hungarianconservative.com/articles/culture_society/paprika_peppers_america_turkey_hot-spice_goulash_chili_vitamin-c/"
     }
    ]
   },
@@ -1252,7 +1310,469 @@
      }
     }
    ]
+  },
+  {
+   "id": "maize",
+   "name": "Maize",
+   "color": "#f4d35e",
+   "standard": "new",
+   "tagline": "Nine thousand years of one grass: tortilla technology, a forgotten lime bath, and the industrial afterlife.",
+   "framing": "A wild Mexican grass domesticated into a grain that fed Mesoamerican civilisations, reached Europe within a year of Columbus's return, displaced sorghum and millet across Africa, killed over 100,000 Americans who ate it without the one processing step its inventors never forgot, and is now the world's most-produced cereal, grown mostly to feed animals.",
+   "stops": [
+    {
+     "place": "Central Balsas River Valley",
+     "country": "Mexico",
+     "lat": 18.3,
+     "lon": -100.55,
+     "year": -6750,
+     "era": "c. 6750 BCE",
+     "note": "No arrival: the homeland. Early Holocene foragers lived among stands of Balsas teosinte and began selecting it. Piperno and Ranere's team found maize starch grains and phytoliths in the cracks of grinding stones at the Xihuatoxtla shelter, radiocarbon dated to c. 8,700 years before present — the earliest dated evidence of domesticated maize anywhere. Squash phytoliths appear in the same layers: maize and squash were domesticated and eaten together from the start.",
+     "use": "Grain as ground food, not yet as cobs. The evidence is starch on grinding tools, so the honest first form is porridge or gruel made from ground kernels — teosinte's tiny, hard grains slowly selected toward something worth grinding.",
+     "highlightDish": {
+      "name": "Stone-ground maize gruel (proto-atole)",
+      "blurb": "Warm porridge of ground early maize, flour and water.",
+      "why": "The evidence is ground starch, not cobs, so gruel is the only honest 'first dish.' It shows maize before it looked like maize — no golden ears, just the beginning of a 9,000-year kitchen."
+     }
+    },
+    {
+     "place": "Guilá Naquitz Cave, Oaxaca",
+     "country": "Mexico",
+     "lat": 17.07,
+     "lon": -96.27,
+     "year": -4300,
+     "era": "c. 4300 BCE",
+     "note": "Domesticated maize carried east and uphill from the Balsas lowlands into the Oaxacan highlands, where it shows up as actual cobs — the oldest known maize macrofossils, dated to c. 4280 cal. BCE. But the cobs are unimpressive: 2–4 rows of kernels, a few centimetres long, on plants whose DNA shows the domestication syndrome was not yet fixed. Some 2,500 years after the Balsas, the plant was still barely improved.",
+     "use": "Eaten roasted or chewed, a minor supplementary crop among foraged and farmed foods; it did not become a dietary staple until much larger multi-rowed varieties appeared.",
+     "highlightDish": {
+      "name": "Roasted primitive cob",
+      "blurb": "A finger-sized, 2-rowed ear eaten off the fire.",
+      "why": "It is the anti-icon. Every later stop's maize is plumper and more productive; this one shows how little there was to work with, and how much selection the plant still had ahead of it."
+     }
+    },
+    {
+     "place": "Tucson Basin",
+     "country": "USA",
+     "lat": 32.22,
+     "lon": -110.97,
+     "year": -2100,
+     "era": "c. 2100 BCE",
+     "note": "Maize crossed from Mexico into the Southwest via highland corridors along the Sierra Madre, introduced 'no later than 2100 cal. B.C.' on multiple AMS radiocarbon dates. A DNA study of ancient cobs found a second, later introduction along the Pacific coast lowlands about 2,000 years after the first — bigger cobs and kernels, 'a real improvement.' It reached the Eastern Woodlands around 200 BCE but only displaced the native crops around 900 CE, once day-length-adapted varieties evolved — feeding Cahokia just before its rise.",
+     "use": "Planted in floodwater-irrigated fields as a grain supplement to foraging and later to beans and squash — the 'three sisters' partnership that became the basis of Pueblo agriculture.",
+     "highlightDish": {
+      "name": "Hopi piki bread",
+      "blurb": "Paper-thin blue-corn bread cooked on a hot stone, made with blue cornmeal mixed with culinary ash.",
+      "why": "Piki is the living descendant of the desert Southwest's answer to maize — the ash is the Southwest's own alkaline trick, echoing nixtamalization independently, and the blue corn shows the crop fully indigenised to Pueblo culture thousands of years after it arrived."
+     }
+    },
+    {
+     "place": "Pacific coast / Maya world",
+     "country": "Guatemala (Mesoamerica)",
+     "lat": 13.98,
+     "lon": -91.35,
+     "year": -1300,
+     "era": "c. 1300 BCE",
+     "note": "No new grain arrived — the transformation happened to the grain itself. Somewhere in Mesoamerica, cooks discovered nixtamalization: soaking and cooking dried maize in an alkaline bath, with the earliest equipment evidence from Guatemala's southern coast, 1200–1500 BCE. The alkaline bath freed the bound niacin so the body could absorb it, improved the protein balance, added calcium, and made the kernels grindable. The CDC notes explicitly that lime treatment prevents pellagra in Mexico and Central America — without this one step, everything that followed in Europe and the American South would have happened here instead.",
+     "use": "Nixtamalized kernels washed, hulled, and ground on the metate into masa — the dough for tortillas baked on the comal, tamales steamed in corn husks, and atole. With beans supplying the lysine maize lacks, the maize-bean-squash milpa became a complete diet. Maize became tribute, ritual, and the civilizational staple of the Maya and Aztec worlds.",
+     "highlightDish": {
+      "name": "The corn tortilla",
+      "blurb": "Nixtamal, ground, patted, and baked on the comal.",
+      "why": "The tortilla is nixtamalization made edible. Every tortilla is a dose of bioavailable niacin, and the tortilla-bean pairing is the complete protein that fed cities. It is the single most important food technology in the dossier, and it fits in your hand."
+     }
+    },
+    {
+     "place": "Venice and the Veneto",
+     "country": "Italy",
+     "lat": 45.44,
+     "lon": 12.34,
+     "year": 1500,
+     "era": "c. 1500",
+     "note": "Columbus brought maize back to Spain in 1493; Pedro Mártir de Anglería's letter of 13 November 1493 to Rome already describes the grain, and a 1494 letter says seeds were being sent to Rome — maize reached Italy within a year of Columbus's return, and spread around the Mediterranean within 25 years. Europeans misnamed it on sight: grano turco in Italy, 'Turkish wheat' in English. Nobody brought the lime bath.",
+     "use": "In northern Italy maize replaced spelt, millet, and buckwheat in pulmentum, the ancient grain porridge — becoming polenta. Venetian estate owners pushed it as the cheap food of peasants too poor for bread. Crucially, polenta was boiled cornmeal and water: no alkali, no beans on the side.",
+     "highlightDish": {
+      "name": "Polenta",
+      "blurb": "Coarse cornmeal boiled and stirred in the copper paiolo.",
+      "why": "Polenta is the evidence of the missing step. Same porridge form Rome had eaten for a millennium, same yellow grain as the tortilla's — but made without alkali, it carried a slow epidemic. The dish proves that with maize, the technique was the nutrition."
+     }
+    },
+    {
+     "place": "The Gold Coast",
+     "country": "Ghana",
+     "lat": 5.1,
+     "lon": -1.25,
+     "year": 1650,
+     "era": "c. 1650",
+     "note": "First African introductions came around the mid-16th century — Cape Verde, the Canaries, São Tomé — carried by Portuguese sailors along the routes that also fed the slave trade; maize was known in Africa as 'wheat of Portugal.' A Dutch traveler wrote in 1668 that it had been carried 'from the West Indies' to São Tomé and distributed along the Gold Coast. By the late 17th century it had largely replaced millet and sorghum along the coast; in Malawi the saying is chimanga ndi moyo, 'maize is life.'",
+     "use": "West African farmers adopted it because it grew like sorghum but yielded far more. Ground into flour for stiff porridges, and — the distinctively West African transformation — fermented: Ghanaian kenkey is fermented maize dough steamed in corn husks. Fermentation was a second, independent answer to the grain's digestibility.",
+     "highlightDish": {
+      "name": "Ga kenkey",
+      "blurb": "Fermented maize dough wrapped and steamed in corn husks.",
+      "why": "Kenkey is not a copy of masa. Fermentation plus the husk wrapper is West Africa's own technology applied to the American grain — proof that each stop reinvented maize rather than inheriting it."
+     }
+    },
+    {
+     "place": "Spartanburg, South Carolina",
+     "country": "USA",
+     "lat": 34.95,
+     "lon": -81.93,
+     "year": 1915,
+     "era": "c. 1915",
+     "note": "The South's poor ate maize in a new way: degerminated white cornmeal, molasses, and fatback pork — cheap, filling, and niacin-poor. Pellagra, endemic in southern Europe for two centuries, was first reported in the US in 1902 and reached epidemic proportions in the South between 1906 and 1940: widely cited totals put it at over 3 million cases and more than 100,000 deaths. Joseph Goldberger of the US Public Health Service proved at the Spartanburg Pellagra Hospital (founded 1914) that diet — more milk, eggs, beans, peas, less cornmeal — prevented and cured it; the specific micronutrient was identified as niacin. WWII flour enrichment ended the American epidemic.",
+     "use": "Cornmeal as survival food — cornbread, grits, mush — without nixtamalization and without the bean pairing. Maize's niacin is chemically bound and its main protein is low in tryptophan, so a maize-dominant diet without alkali treatment starves the body of B3.",
+     "highlightDish": {
+      "name": "Southern cornbread",
+      "blurb": "Baked white cornmeal, no lime bath, no beans beside it.",
+      "why": "It is chemically the tortilla's twin and nutritionally its opposite. The 4 Ds (diarrhea, dermatitis, dementia, death) lived in the difference between this bread and a comal tortilla — the dossier's starkest proof that technique, not the grain, was the whole story."
+     }
+    },
+    {
+     "place": "The Corn Belt, Iowa",
+     "country": "USA",
+     "lat": 41.59,
+     "lon": -93.61,
+     "year": 1935,
+     "era": "c. 1935",
+     "note": "No new grain — a new genetics. In 1917 Donald Jones crossed two single-cross hybrids — the double cross — producing seed abundantly enough to sell. Adoption was explosive: in Illinois, hybrid plantings went from barely 1% in 1932 to over 75% by 1936. Seed became a purchased annual input and yields doubled — the economic foundation of the modern grain system, and the template for the Green Revolution's seed-and-input package worldwide.",
+     "use": "Dent corn as a commodity — hybrid seed bought fresh every year, grown in monoculture with fertilizer and machinery. Maize stopped being food first: it became feed for livestock, starch for industry, and later ethanol and syrup.",
+     "highlightDish": {
+      "name": "Cornflakes",
+      "blurb": "Toasted, boxed, branded flakes, invented in Battle Creek, Michigan in 1894.",
+      "why": "Cornflakes were the first maize product designed for a factory rather than a kitchen — and their mass era is the hybrid-corn era. The flake is the emblem of the grain's industrial afterlife: the same species as the Balsas gruel, now a trademark."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Piperno & Ranere (2009): starch-grain evidence for ninth-millennium B.P. maize (PNAS)",
+     "url": "https://pnas.org/doi/full/10.1073/pnas.0812590106"
+    },
+    {
+     "label": "Ranere et al.: cultural and chronological context, Central Balsas Valley (PNAS/PMC)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2664064"
+    },
+    {
+     "label": "ScienceDaily: earliest evidence of domesticated maize, 8,700 years",
+     "url": "https://www.sciencedaily.com/releases/2009/03/090323212037.htm"
+    }
+   ]
+  },
+  {
+   "id": "black-pepper",
+   "name": "Black Pepper",
+   "color": "#2f3e46",
+   "standard": "new",
+   "tagline": "The berry that ransomed Rome, launched caravels, and ended up beside the salt.",
+   "framing": "A wild vine berry from the Malabar Coast that became Rome's status spice, a ransom demand from a Gothic warlord, a pound of annual rent in medieval England, the cargo that sent Portugal around Africa in 1498, and — after empires fought over it for 2,000 years — the thing sitting next to the salt on your table.",
+   "stops": [
+    {
+     "place": "Western Ghats, Malabar Coast",
+     "country": "India",
+     "lat": 11.26,
+     "lon": 75.78,
+     "year": -2000,
+     "era": "c. 2000 BCE",
+     "note": "No arrival: the homeland. Black pepper (Piper nigrum) is a woody climbing vine native to the humid forests of the Western Ghats; forest communities harvested the wild berries and began cultivating the vine on supports, and by c. 2000 BCE pepper was in use across India. For the next three millennia the Malabar Coast remained the world's only significant source. The vine's range fixed the map of the world spice trade for 4,000 years — Roman fleets, Venetian fortunes, Portuguese cannon are all consequences of this plant growing in exactly one place.",
+     "use": "At home, pepper was never precious. Ground berries gave heat to food and drink — a digestive in Ayurvedic practice, a warming spice in everyday cooking — in a region that grew it like a weed. Used whole and ground, in broths and buttermilk drinks, as the ordinary source of pungency.",
+     "highlightDish": {
+      "name": "Milagu rasam",
+      "blurb": "The thin, tamarind-pepper broth of Tamil Nadu and Kerala, sharpened with cracked black peppercorns and cumin.",
+      "why": "Rasam is pepper before it became treasure — the everyday form, a soup whose whole point is pepper's clean heat. It proves the spice was ordinary food at origin for thousands of years before any European tasted it."
+     }
+    },
+    {
+     "place": "Thebes",
+     "country": "Egypt",
+     "lat": 25.72,
+     "lon": 32.61,
+     "year": -1213,
+     "era": "c. 1213 BCE (reported)",
+     "note": "Carried west along the trade routes linking the Indian Ocean to the Red Sea and overland to the Nile — the earliest evidence that Malabar pepper had left India. One much-repeated account holds that the embalmers of the pharaoh Ramesses II (d. c. 1213 BCE) packed his nostrils with peppercorns during mummification. Sourcing caveat: this story is widely repeated but could only be traced through popular retellings — treat as reported, not established. The trade link (pepper reaching Egypt by ~1200 BCE) has enough support to stand with caution.",
+     "use": "Not as food — there is no evidence Egyptians cooked with pepper. It went to the dead: a preservative and ritual good for the afterlife, valued for the same properties (drying, pungency, incorruptibility) that would later make it a medicine and a status good in Rome. Its presence in a pharaoh's tomb means that by 1200 BCE pepper was already worth moving 5,000 kilometres.",
+     "highlightDish": {
+      "name": "No dish — and that is the argument",
+      "blurb": "Egyptians did not cook with pepper; the berry went to the dead, not the kitchen.",
+      "why": "The absence is the argument. Pepper's first foreign use was as funerary wealth, which fixes how it was valued before it ever touched food: as incorruptible treasure, not as dinner."
+     }
+    },
+    {
+     "place": "Muziris",
+     "country": "India",
+     "lat": 10.17,
+     "lon": 76.2,
+     "year": 50,
+     "era": "1st century CE",
+     "note": "No arrival either — the Romans came to it. Greek and Roman merchants learned to ride the monsoon winds directly across the Arabian Sea to the Chera port of Muziris (modern Pattanam, Kerala, where 2007 excavations found Roman coins, amphorae, and a wharf), described in the Periplus of the Erythraean Sea as the great pepper market. Roman ships arrived with gold coin and left with pepper by the shipload. The direct monsoon route cut out the middlemen and let Roman demand pour gold straight into Malabar — the first time a European empire reorganised its trade around an Indian crop.",
+     "use": "Rome bought pepper as a luxury import and used it with conspicuous extravagance. De re coquinaria (attributed to Apicius) includes black pepper in 81% of its nearly 500 recipes — including desserts, an extravagance that signals status rather than seasoning. Pliny the Elder grumbled in Natural History (AD 77) that pepper 'has nothing to recommend it in either fruit or berry,' and complained about the vast sums Rome spent on Indian goods — which only proves how fashionable it was.",
+     "highlightDish": {
+      "name": "Chuttulli meen",
+      "blurb": "Malabar grilled fish rubbed with cracked black pepper.",
+      "why": "While Rome paid gold for the berry, the coast that grew it ate it on the day's catch. Same spice, two economies: treasure abroad, Tuesday's dinner at home."
+     }
+    },
+    {
+     "place": "Rome",
+     "country": "Italy",
+     "lat": 41.9,
+     "lon": 12.5,
+     "year": 408,
+     "era": "408 CE",
+     "note": "By sea up the Red Sea and overland through Alexandria, then by the direct monsoon route — pepper arrived in Rome in quantities large enough to be ordinary in rich kitchens and extraordinary everywhere else. When the Visigoth king Alaric besieged Rome, his ransom demand (reported by the historian Zosimus) included 3,000 pounds of pepper — listed alongside 5,000 pounds of gold, 30,000 of silver, 4,000 silk tunics, and 3,000 scarlet hides. Correction on the record: the ransom belongs to Alaric's first siege of December 408, not the famous sack of 410 — the siege was lifted after payment.",
+     "use": "Pepper did three jobs in Rome: flavour (in nearly everything Apicius wrote down, savoury and sweet), medicine (Dioscorides, Celsus, and Galen list uses from digestion to tooth extraction), and stored value. A besieging army wanted pepper like it wanted gold.",
+     "highlightDish": {
+      "name": "Apician dulcia",
+      "blurb": "Spiced sweet cakes and egg dishes with pepper; Roman writers describe cooks stirring as much as two tablespoons of pepper into a dish of four eggs.",
+      "why": "Pepper in dessert is the tell. Nobody needs pepper in cake; putting it there says 'I can afford to burn money on flavour.' The dish is status, plated."
+     }
+    },
+    {
+     "place": "Venice",
+     "country": "Italy",
+     "lat": 45.44,
+     "lon": 12.34,
+     "year": 1200,
+     "era": "c. 1200",
+     "note": "With Rome gone, Arab merchants took over the westward trade: Malabar pepper sailed to Red Sea and Persian Gulf ports, crossed to Alexandria, and was bought there by Venetian (and Genoese) merchants who held a near-monopoly on redistribution into Europe. Each handoff multiplied the price. The Arab-Venetian markup chain is also what made the direct sea route worth dying for: every middleman's cut was an argument for sailing around Africa.",
+     "use": "In medieval Europe pepper was seasoning, medicine, and — crucially — money. The 1911 Encyclopaedia Britannica notes that medieval 'peppercorn rents' were not the nominal token of modern law: they were typically an obligation to pay a pound of pepper on rent days, 'a substantial impost even as late as the 18th century.' Rent, dowry, bribe, and tax could all be paid in it.",
+     "highlightDish": {
+      "name": "Cameline sauce",
+      "blurb": "The most-cited sauce of medieval France (some fifty 14th–15th-century recipes): cinnamon 'in great abundance,' ginger, cloves, grains of paradise, and pepper, ground with bread and sharpened with vinegar or wine, served with roast meats.",
+      "why": "Cameline shows pepper's demotion beginning — no longer the solo star as in Rome, now one voice in a luxury chorus. The spice that once ransomed a city is now a line item in a sauce recipe."
+     }
+    },
+    {
+     "place": "Calicut",
+     "country": "India",
+     "lat": 11.25,
+     "lon": 75.77,
+     "year": 1498,
+     "era": "1498",
+     "note": "On 20 May 1498 Vasco da Gama's fleet reached Kappadu near Calicut after rounding Africa — asked what brought them, the Portuguese answered 'in search of Christians and spices.' The pepper trade, not the fine spices of the Moluccas, was the voyage's economic target. What followed was conquest as trade policy: Cabral's 1500 factory destroyed, da Gama's 1502 bombardment of the port, a factory at Cochin in 1503, Goa seized in 1510. Portugal made the Indian pepper trade a royal monopoly, enforced by the cartaz (pass) system — trade at cannon-point. The 'age of exploration' was, on its Portuguese leg, a pepper war.",
+     "use": "Portugal's achievement was logistical, not culinary: they moved the pepper trade from the Alexandria-Venice chain to the Cape route and sold it cheaper in Europe than Venice could, breaking the old monopoly. At the source, nothing changed about how pepper was eaten — it stayed the everyday heat of Malabar cooking.",
+     "highlightDish": {
+      "name": "Kozhi milagu varuval",
+      "blurb": "Kerala chicken fried with crushed black peppercorns.",
+      "why": "Five centuries of empires fought over this berry, and at home it never stopped being what it was — the heat itself, crushed fresh over chicken. The dish is the anti-monopoly: pepper as food, not as finance."
+     }
+    },
+    {
+     "place": "Amsterdam",
+     "country": "Netherlands",
+     "lat": 52.37,
+     "lon": 4.9,
+     "year": 1663,
+     "era": "1663–1688",
+     "note": "In 1663 the Dutch East India Company (VOC) helped the Raja of Cochin expel the Portuguese and took the Malabar pepper monopoly for itself. The VOC then did what monopolists do: it destroyed pepper cargoes to keep prices high. It didn't work. By mid-century Europe was awash in pepper: prices fell about 40% from the levels Portugal and the VOC had maintained, and Dutch and English East India Company imports peaked around 7 million kilograms in 1670, then fell to about 3.5 million by 1688. The companies pivoted to the new trades — tea, coffee, cotton, opium.",
+     "use": "Pepper lost its status as an exotic luxury and became a mundane commodity — the end of its 2,000-year run as treasure. Seventeenth-century cookbooks (La Varenne, 1651) show simpler, less-spiced cooking. The spice that ransomed Rome and launched caravels was now cheap enough to bake into children's biscuits.",
+     "highlightDish": {
+      "name": "Speculaas",
+      "blurb": "The traditional Dutch spiced biscuit, born in the 17th-century trading boom: cinnamon, nutmeg, cloves, ginger, cardamom, and black pepper in the spice mix, pressed in wooden molds.",
+      "why": "Speculaas is the monopoly era fossilised in dough. The berries that once came home in armed carracks, worth a pound of silver per pound, ended up as one note in a holiday cookie — pepper's whole arc from treasure to pantry, in a single bite."
+     }
+    },
+    {
+     "place": "Central Highlands",
+     "country": "Vietnam",
+     "lat": 12.67,
+     "lon": 108.05,
+     "year": 2002,
+     "era": "c. 2002",
+     "note": "The vine left home for good. After the Portuguese carried Malabar vines to Southeast Asia in the 16th century, pepper farming slowly spread; in the late 20th century Vietnam industrialised it. In 1980 Vietnam harvested just 556 tonnes while India harvested more than fifty times as much; by the early 2000s Vietnam had overtaken India, and on 2022 FAO figures it grew 272,235 tonnes — more than a third of world production, over twice second-place Brazil, with India down to 64,205 t. The 4,000-year Malabar monopoly ended not by conquest but by agronomy.",
+     "use": "Pepper as pure plantation commodity: intensive monoculture, high yields (Vietnamese farms produce roughly five times per hectare what Indian smallholdings do), traded on world markets with India itself now a major buyer. The berry's birthplace is a minor producer of its own native crop.",
+     "highlightDish": {
+      "name": "Cacio e pepe",
+      "blurb": "Rome's three-ingredient pasta: tonnarelli, Pecorino Romano, and black pepper, no more.",
+      "why": "After 4,000 years, pepper finally got a dish named for it. Not a ransom, not a rent, not a monopoly — just the berry, celebrated for itself. The status spice came home to being food."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Encyclopædia Britannica, 9th ed.: history of the pepper trade (Alaric's 408 ransom, peppercorn rents)",
+     "url": "https://en.wikisource.org/wiki/Page:Encyclop%C3%A6dia_Britannica%2C_Ninth_Edition%2C_v._18.djvu/542"
+    },
+    {
+     "label": "SilkRoute: 'How the pepper coast fed the world' (Muziris, Roman trade, 408 siege)",
+     "url": "https://www.silkroute.global/stories/the-pepper-coast.html"
+    },
+    {
+     "label": "PastNow: 'The Black Pearl of the Middle Ages' (Malabar origin, Venetian monopoly)",
+     "url": "https://www.pastnowstory.com/2026/10/the-black-pearl-of-middle-ages.html"
+    }
+   ]
+  },
+  {
+   "id": "cinnamon",
+   "name": "Cinnamon",
+   "color": "#b5651d",
+   "standard": "new",
+   "tagline": "An island bark lied about for two millennia: funeral pyres, monopolies, and the Swedish coffee break.",
+   "framing": "A tree bark from one island that became the ancient world's most lied-about luxury — guarded by invented monsters in the stories, by empires in reality — and then collapsed from a year's wages per pound to a supermarket staple, ending up as the defining flavor of Mexican chocolate and the Swedish work break.",
+   "stops": [
+    {
+     "place": "Sri Lanka",
+     "country": "Sri Lanka",
+     "lat": 6.93,
+     "lon": 79.86,
+     "year": -2000,
+     "era": "ancient",
+     "note": "No arrival — this is the tree's home. Wild Cinnamomum verum grew in the island's forests; the peeling craft is a Sri Lankan invention, likely centuries old by the time Europeans arrived. The quill is the technology: bark peeled in the rainy season, scraped, curled into nested tubes that dry into the familiar stick. The island developed the world's only skilled cinnamon-peeling labor force — a hereditary caste (the Salagama/Kurundukara) whose expertise would become, under Europeans, a resource to be captured rather than a craft to be honored. Five to seven years to master the peel.",
+     "use": "On the island itself the bark went into medicine first — research by Dr Dilhani Dissanayake finds cinnamon was used as a traditional Ayurvedic medicine before it became a cooking spice — and later into the island's curries as a background warmth. Never the star, the way it would become abroad.",
+     "highlightDish": {
+      "name": "Sri Lankan chicken curry with cinnamon bark",
+      "blurb": "A true cinnamon quill simmered into coconut-milk curry alongside cardamom and cloves.",
+      "why": "It shows the bark at home, where it was always a supporting spice. Every later stop treats cinnamon as the precious cargo; here it is just one warmth among many in the island's own kitchen — proof that the luxury story was invented at the far end of the trade route, not at its source."
+     }
+    },
+    {
+     "place": "Thebes",
+     "country": "Egypt",
+     "lat": 25.69,
+     "lon": 32.64,
+     "year": -2000,
+     "era": "c. 2000 BCE (identification debated)",
+     "note": "Dried bark arriving from the east via Red Sea and Arabian middlemen — 'imported to Egypt as early as 2000 BC' is the widely repeated date, though which bark (true cinnamon or cassia) is debated, and direct archaeobotanical evidence is thin. The dossier keeps the stop with 'c.' and a debate note instead of asserting it. The bark's first transformation was into wealth: once Egyptians wanted it for the afterlife, demand no longer depended on taste — it depended on belief.",
+     "use": "Not food — ritual. Egypt used aromatic barks in embalming and temple rites: the strong scent masked the smell of the dead, and the bark's chemistry helped preserve tissue. It was also perfume — a sacred substance for the dead and the gods, a medicine and a status marker.",
+     "highlightDish": {
+      "name": "Kyphi",
+      "blurb": "The sacred temple incense (myrrh, honey, wine, and aromatic barks including cinnamon/cassia) burned in evening rites.",
+      "why": "It is not food, and that is the point. Kyphi proves that for two thousand years cinnamon's first and most important job in the West was religious — cooked never, burned always."
+     }
+    },
+    {
+     "place": "Jerusalem",
+     "country": "Israel",
+     "lat": 31.77,
+     "lon": 35.21,
+     "year": -600,
+     "era": "c. 600 BCE",
+     "note": "Bark carried by Arabian caravans into the Levant's ports and overland routes. The Hebrew Bible's texts, composed across the Iron Age, name it repeatedly: Exodus 30:23 commands Moses to take 'sweet cinnamon' (qinnamon) and cassia for the holy anointing oil; Proverbs 7:17 perfumes the bed with myrrh, aloes, and cinnamon; the Song of Songs 4:14 lists cinnamon among the garden's chief spices; Revelation 18:13 would later list it among Babylon's mourned luxuries.",
+     "use": "Still not food — sacred perfume and seduction. In the Bible the bark sits beside gold and precious stones as a measure of value. The bark entered the moral imagination of the West as the smell of holiness and of forbidden pleasure at once — the association that would make medieval Christians treat it as medicine and aristocrats as display.",
+     "highlightDish": {
+      "name": "The holy anointing oil",
+      "blurb": "Olive oil blended with myrrh, sweet cinnamon, sweet calamus, and cassia (Exodus 30:23).",
+      "why": "Why this 'dish': it is a recipe, measured and mixed, just never eaten. It proves the bark's status before it ever touched food: an ingredient of consecration, where the cinnamon in the blend is the expensive half of the formula."
+     }
+    },
+    {
+     "place": "Southern China",
+     "country": "China",
+     "lat": 23.13,
+     "lon": 113.26,
+     "year": -500,
+     "era": "c. 500 BCE",
+     "note": "No arrival — the homeland of Cinnamomum cassia (Chinese cinnamon), a different tree, a thicker, harder, more pungent bark, native to southern China and mainland Southeast Asia. And for most of history, when a Western text said 'cinnamon,' this is often what actually arrived: the two barks were confused in trade for millennia, and 'cinnamon' and 'cassia' were sold as separate grades of the same luxury in Rome.",
+     "use": "Cassia went into Chinese medicine and cooking — the bark that braises with star anise and soy, that grinds into five-spice, that flavors red-braised meats. Where true cinnamon is sweet and citrusy, cassia is hot and woody, with far more coumarin. It was the cheaper substitute that traveled better, and it won the modern supermarket: roughly 95% of what is sold as 'cinnamon' in the US today is cassia.",
+     "highlightDish": {
+      "name": "Hong shao rou",
+      "blurb": "Red-braised pork belly with cassia bark, star anise, and soy.",
+      "why": "It is the honest home of the bark that pretended to be cinnamon for three thousand years. Cassia here is not a substitute; it is the intended flavor — woody, assertive, the backbone of the braise — showing what the 'other' bark is when it is not being mislabeled."
+     }
+    },
+    {
+     "place": "Rome",
+     "country": "Italy",
+     "lat": 41.9,
+     "lon": 12.5,
+     "year": 65,
+     "era": "65 CE",
+     "note": "Bark shipped from Arabia and the Red Sea trade, marked up at every handoff, bought by Romans who had no idea where it grew. Pliny the Elder complained that Indian and Arabian imports sold in Rome at a hundred times their cost, and that the cinnamon trade was riddled with adulteration — even he could not say exactly where the tree grew. At Poppaea Sabina's funeral in 65 CE, Nero reportedly burned more cinnamon and cassia than the producing countries yielded in a year (Pliny, Natural History 12.41: framed as Pliny's report, 'experts claim...', not a measured fact).",
+     "use": "Funeral pyres, perfume oils, and spiced wine. Cinnamon unguent (perfume oil) sold for 35 to 300 denarii a pound — note: the price of the perfume preparation, often misquoted as the raw bark. They inherited the monster stories: Herodotus (c. 450 BCE) had recorded giant birds carrying cinnamon sticks to cliff nests, tales Roman writers repeated, which served the Arab middlemen's interest.",
+     "highlightDish": {
+      "name": "Conditum paradoxum",
+      "blurb": "Roman spiced wine from Apicius, wine steeped with honey, pepper, and aromatic barks including cinnamon/cassia.",
+      "why": "It is the ancestor of every European mulled wine to come. It proves Rome had already moved cinnamon from the pyre toward the cup — the first step in the bark's two-thousand-year migration from ritual to recipe."
+     }
+    },
+    {
+     "place": "Venice",
+     "country": "Italy",
+     "lat": 45.44,
+     "lon": 12.34,
+     "year": 1300,
+     "era": "c. 1300",
+     "note": "Bark bought from Arab merchants at Alexandria and the Levantine ports, shipped to Venice, and redistributed across Europe at monopoly prices. Venice's near-monopoly on the eastern spice trade made cinnamon ruinously expensive — the prices that pushed Portugal to look for a sea route around Africa.",
+     "use": "Medicine and aristocratic cookery. In the humoral kitchen, wine was 'cold and dry,' so warm spices — cinnamon first — were added to balance it: hippocras, the spiced wine of medieval banquets. Le Viandier de Taillevent (c. 1300) gives a hippocras powder that begins 'four ounces of very fine cinnamon, two ounces of fine cassia flowers...' — cinnamon as the main spice, not a garnish. Cooks put it in sauces, meat dishes, and sweets; doctors prescribed it.",
+     "highlightDish": {
+      "name": "Hippocras",
+      "blurb": "Red or white wine steeped with ground cinnamon (the dominant spice), ginger, cloves, and sugar, filtered clear.",
+      "why": "It is the medieval European use of cinnamon in its purest form — cinnamon as medicine, status, and pleasure in a single cup, and the recipe survives verbatim from 1300. Every later European cinnamon dessert descends from this spiced-wine logic."
+     }
+    },
+    {
+     "place": "Galle",
+     "country": "Sri Lanka",
+     "lat": 6.03,
+     "lon": 80.22,
+     "year": 1520,
+     "era": "c. 1520",
+     "note": "In 1505 Dom Lourenço de Almeida's squadron, driven by storm, put into Galle; the king of Kotte offered cinnamon and elephants and, in the treaty that followed, agreed to gift Portugal a large annual quantity of cinnamon (one account puts it at about 200,000 pounds a year — treat as the treaty's reported scale, not a measured export statistic). In 1517–18 the Portuguese built their fort at Colombo and turned the gift into a monopoly: by 1614 the cinnamon trade was a Portuguese royal monopoly. The lie died — for the first time, Europeans stood in the cinnamon forests and saw that there were no giant birds, just trees, peelers, and a king's tax system.",
+     "use": "Tribute, not trade. The Portuguese took over the island's existing system — Salagama peelers delivering quills as tax to the king — and scaled it with forced labor. In Portugal the bark went into the sweet kitchen, notably the custard desserts that carry cinnamon to this day.",
+     "highlightDish": {
+      "name": "Leite-creme",
+      "blurb": "The Portuguese baked custard finished with a dusting of ground cinnamon (the ancestor of crème brûlée).",
+      "why": "It is the first European dessert where cinnamon is not medicine or ritual but pure pleasure — the bark's arrival in the sweet kitchen, made possible only because Portuguese ships now sailed straight to the source instead of buying from Venice at tenth hand."
+     }
+    },
+    {
+     "place": "Colombo",
+     "country": "Sri Lanka",
+     "lat": 6.93,
+     "lon": 79.86,
+     "year": 1660,
+     "era": "c. 1660",
+     "note": "The VOC, allied with inland Kandy against the Portuguese, took Galle in 1640 and stormed Colombo in 1658, expelling the Portuguese by 1659. The cinnamon monopoly passed to the Dutch East India Company, which ran it as a military operation: registered trees, forced peeler labor under brutal discipline (floggings, brandings, mutilations documented in contemporary research), and the destruction of cinnamon trees outside VOC control to keep supply scarce and prices high. When Britain seized Ceylon in 1796 and the monopoly broke, prices began their long fall.",
+     "use": "The quill trade at industrial scale. Cinnamon gardens were planted under VOC control; peelers worked under quotas. In Europe the bark remained a luxury through the 18th century — and the British proved the corollary of the Dutch monopoly by breaking it: once competition returned, cinnamon began its slide from imperial commodity to household spice.",
+     "highlightDish": {
+      "name": "Lamprais",
+      "blurb": "The Dutch Burgher rice parcel of Sri Lanka: rice, meat curries (with cinnamon bark among the spices), and sambol, wrapped in banana leaf and baked.",
+      "why": "It is the island's own cuisine absorbing the colonizers' table. While the VOC burned trees to keep cinnamon scarce in Europe, Sri Lankan kitchens kept cooking with it — proof the bark never stopped being a home spice even as empires fought over it as a commodity."
+     }
+    },
+    {
+     "place": "Mexico City",
+     "country": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "year": 1700,
+     "era": "c. 1700",
+     "note": "Cinnamon crossed the Atlantic with the Spanish and the Pacific with the Manila galleons — the Portuguese shipped Ceylon cinnamon to the Philippines, and Spanish colonists carried it on to Mexico's Pacific ports, folding it into New Spain's kitchens and convents.",
+     "use": "Canela. Mexico's cinnamon is true Ceylon cinnamon (C. verum) — soft, crumbly, multi-layered quills, sweet and floral — the opposite of the hard, harsh cassia that dominates US supermarket jars. It went into the drinks: chocolate caliente and champurrado (cacao, sugar, cinnamon, frothed with the molinillo), café de olla, horchata, and moles. The Spanish had taken cacao to Europe and added sugar and cinnamon to the bitter Mesoamerican drink; in Mexico, cinnamon fused with the native cacao tradition instead of replacing it.",
+     "highlightDish": {
+      "name": "Champurrado",
+      "blurb": "The thick chocolate atole of masa, cacao, sugar, and canela, whisked with the molinillo.",
+      "why": "It is the fusion made edible. Cacao is Mesoamerican; sugar and cinnamon are the colonial arrivals; the molinillo froth is the technique that binds them. One cup holds the whole route: a Sri Lankan bark, carried by Portuguese and Spanish ships, seasoning an Aztec drink."
+     }
+    },
+    {
+     "place": "Stockholm",
+     "country": "Sweden",
+     "lat": 59.33,
+     "lon": 18.07,
+     "year": 1925,
+     "era": "c. 1925",
+     "note": "Cinnamon arriving cheap, by steamship and rail, as a mass commodity — the endpoint of the post-1796 price collapse. What had been worth a year's wages per pound in Rome was now affordable to Swedish home bakers. The modern kanelbulle — yeasted wheat dough, butter, sugar, cinnamon, knotted and topped with pearl sugar — was created in Sweden in the 1920s, when post-WWI prosperity put sugar, butter, and cinnamon within reach; it became a household staple in the 1950s, and Sweden gave it its own day (Kanelbullens dag, October 4, since 1999).",
+     "use": "The fika bun. The democratization of cinnamon is complete: the bark that emperors burned by the pound is now the smell of an ordinary Tuesday coffee break — the luxury fully dissolved into comfort, with cardamom (another once-priceless spice) riding along in the dough.",
+     "highlightDish": {
+      "name": "Kanelbulle",
+      "blurb": "The knotted cinnamon-and-cardamom bun of fika.",
+      "why": "It is the proof that the price collapse actually happened. No king, no monopoly, no medicine — just a bun, eaten by millions, whose existence depends on cinnamon being cheap. The most democratic form the bark has ever taken."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Britannica: Cinnamon (Cinnamomum verum, native to Sri Lanka)",
+     "url": "https://www.britannica.com/topic/cinnamon"
+    },
+    {
+     "label": "Encyclopædia Britannica, 9th ed.: Ceylon cinnamon under the Dutch monopoly; price collapse after 1832",
+     "url": "https://en.wikisource.org/wiki/Page:Encyclop%C3%A6dia_Britannica,_Ninth_Edition%2C_v._5.djvu/381"
+    },
+    {
+     "label": "Imperium Romanum: cinnamon in antiquity (Egypt, Nero's funeral, 65 CE)",
+     "url": "https://imperiumromanum.pl/en/?p=53358"
+    }
+   ]
   }
  ],
- "notes": "Journeys are editorial summaries of well-established food history (Columbian exchange, Portuguese and Dutch trade routes, Arab sugar expansion). Dates marked c. are approximate. Recipes are matched live from the TheMealDB snapshot by name and ingredient keywords, so a stop with no matches simply shows its story."
+ "notes": "Journeys are editorial summaries of well-established food history (Columbian exchange, Portuguese and Dutch trade routes, Arab sugar expansion). Dates marked c. are approximate."
 }

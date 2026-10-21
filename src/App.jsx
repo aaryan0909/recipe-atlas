@@ -12,25 +12,6 @@ function fmtYear(y) {
   return `${y}`
 }
 
-function dishesForStop(meals, stop) {
-  if (!stop.dishTerms || stop.dishTerms.length === 0) return []
-  const terms = stop.dishTerms.map((t) => t.toLowerCase())
-  const scored = []
-  for (const m of meals) {
-    const name = m.name.toLowerCase()
-    const ings = m.ingredients.map((i) => i.name.toLowerCase()).join(' | ')
-    let s = 0
-    for (const t of terms) {
-      if (name.includes(t)) s += 3
-      else if (ings.includes(t)) s += 1
-    }
-    if (s > 0 && stop.bias && m.area === stop.bias) s += 4
-    if (s > 0) scored.push([s, m])
-  }
-  scored.sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name))
-  return scored.slice(0, 6).map((x) => x[1])
-}
-
 export default function App() {
   const [bundle, setBundle] = useState(null)
   const [error, setError] = useState(null)
@@ -38,24 +19,19 @@ export default function App() {
   const [year, setYear] = useState(-6000)
   const [playing, setPlaying] = useState(false)
   const [pickedStop, setPickedStop] = useState(null)
-  const [meal, setMeal] = useState(null)
   const [mapNote, setMapNote] = useState(null)
   const timerRef = useRef(null)
 
   useEffect(() => {
-    const loadMeals = fetch('/data/meals/index.json')
-      .then((r) => r.json())
-      .then((idx) =>
-        Promise.all(idx.chunks.map((c) => fetch(`/data/meals/${c}`).then((r) => r.json()))),
-      )
-      .then((parts) => parts.flat())
+    // Phase B: the catalog is demoted out of the primary UI. Dishes live only
+    // inside stop cards as argued highlight dishes; meal chunk data stays in
+    // the repo (public/data/meals/) but is no longer fetched or rendered.
     Promise.all([
-      loadMeals,
       fetch('/data/meta.json').then((r) => r.json()),
       fetch('/data/journeys.json').then((r) => r.json()),
     ])
-      .then(([meals, meta, journeysDoc]) => {
-        setBundle({ meals, meta, journeys: journeysDoc.journeys, notes: journeysDoc.notes, world: worldData })
+      .then(([meta, journeysDoc]) => {
+        setBundle({ meta, journeys: journeysDoc.journeys, notes: journeysDoc.notes, world: worldData })
         // Phase A: journeys that meet the new content standard are the default view
         const defJourney = journeysDoc.journeys.find((j) => j.standard === 'new') || journeysDoc.journeys[0]
         setJourneyId(defJourney.id)
@@ -89,12 +65,6 @@ export default function App() {
     return () => clearInterval(timerRef.current)
   }, [playing, journey, minYear, maxYear])
 
-  useEffect(() => {
-    const onKey = (e) => { if (e.key === 'Escape') setMeal(null) }
-    window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [])
-
   const geo = useMemo(() => {
     if (!bundle) return null
     const countries = feature(bundle.world, bundle.world.objects.countries)
@@ -109,13 +79,12 @@ export default function App() {
     return <div className="boot"><p>Loading the atlas…</p></div>
   }
 
-  const { meals, meta } = bundle
+  const { meta } = bundle
   const stops = journey.stops
   const revealed = stops.filter((s) => s.year <= year)
   const autoStop = Math.max(0, revealed.length - 1)
   const selectedStop = pickedStop !== null ? Math.min(pickedStop, stops.length - 1) : autoStop
   const activeStop = stops[selectedStop]
-  const activeDishes = dishesForStop(meals, activeStop)
 
   const routePts = revealed.map((s) => [s.lon, s.lat])
   const nextStop = stops[revealed.length]
@@ -261,19 +230,6 @@ export default function App() {
             </>
           )}
           <p className="journey-tag">{journey.tagline}</p>
-          <h3>On the plate here</h3>
-          {activeDishes.length === 0 ? (
-            <p className="empty">No snapshot recipes matched this stop. The story still stands; the catalog just has not caught up.</p>
-          ) : (
-            <div className="dish-list">
-              {activeDishes.map((m) => (
-                <button key={m.id} className="dish" onClick={() => setMeal(m)}>
-                  <img src={m.thumb} alt="" loading="lazy" />
-                  <span>{m.name}<small>{m.area} · {m.category}</small></span>
-                </button>
-              ))}
-            </div>
-          )}
           {journey.sources && journey.sources.length > 0 && (
             <>
               <h3>Sources for this journey</h3>
@@ -294,28 +250,6 @@ export default function App() {
         <p>Recipe snapshot: {meta.source}, pulled {meta.snapshotDate} by the ETL in this repo (etl/fetch_themealdb.py). Map: Natural Earth via world-atlas. Phase 1.</p>
       </footer>
 
-      {meal && (
-        <div className="overlay" onClick={() => setMeal(null)}>
-          <article className="modal" onClick={(e) => e.stopPropagation()}>
-            <button className="close" onClick={() => setMeal(null)} aria-label="Close">×</button>
-            <img src={meal.thumb} alt="" />
-            <h2>{meal.name}</h2>
-            <p className="card-meta">{meal.area} · {meal.category}{meal.tags.length ? ` · ${meal.tags.join(', ')}` : ''}</p>
-            <h3>Ingredients</h3>
-            <ul className="ingredients">
-              {meal.ingredients.map((i, idx) => (
-                <li key={idx}><span>{i.name}</span><span>{i.measure}</span></li>
-              ))}
-            </ul>
-            <h3>Method</h3>
-            {meal.instructions.split(/\r?\n+/).filter(Boolean).map((p, idx) => <p key={idx}>{p}</p>)}
-            <p className="links">
-              {meal.youtube && <a href={meal.youtube} target="_blank" rel="noreferrer">Watch on YouTube</a>}
-              {meal.source && <a href={meal.source} target="_blank" rel="noreferrer">Original source</a>}
-            </p>
-          </article>
-        </div>
-      )}
     </div>
   )
 }
