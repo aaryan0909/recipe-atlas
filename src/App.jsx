@@ -51,17 +51,27 @@ export default function App() {
 
   useEffect(() => {
     if (!playing || !journey) return
+    // Pace by STOPS, not years. Stop years are wildly uneven (chili: a 7,400-year
+    // gap, then 16-year gaps), so a fixed year-step meant seconds of dead time
+    // followed by unreadable card flips. Every gap now takes DWELL ms, so each
+    // stop's story gets the same screen time and the dot travels at a readable pace.
+    const DWELL = 2600
+    const TICK = 40
     timerRef.current = setInterval(() => {
       setYear((y) => {
-        const step = Math.max(1, Math.round((maxYear - minYear) / 220))
-        const next = y + step
-        if (next >= maxYear) {
+        const ss = journey.stops
+        let i = 0
+        while (i < ss.length - 1 && ss[i + 1].year <= y) i++
+        if (i >= ss.length - 1) {
           setPlaying(false)
           return maxYear
         }
-        return next
+        const gap = ss[i + 1].year - ss[i].year
+        const step = gap > 0 ? gap / (DWELL / TICK) : 1
+        const next = y + step
+        return next >= ss[i + 1].year ? ss[i + 1].year : next
       })
-    }, 40)
+    }, TICK)
     return () => clearInterval(timerRef.current)
   }, [playing, journey, minYear, maxYear])
 
@@ -149,6 +159,13 @@ export default function App() {
         <p className="framing"><strong>Why it matters:</strong> {journey.framing}</p>
       )}
 
+      <div className="howto">
+        <strong>Follow the journey:</strong> press play and watch {journey.name} travel
+        from {stops[0].place} to {stops[stops.length - 1].place} in {stops.length} stops.
+        Each stop is a place it arrived and changed how people cook. Drag the timeline
+        to travel yourself, or tap any stop on the map.
+      </div>
+
       <section className="stage">
         <div className="map-wrap">
           <svg viewBox={`0 0 ${W} ${H}`} className="map" role="img" aria-label={`World map of the ${journey.name} journey`}>
@@ -206,6 +223,7 @@ export default function App() {
         </div>
 
         <aside className="stop-card">
+          <div key={selectedStop} className="stop-card-body">
           <p className="kicker">{journey.name} · {activeStop.era}</p>
           {journey.standard === 'new' && (
             <p className="std-badge">New-standard journey · researched from the dossier</p>
@@ -241,6 +259,7 @@ export default function App() {
             </>
           )}
           <p className="stop-count">Stop {selectedStop + 1} of {stops.length}</p>
+          </div>
         </aside>
       </section>
 

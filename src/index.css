@@ -160,6 +160,7 @@ button { font-family: inherit; cursor: pointer; }
 .explorer input[type='search'] { font-size: 16px; }
 @media (prefers-reduced-motion: reduce) {
   .pulse { animation: none; }
+  .stop-card-body { animation: none; }
   .card, .tab, .dish { transition: none; }
 }
 
@@ -184,6 +185,19 @@ button { font-family: inherit; cursor: pointer; }
 .framing strong { font-style: normal; color: var(--text); }
 .std-pill { display: inline-block; margin-left: 7px; padding: 1px 8px; border-radius: 999px; background: #1f6f3a; color: #fff; font-size: 0.68rem; font-weight: 700; vertical-align: 2px; }
 .stop-card .journey-tag { color: var(--muted); font-style: italic; font-family: var(--serif); border-top: 1px dashed var(--line); padding-top: 10px; }
+.stop-card-body { animation: cardIn 0.35s ease; }
+@keyframes cardIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.howto {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 0 0 14px;
+  line-height: 1.55;
+  font-size: 0.98rem;
+}
+.howto strong { color: var(--text); }
 .stop-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.4px; color: var(--muted); margin: 18px 0 10px; }
 .dish-list { display: grid; gap: 8px; }
 .dish {
