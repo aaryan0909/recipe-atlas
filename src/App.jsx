@@ -55,7 +55,9 @@ export default function App() {
     // gap, then 16-year gaps), so a fixed year-step meant seconds of dead time
     // followed by unreadable card flips. Every gap now takes DWELL ms, so each
     // stop's story gets the same screen time and the dot travels at a readable pace.
-    const DWELL = 2600
+    // DWELL is 4s: long enough to actually skim a stop's story, short enough that
+    // a 9-stop journey still plays in about half a minute. Pause or drag to read more.
+    const DWELL = 4000
     const TICK = 40
     timerRef.current = setInterval(() => {
       setYear((y) => {
