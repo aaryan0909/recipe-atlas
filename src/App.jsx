@@ -12,6 +12,66 @@ function fmtYear(y) {
   return `${y}`
 }
 
+// The fun layer. These are personality jokes, never historical claims: the
+// researched dossier content in the stop cards stays exactly as written.
+const TRAVELER = {
+  chili: { emoji: '🌶️', line: "I left the Americas and took over Asia's kitchens in 200 years. You're welcome." },
+  tomato: { emoji: '🍅', line: 'Europe thought I was poison. Now I am in everything. Awkward for them.' },
+  potato: { emoji: '🥔', line: 'I fed industrial Europe. No big deal.' },
+  coffee: { emoji: '☕', line: 'From Ethiopian hillsides to every office on Earth. I run the world now.' },
+  sugar: { emoji: '🍬', line: 'I started as a chewed stalk. Things escalated.' },
+  tea: { emoji: '🍵', line: 'Medicine, ritual, currency, commodity. I have been everything.' },
+  cacao: { emoji: '🍫', line: "I went from Amazonian pulp beer to the world's favorite confection. Glow up." },
+  maize: { emoji: '🌽', line: 'Nine thousand years of one grass. Consistency is my brand.' },
+  'black-pepper': { emoji: '🧂', line: 'I ransomed Rome and launched ships. I am basically a celebrity.' },
+  cinnamon: { emoji: '🪵', line: 'People lied about me for two thousand years. I let them. It kept the price up.' },
+}
+const FALLBACK_TRAVELER = { emoji: '✦', line: 'I have traveled a long way to get to your kitchen.' }
+
+function rotate(arr, n) {
+  const k = ((n % arr.length) + arr.length) % arr.length
+  return arr.slice(k).concat(arr.slice(0, k))
+}
+
+// Quiz questions are generated from the journey's own stops, so no new
+// editorial content is needed and every answer is checkable in the cards.
+function buildQuiz(journey) {
+  const stops = journey.stops
+  const n = stops.length
+  const mid = Math.floor(n / 2)
+  const questions = []
+  const orderA = stops[1]
+  const orderB = stops[n - 2]
+  questions.push({
+    q: `Which stop came first on the ${journey.name} journey?`,
+    options: rotate([orderA.place, orderB.place], n + 1),
+    answer: orderA.place,
+  })
+  questions.push({
+    q: `Where did the ${journey.name} journey end?`,
+    options: rotate([stops[n - 1].place, stops[0].place, stops[mid].place, stops[1].place], n + 2),
+    answer: stops[n - 1].place,
+  })
+  const dishStop = stops.find((s, i) => i >= 2 && s.highlightDish && !s.highlightDish.name.startsWith('No dish'))
+    || stops.find((s) => s.highlightDish)
+  if (dishStop && dishStop.highlightDish) {
+    const pool = stops.filter((s) => s.highlightDish && s !== dishStop).map((s) => s.highlightDish.name)
+    questions.push({
+      q: `Which dish is the highlight at ${dishStop.place}?`,
+      options: rotate([dishStop.highlightDish.name, ...pool.slice(0, 3)], n),
+      answer: dishStop.highlightDish.name,
+    })
+  }
+  return { step: 0, questions, picked: null, feedback: null, score: 0, done: false }
+}
+
+function quizVerdict(score, total, name, emoji) {
+  if (score === total) return `${emoji} Certified ${name} historian. Flawless.`
+  if (score === total - 1) return 'Well traveled. One more journey and you are fluent.'
+  if (score === 1) return 'Still at the departure gate. Replay the journey and try again.'
+  return `${name} traveled thousands of years for this? Replay and try again.`
+}
+
 export default function App() {
   const [bundle, setBundle] = useState(null)
   const [error, setError] = useState(null)
@@ -20,6 +80,7 @@ export default function App() {
   const [playing, setPlaying] = useState(false)
   const [pickedStop, setPickedStop] = useState(null)
   const [mapNote, setMapNote] = useState(null)
+  const [quiz, setQuiz] = useState(null)
   const timerRef = useRef(null)
 
   useEffect(() => {
@@ -116,6 +177,22 @@ export default function App() {
     setPickedStop(null)
     setPlaying(true)
     setMapNote(null)
+    setQuiz(null)
+  }
+
+  const answerQuiz = (oi) => {
+    if (!quiz || quiz.picked !== null) return
+    const q = quiz.questions[quiz.step]
+    const correct = q.options[oi] === q.answer
+    setQuiz({ ...quiz, picked: oi, feedback: correct ? 'Correct!' : `Nope. It was ${q.answer}.`, score: quiz.score + (correct ? 1 : 0) })
+  }
+
+  const nextQuiz = () => {
+    if (quiz.step + 1 >= quiz.questions.length) {
+      setQuiz({ ...quiz, done: true, picked: null, feedback: null })
+    } else {
+      setQuiz({ ...quiz, step: quiz.step + 1, picked: null, feedback: null })
+    }
   }
 
   const onCountry = (name) => {
@@ -166,7 +243,18 @@ export default function App() {
         from {stops[0].place} to {stops[stops.length - 1].place} in {stops.length} stops.
         Each stop is a place it arrived and changed how people cook. Drag the timeline
         to travel yourself, or tap any stop on the map.
+        <p className="narrator">
+          {(TRAVELER[journey.id] || FALLBACK_TRAVELER).emoji}{' '}
+          <em>{(TRAVELER[journey.id] || FALLBACK_TRAVELER).line}</em>
+        </p>
       </div>
+
+      {year >= maxYear && (
+        <div className="complete-banner">
+          <span>🎉 Journey complete! You followed {journey.name} from {stops[0].place} to {stops[stops.length - 1].place}.</span>
+          <button onClick={() => setQuiz(buildQuiz(journey))}>Take the quiz</button>
+        </div>
+      )}
 
       <section className="stage">
         <div className="map-wrap">
@@ -184,6 +272,14 @@ export default function App() {
             ))}
             <path d={geo.path(fullRoute)} className="route-ghost" />
             {liveRoute && <path d={geo.path(liveRoute)} className="route-live" />}
+            {routePts.length > 0 && (() => {
+              const [tx, ty] = geo.projection(routePts[routePts.length - 1])
+              return (
+                <text x={tx} y={ty + 32} className="traveler" textAnchor="middle">
+                  {(TRAVELER[journey.id] || FALLBACK_TRAVELER).emoji}
+                </text>
+              )
+            })()}
             {stops.map((s, i) => {
               const [x, y] = geo.projection([s.lon, s.lat])
               const isRevealed = s.year <= year
@@ -221,6 +317,11 @@ export default function App() {
                 </button>
               ))}
             </div>
+          </div>
+          <div className="passport">
+            <span>Passport: {revealed.length} of {stops.length} stops stamped</span>
+            <div className="passport-bar"><i style={{ width: `${(revealed.length / stops.length) * 100}%` }} /></div>
+            <button className="quiz-btn" onClick={() => setQuiz(buildQuiz(journey))}>Quiz me</button>
           </div>
         </div>
 
@@ -270,6 +371,56 @@ export default function App() {
         <p>{bundle.notes}</p>
         <p>Recipe snapshot: {meta.source}, pulled {meta.snapshotDate} by the ETL in this repo (etl/fetch_themealdb.py). Map: Natural Earth via world-atlas. Phase 1.</p>
       </footer>
+
+      {quiz && (
+        <div className="overlay" onClick={(e) => { if (e.target === e.currentTarget) setQuiz(null) }}>
+          <div className="modal quiz-modal">
+            <button className="close" onClick={() => setQuiz(null)}>×</button>
+            {!quiz.done ? (
+              <>
+                <p className="quiz-kicker">
+                  {(TRAVELER[journey.id] || FALLBACK_TRAVELER).emoji} {journey.name} quiz · Question {quiz.step + 1} of {quiz.questions.length}
+                </p>
+                <h2>{quiz.questions[quiz.step].q}</h2>
+                <div className="quiz-opts">
+                  {quiz.questions[quiz.step].options.map((opt, oi) => {
+                    const cls = quiz.picked === null
+                      ? ''
+                      : opt === quiz.questions[quiz.step].answer
+                        ? ' correct'
+                        : oi === quiz.picked
+                          ? ' wrong'
+                          : ' dim'
+                    return (
+                      <button key={opt} className={`quiz-opt${cls}`} disabled={quiz.picked !== null} onClick={() => answerQuiz(oi)}>
+                        {opt}
+                      </button>
+                    )
+                  })}
+                </div>
+                {quiz.feedback && (
+                  <p className="quiz-feedback">{quiz.feedback}</p>
+                )}
+                {quiz.picked !== null && (
+                  <button className="quiz-next" onClick={nextQuiz}>
+                    {quiz.step + 1 >= quiz.questions.length ? 'See my score' : 'Next question →'}
+                  </button>
+                )}
+              </>
+            ) : (
+              <>
+                <h2>{quizVerdict(quiz.score, quiz.questions.length, journey.name, (TRAVELER[journey.id] || FALLBACK_TRAVELER).emoji)}</h2>
+                <p className="quiz-score">You scored {quiz.score} out of {quiz.questions.length}.</p>
+                <p className="quiz-hint">Every answer is in the stop cards. Replay the journey and try again.</p>
+                <div className="quiz-actions">
+                  <button onClick={() => setQuiz(buildQuiz(journey))}>Play again</button>
+                  <button onClick={() => setQuiz(null)}>Back to the map</button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
 
     </div>
   )
