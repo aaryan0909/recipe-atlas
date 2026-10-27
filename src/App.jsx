@@ -25,6 +25,9 @@ const TRAVELER = {
   maize: { emoji: '🌽', line: 'Nine thousand years of one grass. Consistency is my brand.' },
   'black-pepper': { emoji: '🧂', line: 'I ransomed Rome and launched ships. I am basically a celebrity.' },
   cinnamon: { emoji: '🪵', line: 'People lied about me for two thousand years. I let them. It kept the price up.' },
+  vanilla: { emoji: '🍦', line: 'Plain? I am the original plot twist.' },
+  wheat: { emoji: '🌾', line: 'Bread, noodles, pasta, tortilla. Range.' },
+  rice: { emoji: '🍚', line: 'Sticky, fluffy, crispy-bottomed. I contain multitudes.' },
 }
 const FALLBACK_TRAVELER = { emoji: '✦', line: 'I have traveled a long way to get to your kitchen.' }
 
@@ -153,6 +156,7 @@ export default function App() {
   }
 
   const { meta } = bundle
+  const totalStops = bundle.journeys.reduce((n, j) => n + j.stops.length, 0)
   const stops = journey.stops
   const revealed = stops.filter((s) => s.year <= year)
   const autoStop = Math.max(0, revealed.length - 1)
@@ -213,10 +217,9 @@ export default function App() {
           <p className="tagline">How food moved through the world</p>
         </div>
         <div className="stats">
-          <span><strong>{meta.mealCount}</strong> recipes</span>
-          <span><strong>{meta.areas.length}</strong> cuisines</span>
-          <span><strong>{meta.ingredientCount}</strong> ingredients</span>
           <span><strong>{bundle.journeys.length}</strong> journeys</span>
+          <span><strong>{totalStops}</strong> stops told</span>
+          <span><strong>54</strong> ingredients in the research queue</span>
         </div>
       </header>
 
