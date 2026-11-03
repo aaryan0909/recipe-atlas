@@ -21,7 +21,8 @@
       "name": "Llajwa",
       "blurb": "Bolivia's raw ground sauce of locoto (rocoto) chili with tomato and herbs, ground on a stone batan.",
       "why": "It is the homeland's own format, chili pounded fresh into a table sauce rather than cooked into a stew, and it shows the two American partners, chili and tomato, already paired at source."
-     }
+     },
+     "carrier": "Andean farming peoples"
     },
     {
      "place": "Valley of Mexico",
@@ -36,7 +37,8 @@
       "name": "Chilmolli",
       "blurb": "Pre-Hispanic chili sauce, the ancestor of mole: turkey or game in a ground sauce of toasted dried chilies, tomato and seeds.",
       "why": "It proves the complex chili sauce is Indigenous, not colonial. Sahagun records no chocolate in savory mollis \u2014 the chocolate-rich mole poblano is a later, colonial-era development, not a pre-Hispanic recipe."
-     }
+     },
+     "carrier": "Indigenous Mexican farmers and Tenochtitlan market vendors"
     },
     {
      "place": "Seville",
@@ -51,7 +53,8 @@
       "name": "Chorizo seasoned with pimenton de la Vera",
       "blurb": "Pork sausage coloured and preserved with smoked ground chili.",
       "why": "It shows Spain's specific transformation \u2014 smoke plus grinding plus pork fat \u2014 and pimenton's antimicrobial, colour-giving role in cured meat, not just heat for its own sake."
-     }
+     },
+     "carrier": "Columbus's crews and Spanish monks"
     },
     {
      "place": "Goa",
@@ -66,7 +69,8 @@
       "name": "Pork vindalho",
       "blurb": "Pork marinated and cooked in palm vinegar, garlic and dried red chilies, from the Portuguese carne de vinha d'alhos (meat in wine and garlic).",
       "why": "Two colonial substitutions in one pot (palm vinegar for wine, American chili for part of the heat) make it the clearest edible record of the Goa landing. Fact-check: traditional vindalho contains NO potato; potatoes entered restaurant versions through confusion of Portuguese alhos (garlic) with Hindi aloo (potato)."
-     }
+     },
+     "carrier": "Portuguese traders; Goan Catholic cooks"
     },
     {
      "place": "Ayutthaya",
@@ -96,7 +100,8 @@
       "name": "Scorched chili dip (hujiao / burnt-chili zhan shui)",
       "blurb": "Dried chilies blackened, pounded and mixed as a dipping seasoning.",
       "why": "It is Guizhou's necessity cooking in miniature \u2014 maximum flavour extracted from one cheap dried ingredient where salt itself was unaffordable."
-     }
+     },
+     "carrier": "Miao communities of Guizhou"
     },
     {
      "place": "Szeged",
@@ -111,7 +116,8 @@
       "name": "Gulyas (goulash soup)",
       "blurb": "Beef, onion and abundant paprika bloomed in fat.",
       "why": "It corrects the usual shorthand twice over. Goulash existed for centuries before paprika, and paprika did not fully replace black pepper in Hungarian cooking: it displaced pepper in peasant and national dishes while pepper remained. The dish is evidence of a 19th-century reinvention, not an ancient recipe."
-     }
+     },
+     "carrier": "Hungarian herdsmen and peasants"
     },
     {
      "place": "Chengdu, Sichuan",
@@ -126,7 +132,8 @@
       "name": "Mapo tofu",
       "blurb": "Tofu in a chili-bean-paste sauce with minced meat and ground Sichuan pepper, created c. 1874 at a Chengdu restaurant run by the Chen family (the name refers to the pockmarked proprietor).",
       "why": "It is datable, it contains the full mala equation (fermented chili paste plus Sichuan pepper) in one bowl, and its youth is the point: Sichuan's most famous flavour is younger than the telephone patent era."
-     }
+     },
+     "carrier": "Hunanese migrants"
     },
     {
      "place": "Seoul",
@@ -141,7 +148,8 @@
       "name": "Baechu kimchi (whole napa-cabbage kimchi)",
       "blurb": "Salted cabbage fermented with gochugaru, garlic, ginger and jeotgal (salted seafood).",
       "why": "It is a 19th-century invention wearing ancient clothes, and it proves the Atlas point perfectly: an American ingredient can become so central that a cuisine's identity is now unthinkable without it."
-     }
+     },
+     "carrier": "Korean cooks, via Portuguese-linked trade"
     }
    ],
    "sources": [
@@ -188,7 +196,8 @@
       "name": "The wild cherry tomato itself",
       "blurb": "Cherry-sized, sour fruit, closer to a condiment berry than a vegetable.",
       "why": "No named Andean tomato dish from this stage survives, and inventing one would be dishonest. The fruit itself is the honest highlight: this is what the tomato was before Mexico and Europe changed it."
-     }
+     },
+     "carrier": "Andean foothill peoples"
     },
     {
      "place": "Valley of Mexico",
@@ -203,7 +212,8 @@
       "name": "Salsa roja (tomatl, chili and squash-seed sauce)",
       "blurb": "Tomatoes ground with chilies and seeds, served with meats and tortillas.",
       "why": "Documented in the Florentine Codex market lists. It establishes that the tomato's defining role, cooked sour sauce base, is Mexican before it is Italian."
-     }
+     },
+     "carrier": "Mexican cooks and Tlatelolco market vendors"
     },
     {
      "place": "Siena",
@@ -218,7 +228,8 @@
       "name": "Fried golden apple, Mattioli-style",
       "blurb": "Sliced tomato fried in oil with salt and black pepper, eaten like eggplant.",
       "why": "The earliest European tomato preparation actually described, and its plainness is the evidence: in 1544 the tomato entered Europe as a fried curiosity, not a sauce."
-     }
+     },
+     "carrier": "Spanish sailors and Italian cooks"
     },
     {
      "place": "Naples",
@@ -233,7 +244,8 @@
       "name": "Spaghetti al pomodoro, after Leonardi (1790)",
       "blurb": "Pasta with cooked tomato sauce.",
       "why": "The first documented pasta-tomato pairing in print. It corrects the old claim that Naples had pasta and pizza sauce by c. 1700: that was roughly a century too early."
-     }
+     },
+     "carrier": "Neapolitan cooks"
     },
     {
      "place": "Mumbai",
@@ -248,7 +260,8 @@
       "name": "Tomato rasam",
       "blurb": "Thin, peppery South Indian soup of tomato with tamarind, black pepper and cumin, eaten with rice.",
       "why": "Rasam shows the negotiation, not the takeover: an older tamarind-and-pepper sour soup absorbs the newcomer as co-souring agent, which is exactly how the tomato entered most Indian kitchens, as a base, not a star."
-     }
+     },
+     "carrier": "Portuguese traders, then British-era Indian growers"
     },
     {
      "place": "Pittsburgh",
@@ -263,7 +276,8 @@
       "name": "Heinz Tomato Ketchup itself",
       "blurb": "The branded industrial sauce, served with everything.",
       "why": "At this stop the 'dish' really is the transformation, fresh fruit to shelf-stable global condiment. Any copy saying 'Heinz invented tomato ketchup in 1876' is wrong by 64 years."
-     }
+     },
+     "carrier": "Henry J. Heinz's Pittsburgh factory"
     },
     {
      "place": "Paris",
@@ -278,7 +292,8 @@
       "name": "Sauce tomate (Escoffier's mother sauce)",
       "blurb": "Tomato with pork belly, onion, herbs, garlic and roux.",
       "why": "Documentary proof of canonisation, dated and printed. It contrasts with the Naples stop: Naples made the tomato popular from below, Paris certified it from above."
-     }
+     },
+     "carrier": "Auguste Escoffier and French chefs"
     },
     {
      "place": "Shanghai",
@@ -293,7 +308,8 @@
       "name": "Stir-fried tomato and scrambled eggs",
       "blurb": "Soft scrambled egg folded with juicy, lightly sweetened tomato.",
       "why": "The adoption mechanism made edible: an ancient Chinese technique domesticating a Ming-dynasty ornamental. It corrects the old copy, which said Guangzhou c. 1920 (it was Shanghai restaurants in the 1920s-30s, home cooking in the 1940s)."
-     }
+     },
+     "carrier": "Shanghai restaurant cooks"
     }
    ],
    "sources": [
@@ -364,7 +380,8 @@
       "name": "Chupe de papas",
       "blurb": "Potatoes and rehydrated chuno simmered into a thick highland soup.",
       "why": "The dish that only exists because of the processing innovation: the chew and body of the stew come from a tuber that was dried years earlier and carried hundreds of miles, which is the whole Andean point."
-     }
+     },
+     "carrier": "Andean communities around Lake Titicaca"
     },
     {
      "place": "Santa Cruz de Tenerife",
@@ -379,7 +396,8 @@
       "name": "Papas arrugadas con mojo",
       "blurb": "Small potatoes boiled unpeeled in heavily salted water until a wrinkled salt crust forms, served with mojo picon (garlic, chili, cumin, vinegar).",
       "why": "Cooked from papas antiguas, Andean-descended landraces with Protected Designation of Origin status that Smithsonian reporting calls direct descendants of the 16th-century arrivals: a living fossil of the first European potato."
-     }
+     },
+     "carrier": "Spanish sailors"
     },
     {
      "place": "Ireland",
@@ -409,7 +427,8 @@
       "name": "New potatoes boiled in their skins, with salt",
       "blurb": "The settler's staple: no sauce, no technique beyond a pot of water.",
       "why": "The absence of a recipe is the evidence. The potato entered America as survival food, not cuisine; the first American recipe of note came eighty years later, when Jefferson served 'potatoes fried in the French manner' at a White House dinner in 1802."
-     }
+     },
+     "carrier": "Scotch-Irish settler families"
     },
     {
      "place": "Potsdam",
@@ -424,7 +443,8 @@
       "name": "Pellkartoffeln mit Quark",
       "blurb": "Potatoes boiled 'in jackets', peeled at the table and eaten with quark, chives and salt.",
       "why": "The dish the decrees were really about: the cheapest complete peasant meal in northern Germany, adopted through necessity rather than trickery."
-     }
+     },
+     "carrier": "Prussian officials and pastors under Frederick II"
     },
     {
      "place": "Paris",
@@ -439,7 +459,8 @@
       "name": "Hachis Parmentier",
       "blurb": "Chopped leftover beef (traditionally pot-au-feu meat) under a layer of mashed potato, baked golden.",
       "why": "Starting in the 1870s, France began naming potato dishes after Parmentier. The dish is later than the man, which is the point: the feared tuber became a namesake honour, absorbed so completely into French cooking that it carries his name."
-     }
+     },
+     "carrier": "Antoine-Augustin Parmentier"
     },
     {
      "place": "Bengal",
@@ -454,7 +475,8 @@
       "name": "Aloo gobi",
       "blurb": "Potatoes and cauliflower dry-fried with turmeric, cumin and ginger, eaten with roti.",
       "why": "It shows the potato not as a colonial import or a side dish but as an Indian vegetable among vegetables, cooked with the standard home tempering: total domestication into the everyday sabzi."
-     }
+     },
+     "carrier": "Portuguese traders, then British promoters and Indian farmers"
     },
     {
      "place": "Paris",
@@ -469,7 +491,8 @@
       "name": "Frites",
       "blurb": "Potato strips fried twice, crisp outside and fluffy inside, served in a paper cornet with mayonnaise.",
       "why": "It is the technique, not the tuber, that travelled. The fry turned the potato from a boiled staple into a craveable street food, and the fritkot turned a cooking method into a national identity."
-     }
+     },
+     "carrier": "Paris street vendors"
     },
     {
      "place": "Moscow",
@@ -484,7 +507,8 @@
       "name": "Olivier salad (salat Olivye)",
       "blurb": "Diced boiled potatoes, carrots, peas, pickles and egg or meat bound with mayonnaise.",
       "why": "The riots' endpoint in a bowl. A tuber peasants died refusing became, within decades, the centrepiece of Russia's most festive table, and the Soviet simplification proves the absorption was total."
-     }
+     },
+     "carrier": "Russian peasants and Lucien Olivier"
     },
     {
      "place": "Boise, Idaho",
@@ -499,7 +523,8 @@
       "name": "The frozen French fry",
       "blurb": "The industrial product itself.",
       "why": "Every earlier stop transformed the potato by cooking or processing it by hand; this stop transformed it by removing the cook. The fry you eat in one city is engineered to be the fry you eat in every city, the final transformation of the journey: from Andean freeze-drying to American deep-freezing."
-     }
+     },
+     "carrier": "Simplot and McDonald's (Ray Kroc)"
     }
    ],
    "sources": [
@@ -598,7 +623,8 @@
       "name": "Buna (Ethiopian coffee ceremony)",
       "blurb": "Green beans roasted in front of guests, ground, boiled in a jebena, poured from a height into small handleless cups in three rounds, abol, tona, baraka ('blessing'), with incense and popcorn.",
       "why": "It preserves the oldest layer of coffee use, social and ceremonial, roasted fresh per cup, and shows what coffee was before anyone shipped it: a host's duty, not a product."
-     }
+     },
+     "carrier": "Kafa people"
     },
     {
      "place": "Al-Makha (Mocha)",
@@ -613,7 +639,8 @@
       "name": "Qishr",
       "blurb": "A warm drink brewed from the dried husks of the coffee cherry, spiced with ginger and sometimes cinnamon or cardamom, low in caffeine.",
       "why": "It proves Yemeni coffee culture used the whole cherry, not just the seed, and it is the older layer of use surviving inside the monopoly: a drink that needs no roasting at all."
-     }
+     },
+     "carrier": "Yemeni Sufi dervishes and traders"
     },
     {
      "place": "Istanbul",
@@ -628,7 +655,8 @@
       "name": "Turk kahvesi (Turkish coffee)",
       "blurb": "Powder-fine coffee boiled in a cezve, served in a small cup, grounds and all.",
       "why": "The Ottoman brewing technology in miniature, the unfiltered cup Europe first encountered, and the fortune-telling in the dregs shows how deep the embedding went: coffee as social ritual, divination and habit at once."
-     }
+     },
+     "carrier": "Ottoman merchants, hajj pilgrims and Sufi dervishes"
     },
     {
      "place": "London",
@@ -643,7 +671,8 @@
       "name": "A dish of coffee, Cornhill style (1652)",
       "blurb": "Black, gritty, Turkish-brewed, sold with the handbill The Vertue of the 'COFFEE' Drink.",
       "why": "The handbill prescribed coffee for dropsy, scurvy, gout and 'mis-carryings', which shows the real evidence of the stop: coffee entered England as a medicine and a novelty, and people acquired the taste before they had any idea what it was for."
-     }
+     },
+     "carrier": "Pasqua Rosee"
     },
     {
      "place": "Batavia (Jakarta)",
@@ -658,7 +687,8 @@
       "name": "Kopi tubruk",
       "blurb": "Javanese coffee: coarse grounds boiled with sugar in the pot and drunk unfiltered, grounds settling at the bottom.",
       "why": "The colonial export crop came home as a local brew, unfiltered like the Ottoman original but coarse and sweet, proof that the plantation island developed its own coffee culture under the export machine."
-     }
+     },
+     "carrier": "Dutch East India Company"
     },
     {
      "place": "Cap-Francais, Saint-Domingue",
@@ -673,7 +703,8 @@
       "name": "Haitian cafe",
       "blurb": "Coffee roasted dark, brewed strong, drunk sweet.",
       "why": "It is what remains. Haiti still grows coffee on smallholder plots, and the drink is the everyday residue of the plantation century: the colony that fed the world's habit now drinks the habit itself."
-     }
+     },
+     "carrier": "Enslaved African workers on French plantations"
     },
     {
      "place": "Sao Paulo",
@@ -688,7 +719,8 @@
       "name": "Cafezinho",
       "blurb": "A tiny cup of strong, dark, heavily sweetened filtered coffee, served to guests everywhere in Brazil, at shops, offices and homes.",
       "why": "The world's greatest producer drinks coffee as a miniature ritual of hospitality, not a morning drug; it shows the producer's culture, small, sweet and constant, against the exporter's bulk."
-     }
+     },
+     "carrier": "Francisco de Melo Palheta; enslaved fazenda workers"
     },
     {
      "place": "Milan",
@@ -703,7 +735,8 @@
       "name": "Cappuccino",
       "blurb": "Espresso with steamed milk and foam, roughly a third each, drunk in Italy only before late morning.",
       "why": "The name carries the whole route in it, from Viennese menus to the Capuchin robe, and the drink is Europe's answer to Ottoman bitterness: keep the strength, soften it with milk, serve it in minutes."
-     }
+     },
+     "carrier": "Angelo Moriondo, Luigi Bezzera and Desiderio Pavoni"
     },
     {
      "place": "Vevey",
@@ -718,7 +751,8 @@
       "name": "A cup of Nescafe (1938 formula)",
       "blurb": "Brewed coffee, spray-dried to powder, reconstituted with hot water.",
       "why": "The least romantic coffee in the dossier and therefore the most honest evidence of the stop: coffee as pure logistics, invented to absorb a glut, carried into war by soldiers' ration kits, and still the daily drink of hundreds of millions."
-     }
+     },
+     "carrier": "Nestl\u00e9 chemist Max Morgenthaler"
     }
    ],
    "sources": [
@@ -827,7 +861,8 @@
       "name": "Fresh-cut sugarcane, chewed raw",
       "blurb": "Not a recipe \u2014 the point. The sweet stalk, eaten where it grew.",
       "why": "For millennia this was all there was. Every later invention (crystals, syrups, refineries) exists to escape the fact that the juice dies with the stalk."
-     }
+     },
+     "carrier": "New Guinea highland cultivators"
     },
     {
      "place": "Patna (Pataliputra), Gangetic Plain",
@@ -842,7 +877,8 @@
       "name": "Kheer sweetened with khand",
       "blurb": "Ancient rice pudding, once honey-sweetened, now sweetened with granulated crystals.",
       "why": "It shows what storable sweetness made possible at home: honey's strong flavour was no longer the only way to sweeten milk."
-     }
+     },
+     "carrier": "Indian refiners and Buddhist monks"
     },
     {
      "place": "Shushtar, Khuzestan",
@@ -857,7 +893,8 @@
       "name": "Nabat, Persian rock candy",
       "blurb": "Glassy crystals grown on wooden sticks, served with tea in Iran to this day.",
       "why": "The refinery product in its most literal form: nothing done to the crystal except letting it grow, unchanged since."
-     }
+     },
+     "carrier": "Khuzestan refiners"
     },
     {
      "place": "Palermo, Sicily",
@@ -872,7 +909,8 @@
       "name": "Frutta di Martorana",
       "blurb": "Marzipan fruits \u2014 almond paste molded and painted \u2014 from the Palermo convent legend (founded 1194).",
       "why": "A Norman-era convent sweet built from the two Arab imports, sugar and almonds, that define Sicilian pastry; the legend itself is the evidence."
-     }
+     },
+     "carrier": "Arab settlers and Sicilian mill workers"
     },
     {
      "place": "Funchal, Madeira",
@@ -887,7 +925,8 @@
       "name": "Bolo de mel",
       "blurb": "Dark spiced \u201choney cake\u201d made with cane molasses \u2014 Madeira's oldest dessert, made by the nuns of Santa Clara in Funchal.",
       "why": "The island's byproduct made sacred: the molasses waste stream of the sugar industry, baked into a cake that keeps for months \u2014 the plantation economy you can eat."
-     }
+     },
+     "carrier": "Portuguese planters and enslaved African workers"
     },
     {
      "place": "Bridgetown",
@@ -902,7 +941,8 @@
       "name": "Rum (Rumbullion)",
       "blurb": "Distilled spirit first made in the mid-17th-century Caribbean by enslaved people on sugar plantations, fermenting molasses (1651 Barbados record: \u201cRumbullion, alias Kill-Divil\u201d).",
       "why": "The plantation's waste economy made drinkable: the molasses Europe wouldn't pay to ship became the colonies' own drink, later the currency alcohol of the triangular trade. (Origin credit is traditional; Brazil and India have earlier cane-spirit evidence.)"
-     }
+     },
+     "carrier": "English planters and enslaved African workers"
     },
     {
      "place": "Cap-Fran\u00e7ais (Cap-Ha\u00eftien), Saint-Domingue",
@@ -917,7 +957,8 @@
       "name": "Rapadou",
       "blurb": "Dense cakes of unrefined sugar sold in Haitian markets, eaten and traded today.",
       "why": "The plantation's product in its local, unrefined form \u2014 what sugar looked like before European refineries got their hands on it."
-     }
+     },
+     "carrier": "Enslaved African workers on French plantations"
     },
     {
      "place": "Vienna",
@@ -932,7 +973,8 @@
       "name": "Sachertorte",
       "blurb": "The chocolate-apricot layer cake Franz Sacher created in 1832 for Prince Metternich.",
       "why": "Its glaze and crumb demand refined white sugar in quantity \u2014 the flagship of a pastry culture that could only exist once beet made sweetness a temperate commodity."
-     }
+     },
+     "carrier": "Andreas Marggraf, Franz Achard and beet-sugar makers"
     },
     {
      "place": "Havana",
@@ -947,7 +989,8 @@
       "name": "Mojito",
       "blurb": "White rum, lime, mint and muddled cane sugar.",
       "why": "By 1920 Havana cane sugar was so cheap it could be spent freely in a working-class drink \u2014 sweetness as nothing special, the commodity at its most casual."
-     }
+     },
+     "carrier": "Cuban mill workers (seasonal wage labour)"
     }
    ]
   },
@@ -994,7 +1037,8 @@
       "name": "Sheng (raw) pu'er tea",
       "blurb": "Large-leaf Yunnan tea, sun-dried and pressed, aged like the brick teas of later trade.",
       "why": "The homeland's own format \u2014 minimally transformed large-leaf tea from living ancient trees, before courts, connoisseurs and empires touched it."
-     }
+     },
+     "carrier": "Yunnan village communities"
     },
     {
      "place": "Xi'an, Shaanxi",
@@ -1009,7 +1053,8 @@
       "name": "Imperial fine-bud tea",
       "blurb": "The burial tea \u2014 young unopened buds laid with an emperor.",
       "why": "Nobody buries a peasant's brew with an emperor; the grave good is the evidence that tea had become a prestige object by the Western Han."
-     }
+     },
+     "carrier": "Han imperial court and tribute carriers"
     },
     {
      "place": "Chang'an (Xi'an), Tang China",
@@ -1024,7 +1069,8 @@
       "name": "Tang boiled cake tea with salt",
       "blurb": "Ground cake boiled to a froth, light and unsweetened.",
       "why": "It is the recipe Lu Yu wrote down \u2014 a drink that requires a book, graded water and timed boils, already a world away from chewed Yunnan leaves."
-     }
+     },
+     "carrier": "Lu Yu and Tang tea connoisseurs"
     },
     {
      "place": "Lhasa",
@@ -1039,7 +1085,8 @@
       "name": "Po cha (Tibetan butter tea)",
       "blurb": "Brick-tea broth churned with yak butter and salt; working households drink 30\u201360 cups a day.",
       "why": "The most complete transformation in the journey \u2014 the same species, the opposite of Tang refinement; every \u201cwrong\u201d element (salty, buttery, bitter grades) is a precise answer to altitude."
-     }
+     },
+     "carrier": "Tea Horse Road traders and Tibetan households"
     },
     {
      "place": "Jian'an (Jian'ou), Fujian, Song China",
@@ -1054,7 +1101,8 @@
       "name": "Song whisked bowl (dian cha)",
       "blurb": "Powdered Jianzhou tea frothed in a black tenmoku bowl, judged on foam.",
       "why": "An entire ceramics industry existed to serve whisked tea; when the Ming abandoned whisking, the blackware industry collapsed with it."
-     }
+     },
+     "carrier": "Song tribute makers and Chan monks"
     },
     {
      "place": "Uji, Kyoto",
@@ -1069,7 +1117,8 @@
       "name": "Koicha (thick tea) in chanoyu",
       "blurb": "Powdered matcha whisked dense in a shared bowl, Rikyu's wabi style.",
       "why": "The Song whisked bowl still alive \u2014 Japan's transformation was preservation-through-refinement: the same dian cha technique, turned from imperial competition into a religion of quiet."
-     }
+     },
+     "carrier": "Eisai and Japanese tea masters"
     },
     {
      "place": "London",
@@ -1084,7 +1133,8 @@
       "name": "Tea with milk",
       "blurb": "Strong black tea whitened with milk and sweetened \u2014 the ancestor of builder's tea.",
       "why": "The specifically English transformation: no Chinese or Japanese drinker put milk in tea. Britain did not adopt tea; it domesticated it."
-     }
+     },
+     "carrier": "Dutch VOC merchants; Catherine of Braganza's court"
     },
     {
      "place": "Boston, Massachusetts",
@@ -1099,7 +1149,8 @@
       "name": "The undrunk Bohea",
       "blurb": "The 342 chests dumped into the harbor, never brewed.",
       "why": "Every other stop's highlight is a way of drinking; Boston's is a way of not drinking \u2014 proof that tea had become so embedded in imperial finance that refusing it was the sharpest political statement available."
-     }
+     },
+     "carrier": "East India Company shippers"
     },
     {
      "place": "Jorhat, Assam",
@@ -1114,7 +1165,8 @@
       "name": "Malty Assam black tea with milk",
       "blurb": "The strong plantation breakfast cup.",
       "why": "The product the whole operation was built for \u2014 once processing made an assamica leaf that could take milk and sugar, that cup displaced China in the British market."
-     }
+     },
+     "carrier": "Robert Fortune and Assam plantation labourers"
     },
     {
      "place": "Kandy (Loolecondera), Ceylon",
@@ -1129,7 +1181,8 @@
       "name": "Lipton-style branded Ceylon cup",
       "blurb": "Machine-made high-grown tea from a printed tin, taken with milk and sugar.",
       "why": "The tin is the transformation: Taylor proved Ceylon could grow tea; Lipton proved a brand could sell it to millions, completing the journey from imperial tribute to supermarket shelf."
-     }
+     },
+     "carrier": "James Taylor and Ceylon plantation workers"
     }
    ]
   },
@@ -1172,7 +1225,8 @@
       "name": "Fermented cacao-pulp drink (cacao chicha)",
       "blurb": "The sweet white mucilage of the pod, fermented into a low-alcohol brew.",
       "why": "The most honest reconstruction of the first cacao product \u2014 before grinding, roasting or foam existed; it kills the assumption that chocolate was always about the bean."
-     }
+     },
+     "carrier": "Upper Amazon communities"
     },
     {
      "place": "Paso de la Amada, Chiapas",
@@ -1202,7 +1256,8 @@
       "name": "Maya beaten cacao with chili",
       "blurb": "Bitter cacao frothed by pouring between vessels, foam crowned.",
       "why": "Everything distinctive about the Maya transformation exists to serve the foam \u2014 and the foam is what the Spanish court would later abandon."
-     }
+     },
+     "carrier": "Maya growers and lords"
     },
     {
      "place": "Tenochtitlan",
@@ -1217,7 +1272,8 @@
       "name": "Moctezuma's court xocolatl",
       "blurb": "Beaten cacao, chilled, spiced with vanilla and chili, served in a golden cup.",
       "why": "The last purely Mesoamerican stop and the version the Spanish actually tasted \u2014 everything Spain later changed (sugar, heat, milk) is measured against this cold, bitter, foamy baseline."
-     }
+     },
+     "carrier": "Aztec nobility, supplied by tribute"
     },
     {
      "place": "Seville",
@@ -1232,7 +1288,8 @@
       "name": "Chocolate a la espa\u00f1ola",
       "blurb": "Thick drinking chocolate, sweetened with cane sugar, spiced with cinnamon and vanilla, served hot.",
       "why": "Sugar is the European transformation in a cup \u2014 the first chocolate made to please rather than to consecrate, and the formula Europe kept for two centuries."
-     }
+     },
+     "carrier": "Cort\u00e9s's expedition; Spanish court and clergy"
     },
     {
      "place": "London",
@@ -1262,7 +1319,8 @@
       "name": "Dutch-process cocoa powder hot chocolate",
       "blurb": "Alkaline-treated cocoa powder stirred into hot water or milk, dark and mild.",
       "why": "The direct product of the press \u2014 one machine created both halves of modern chocolate, and this cup is the cheap half that democratised the drink."
-     }
+     },
+     "carrier": "Casparus van Houten Sr."
     },
     {
      "place": "Bristol",
@@ -1277,7 +1335,8 @@
       "name": "Fry's 1847 eating chocolate bar",
       "blurb": "Dark, gritty, moulded.",
       "why": "The first of its species \u2014 every later refinement (milk, conching, tempering) is an edit of this object."
-     }
+     },
+     "carrier": "J.S. Fry & Sons"
     },
     {
      "place": "Vevey and Bern",
@@ -1292,7 +1351,8 @@
       "name": "Conched Swiss milk chocolate bar",
       "blurb": "Milk chocolate, smooth from the conche, Gala Peter style.",
       "why": "The texture victory \u2014 the conche is invisible in the bar but unmistakable on the tongue; every smooth chocolate since 1879 is Lindt's idea wearing someone else's wrapper."
-     }
+     },
+     "carrier": "Daniel Peter, Nestl\u00e9, and Rodolphe Lindt"
     },
     {
      "place": "Mampong-Akuapem, Gold Coast",
@@ -1307,7 +1367,8 @@
       "name": "The modern mass-market milk chocolate bar",
       "blurb": "Grown in West Africa, made in Europe.",
       "why": "The only honest dish for this stop, because Ghana mostly exports beans rather than eating chocolate \u2014 the bar makes the divorce visible: cacao grown by a West African smallholder, shipped 5,000 km before it ever met milk."
-     }
+     },
+     "carrier": "Tetteh Quarshie and Gold Coast smallholders"
     }
    ]
   },
@@ -1332,7 +1393,8 @@
       "name": "Stone-ground maize gruel (proto-atole)",
       "blurb": "Warm porridge of ground early maize, flour and water.",
       "why": "The evidence is ground starch, not cobs, so gruel is the only honest 'first dish.' It shows maize before it looked like maize \u2014 no golden ears, just the beginning of a 9,000-year kitchen."
-     }
+     },
+     "carrier": "Early Holocene foragers of the Balsas valley"
     },
     {
      "place": "Guil\u00e1 Naquitz Cave, Oaxaca",
@@ -1347,7 +1409,8 @@
       "name": "Roasted primitive cob",
       "blurb": "A finger-sized, 2-rowed ear eaten off the fire.",
       "why": "It is the anti-icon. Every later stop's maize is plumper and more productive; this one shows how little there was to work with, and how much selection the plant still had ahead of it."
-     }
+     },
+     "carrier": "Oaxacan highland growers"
     },
     {
      "place": "Tucson Basin",
@@ -1377,7 +1440,8 @@
       "name": "The corn tortilla",
       "blurb": "Nixtamal, ground, patted, and baked on the comal.",
       "why": "The tortilla is nixtamalization made edible. Every tortilla is a dose of bioavailable niacin, and the tortilla-bean pairing is the complete protein that fed cities. It is the single most important food technology in the dossier, and it fits in your hand."
-     }
+     },
+     "carrier": "Mesoamerican cooks"
     },
     {
      "place": "Venice and the Veneto",
@@ -1392,7 +1456,8 @@
       "name": "Polenta",
       "blurb": "Coarse cornmeal boiled and stirred in the copper paiolo.",
       "why": "Polenta is the evidence of the missing step. Same porridge form Rome had eaten for a millennium, same yellow grain as the tortilla's \u2014 but made without alkali, it carried a slow epidemic. The dish proves that with maize, the technique was the nutrition."
-     }
+     },
+     "carrier": "Spanish ships of Columbus's return; Venetian farmers"
     },
     {
      "place": "The Gold Coast",
@@ -1407,7 +1472,8 @@
       "name": "Ga kenkey",
       "blurb": "Fermented maize dough wrapped and steamed in corn husks.",
       "why": "Kenkey is not a copy of masa. Fermentation plus the husk wrapper is West Africa's own technology applied to the American grain \u2014 proof that each stop reinvented maize rather than inheriting it."
-     }
+     },
+     "carrier": "Portuguese sailors and Gold Coast growers"
     },
     {
      "place": "Spartanburg, South Carolina",
@@ -1437,7 +1503,8 @@
       "name": "Cornflakes",
       "blurb": "Toasted, boxed, branded flakes, invented in Battle Creek, Michigan in 1894.",
       "why": "Cornflakes were the first maize product designed for a factory rather than a kitchen \u2014 and their mass era is the hybrid-corn era. The flake is the emblem of the grain's industrial afterlife: the same species as the Balsas gruel, now a trademark."
-     }
+     },
+     "carrier": "Donald Jones and hybrid-corn breeders"
     }
    ],
    "sources": [
@@ -1476,7 +1543,8 @@
       "name": "Milagu rasam",
       "blurb": "The thin, tamarind-pepper broth of Tamil Nadu and Kerala, sharpened with cracked black peppercorns and cumin.",
       "why": "Rasam is pepper before it became treasure \u2014 the everyday form, a soup whose whole point is pepper's clean heat. It proves the spice was ordinary food at origin for thousands of years before any European tasted it."
-     }
+     },
+     "carrier": "Malabar forest communities"
     },
     {
      "place": "Thebes",
@@ -1491,7 +1559,8 @@
       "name": "No dish \u2014 and that is the argument",
       "blurb": "Egyptians did not cook with pepper; the berry went to the dead, not the kitchen.",
       "why": "The absence is the argument. Pepper's first foreign use was as funerary wealth, which fixes how it was valued before it ever touched food: as incorruptible treasure, not as dinner."
-     }
+     },
+     "carrier": "Indian Ocean\u2013Red Sea traders"
     },
     {
      "place": "Muziris",
@@ -1506,7 +1575,8 @@
       "name": "Chuttulli meen",
       "blurb": "Malabar grilled fish rubbed with cracked black pepper.",
       "why": "While Rome paid gold for the berry, the coast that grew it ate it on the day's catch. Same spice, two economies: treasure abroad, Tuesday's dinner at home."
-     }
+     },
+     "carrier": "Greek and Roman merchants"
     },
     {
      "place": "Rome",
@@ -1521,7 +1591,8 @@
       "name": "Apician dulcia",
       "blurb": "Spiced sweet cakes and egg dishes with pepper; Roman writers describe cooks stirring as much as two tablespoons of pepper into a dish of four eggs.",
       "why": "Pepper in dessert is the tell. Nobody needs pepper in cake; putting it there says 'I can afford to burn money on flavour.' The dish is status, plated."
-     }
+     },
+     "carrier": "Roman merchants"
     },
     {
      "place": "Venice",
@@ -1536,7 +1607,8 @@
       "name": "Cameline sauce",
       "blurb": "The most-cited sauce of medieval France (some fifty 14th\u201315th-century recipes): cinnamon 'in great abundance,' ginger, cloves, grains of paradise, and pepper, ground with bread and sharpened with vinegar or wine, served with roast meats.",
       "why": "Cameline shows pepper's demotion beginning \u2014 no longer the solo star as in Rome, now one voice in a luxury chorus. The spice that once ransomed a city is now a line item in a sauce recipe."
-     }
+     },
+     "carrier": "Arab merchants and Venetian merchants"
     },
     {
      "place": "Calicut",
@@ -1551,7 +1623,8 @@
       "name": "Kozhi milagu varuval",
       "blurb": "Kerala chicken fried with crushed black peppercorns.",
       "why": "Five centuries of empires fought over this berry, and at home it never stopped being what it was \u2014 the heat itself, crushed fresh over chicken. The dish is the anti-monopoly: pepper as food, not as finance."
-     }
+     },
+     "carrier": "Vasco da Gama's Portuguese fleet"
     },
     {
      "place": "Amsterdam",
@@ -1566,7 +1639,8 @@
       "name": "Speculaas",
       "blurb": "The traditional Dutch spiced biscuit, born in the 17th-century trading boom: cinnamon, nutmeg, cloves, ginger, cardamom, and black pepper in the spice mix, pressed in wooden molds.",
       "why": "Speculaas is the monopoly era fossilised in dough. The berries that once came home in armed carracks, worth a pound of silver per pound, ended up as one note in a holiday cookie \u2014 pepper's whole arc from treasure to pantry, in a single bite."
-     }
+     },
+     "carrier": "Dutch East India Company (VOC)"
     },
     {
      "place": "Central Highlands",
@@ -1581,7 +1655,8 @@
       "name": "Cacio e pepe",
       "blurb": "Rome's three-ingredient pasta: tonnarelli, Pecorino Romano, and black pepper, no more.",
       "why": "After 4,000 years, pepper finally got a dish named for it. Not a ransom, not a rent, not a monopoly \u2014 just the berry, celebrated for itself. The status spice came home to being food."
-     }
+     },
+     "carrier": "Vietnamese pepper farmers"
     }
    ],
    "sources": [
@@ -1620,7 +1695,8 @@
       "name": "Sri Lankan chicken curry with cinnamon bark",
       "blurb": "A true cinnamon quill simmered into coconut-milk curry alongside cardamom and cloves.",
       "why": "It shows the bark at home, where it was always a supporting spice. Every later stop treats cinnamon as the precious cargo; here it is just one warmth among many in the island's own kitchen \u2014 proof that the luxury story was invented at the far end of the trade route, not at its source."
-     }
+     },
+     "carrier": "Sri Lankan peelers (Salagama/Kurundukara)"
     },
     {
      "place": "Thebes",
@@ -1635,7 +1711,8 @@
       "name": "Kyphi",
       "blurb": "The sacred temple incense (myrrh, honey, wine, and aromatic barks including cinnamon/cassia) burned in evening rites.",
       "why": "It is not food, and that is the point. Kyphi proves that for two thousand years cinnamon's first and most important job in the West was religious \u2014 cooked never, burned always."
-     }
+     },
+     "carrier": "Arabian middlemen of the Red Sea trade"
     },
     {
      "place": "Jerusalem",
@@ -1650,7 +1727,8 @@
       "name": "The holy anointing oil",
       "blurb": "Olive oil blended with myrrh, sweet cinnamon, sweet calamus, and cassia (Exodus 30:23).",
       "why": "Why this 'dish': it is a recipe, measured and mixed, just never eaten. It proves the bark's status before it ever touched food: an ingredient of consecration, where the cinnamon in the blend is the expensive half of the formula."
-     }
+     },
+     "carrier": "Arabian caravan traders"
     },
     {
      "place": "Southern China",
@@ -1665,7 +1743,8 @@
       "name": "Hong shao rou",
       "blurb": "Red-braised pork belly with cassia bark, star anise, and soy.",
       "why": "It is the honest home of the bark that pretended to be cinnamon for three thousand years. Cassia here is not a substitute; it is the intended flavor \u2014 woody, assertive, the backbone of the braise \u2014 showing what the 'other' bark is when it is not being mislabeled."
-     }
+     },
+     "carrier": "Chinese cooks and physicians (cassia)"
     },
     {
      "place": "Rome",
@@ -1680,7 +1759,8 @@
       "name": "Conditum paradoxum",
       "blurb": "Roman spiced wine from Apicius, wine steeped with honey, pepper, and aromatic barks including cinnamon/cassia.",
       "why": "It is the ancestor of every European mulled wine to come. It proves Rome had already moved cinnamon from the pyre toward the cup \u2014 the first step in the bark's two-thousand-year migration from ritual to recipe."
-     }
+     },
+     "carrier": "Red Sea traders"
     },
     {
      "place": "Venice",
@@ -1695,7 +1775,8 @@
       "name": "Hippocras",
       "blurb": "Red or white wine steeped with ground cinnamon (the dominant spice), ginger, cloves, and sugar, filtered clear.",
       "why": "It is the medieval European use of cinnamon in its purest form \u2014 cinnamon as medicine, status, and pleasure in a single cup, and the recipe survives verbatim from 1300. Every later European cinnamon dessert descends from this spiced-wine logic."
-     }
+     },
+     "carrier": "Arab merchants and Venetian merchants"
     },
     {
      "place": "Galle",
@@ -1710,7 +1791,8 @@
       "name": "Leite-creme",
       "blurb": "The Portuguese baked custard finished with a dusting of ground cinnamon (the ancestor of cr\u00e8me br\u00fbl\u00e9e).",
       "why": "It is the first European dessert where cinnamon is not medicine or ritual but pure pleasure \u2014 the bark's arrival in the sweet kitchen, made possible only because Portuguese ships now sailed straight to the source instead of buying from Venice at tenth hand."
-     }
+     },
+     "carrier": "Portuguese traders (Almeida's squadron)"
     },
     {
      "place": "Colombo",
@@ -1725,7 +1807,8 @@
       "name": "Lamprais",
       "blurb": "The Dutch Burgher rice parcel of Sri Lanka: rice, meat curries (with cinnamon bark among the spices), and sambol, wrapped in banana leaf and baked.",
       "why": "It is the island's own cuisine absorbing the colonizers' table. While the VOC burned trees to keep cinnamon scarce in Europe, Sri Lankan kitchens kept cooking with it \u2014 proof the bark never stopped being a home spice even as empires fought over it as a commodity."
-     }
+     },
+     "carrier": "Salagama peelers under VOC forced labour"
     },
     {
      "place": "Mexico City",
@@ -1740,7 +1823,8 @@
       "name": "Champurrado",
       "blurb": "The thick chocolate atole of masa, cacao, sugar, and canela, whisked with the molinillo.",
       "why": "It is the fusion made edible. Cacao is Mesoamerican; sugar and cinnamon are the colonial arrivals; the molinillo froth is the technique that binds them. One cup holds the whole route: a Sri Lankan bark, carried by Portuguese and Spanish ships, seasoning an Aztec drink."
-     }
+     },
+     "carrier": "Spanish colonists on the Manila galleon route"
     },
     {
      "place": "Stockholm",
@@ -1755,7 +1839,8 @@
       "name": "Kanelbulle",
       "blurb": "The knotted cinnamon-and-cardamom bun of fika.",
       "why": "It is the proof that the price collapse actually happened. No king, no monopoly, no medicine \u2014 just a bun, eaten by millions, whose existence depends on cinnamon being cheap. The most democratic form the bark has ever taken."
-     }
+     },
+     "carrier": "Swedish home bakers"
     }
    ],
    "sources": [
@@ -1794,7 +1879,8 @@
       "name": "No dish \u2014 and that is the argument",
       "blurb": "The Totonacs' vanilla never had a signature dish; it went into scent, medicine, and the tribute chest.",
       "why": "The absence is the argument. Vanilla's first recorded economic role is as tribute goods flowing uphill to the Aztec capital, not as a dish. Its first documented food form belongs to the people who took it from them, at the next stop. (Same pattern as the black-pepper journey's funerary stop.)"
-     }
+     },
+     "carrier": "Totonac growers"
     },
     {
      "place": "Tenochtitlan",
@@ -1809,7 +1895,8 @@
       "name": "Xocolatl",
       "blurb": "Frothy, unsweetened cacao beaten with water, vanilla, and chili, served cold in the Aztec court.",
       "why": "It is the oldest documented dish-form of vanilla, and it shows vanilla before it was 'vanilla': not the main flavour, not sweet, just the aromatic that made a bitter ritual drink fit for a king."
-     }
+     },
+     "carrier": "Aztec nobility, supplied by tribute"
     },
     {
      "place": "Madrid",
@@ -1824,7 +1911,8 @@
       "name": "Chocolate a la taza",
       "blurb": "The thick Spanish drinking chocolate of the 17th century, dark and barely sweet, flavoured with vanilla.",
       "why": "It is the form in which Europe first fell for vanilla, and it proves the point: for a hundred years, vanilla was only ever tasted through chocolate."
-     }
+     },
+     "carrier": "Cort\u00e9s's ships; Spanish courtiers"
     },
     {
      "place": "London",
@@ -1839,7 +1927,8 @@
       "name": "Vanilla sweetmeats",
       "blurb": "Elizabethan comfits and sugar confections flavoured with vanilla alone, no chocolate.",
       "why": "It marks the exact moment vanilla stopped being chocolate's plus-one. A small court candy, and the beginning of vanilla as the default sweet flavour of the Western world."
-     }
+     },
+     "carrier": "Hugh Morgan, apothecary to Elizabeth I (reported)"
     },
     {
      "place": "Paris",
@@ -1854,7 +1943,8 @@
       "name": "Cr\u00e8me glac\u00e9e \u00e0 la vanille",
       "blurb": "French-style vanilla ice cream, the Jefferson recipe's ancestor.",
       "why": "It is the dish that made vanilla mean what it means today. Ask anyone to picture 'vanilla' and they picture this, not the orchid."
-     }
+     },
+     "carrier": "French ice-cream and pastry makers"
     },
     {
      "place": "Saint-Denis, R\u00e9union",
@@ -1869,7 +1959,8 @@
       "name": "Canard \u00e0 la vanille",
       "blurb": "The classic R\u00e9union Creole dish of duck braised with vanilla pods.",
       "why": "It is vanilla used the way the Indian Ocean learned it: not as a sweet afterthought but as a savoury spice, the pod split and simmered into meat. The island that industrialised vanilla also cooked with it like a spice, not a flavouring."
-     }
+     },
+     "carrier": "Edmond Albius, enslaved pollinator, aged 12"
     },
     {
      "place": "Holzminden",
@@ -1884,7 +1975,8 @@
       "name": "Yellow birthday cake with vanilla frosting",
       "blurb": "The mid-century American classic.",
       "why": "This is synthetic vanillin's monument. The cake that taught generations 'vanilla' means plain, sweet, and white was built on the molecule Haarmann patented, not on any orchid. It is also why 'plain vanilla' became an insult."
-     }
+     },
+     "carrier": "Wilhelm Haarmann (vanillin synthesis)"
     },
     {
      "place": "Antalaha, SAVA region",
@@ -1899,7 +1991,8 @@
       "name": "Cr\u00e8me br\u00fbl\u00e9e \u00e0 la vanille",
       "blurb": "The torched custard with its glass lid, made properly with a split Madagascar pod, seeds visible.",
       "why": "It is the dish where real vanilla justifies its price. In the age of 97% synthetic, cr\u00e8me br\u00fbl\u00e9e is the receipt: restaurants print 'Madagascar vanilla' on the menu because the pod's 200-plus aroma compounds, not just vanillin, are the whole point of the dessert."
-     }
+     },
+     "carrier": "Malagasy pollinators and curers (SAVA region)"
     }
    ],
    "sources": [
@@ -1942,7 +2035,8 @@
       "name": "Stone-ground emmer-einkorn gruel",
       "blurb": "Coarse meal and water, warm: proto-porridge.",
       "why": "The evidence is ground starch and grinding stones, not loaves, so gruel is the only honest first dish. It shows wheat before wheat looked like food: no golden ears, just flour and fire, the beginning of a 10,000-year kitchen."
-     }
+     },
+     "carrier": "Natufian and early Neolithic foragers"
     },
     {
      "place": "Upper Danube Valley",
@@ -1957,7 +2051,8 @@
       "name": "LBK einkorn flatbread",
       "blurb": "Coarse stone-ground meal, water, hot stone.",
       "why": "It is bread before leavening, made from the exact founding crop the farmers carried. No yeast, no oven, no stamp: the honest baseline every later stop's wheat departs from."
-     }
+     },
+     "carrier": "Neolithic farming migrants (Star\u010devo/LBK)"
     },
     {
      "place": "Nile Valley",
@@ -1972,7 +2067,8 @@
       "name": "Aish baladi",
       "blurb": "Egypt's round, pocketed whole-wheat flatbread, still baked in blistering ovens.",
       "why": "It is the living descendant of the pharaonic loaf: leavened, baked in fierce heat, eaten with every meal. If any bread on earth has a 6,000-year pedigree, it is this one."
-     }
+     },
+     "carrier": "Egyptian farmers and bakers"
     },
     {
      "place": "Loess Plateau",
@@ -2002,7 +2098,8 @@
       "name": "Panis quadratus",
       "blurb": "The carbonized eight-wedged loaf of Pompeii.",
       "why": "It is mass production made edible: stamped, scored, identical loaves from commercial bakeries. The Roman loaf is the first bread in this dossier made by an industry rather than a household."
-     }
+     },
+     "carrier": "Roman grain shippers and bakers"
     },
     {
      "place": "Trabia, Sicily",
@@ -2017,7 +2114,8 @@
       "name": "Dried spaghetti",
       "blurb": "Long durum strands, bronze-die rough.",
       "why": "It is itriya's direct descendant: the same hard-wheat, dried, exportable form al-Idrisi described. The dish proves that with pasta, the technology (durum + drying) was the product, not the shape."
-     }
+     },
+     "carrier": "Arab Sicilian farmers"
     },
     {
      "place": "Valley of Mexico",
@@ -2032,7 +2130,8 @@
       "name": "Concha",
       "blurb": "The shell-patterned sweet bread of the Mexican panader\u00eda.",
       "why": "The concha is wheat's Mexican passport. It uses the colonizer's grain in a bakery tradition that is entirely Mexico's own: proof that wheat naturalized by becoming something new, not by replacing what was there."
-     }
+     },
+     "carrier": "Spanish conquistadors and friars"
     },
     {
      "place": "Sonora",
@@ -2047,7 +2146,8 @@
       "name": "Sonoran flour tortilla (tortilla grande de harina)",
       "blurb": "Thin, enormous, blistered.",
       "why": "It is the tortilla's shape made from the colonizer's grain: the one place in Mexico where wheat beat maize at its own game, by becoming the tortilla."
-     }
+     },
+     "carrier": "Jesuit missions (Eusebio Kino) and Sonoran residents"
     },
     {
      "place": "Red River Valley",
@@ -2062,7 +2162,8 @@
       "name": "The white sandwich loaf",
       "blurb": "Soft, square, sliced.",
       "why": "Hard spring wheat plus the roller mill plus industrial baking produced the uniform white loaf. It is the bonanza's true product: wheat as a standardized industrial good, identical from Minneapolis to Manchester."
-     }
+     },
+     "carrier": "Bonanza-farm workers"
     },
     {
      "place": "Punjab (Ludhiana)",
@@ -2077,7 +2178,8 @@
       "name": "Atta roti (chapati)",
       "blurb": "Whole-wheat, puffed on the flame.",
       "why": "The Green Revolution's wheat did not become bread. It became the roti: the grain's most radical transformation in this dossier, feeding a subcontinent in a form no European baker would recognize as wheat's destiny."
-     }
+     },
+     "carrier": "Norman Borlaug and Indian wheat farmers"
     }
    ],
    "sources": [
@@ -2116,7 +2218,8 @@
       "name": "Yangzhou fried rice",
       "blurb": "Rice, egg, ham, shrimp, spring onion, wok.",
       "why": "It is the frugality technique elevated to banquet food, penultimate course at imperial tables. It proves rice's Chinese role: the grain is a medium, not a flavor; the technique and what joins it are the point."
-     }
+     },
+     "carrier": "Lower Yangtze foragers and farmers"
     },
     {
      "place": "Ganges and Indus plains",
@@ -2131,7 +2234,8 @@
       "name": "Biryani",
       "blurb": "Layered aromatic rice with spiced meat.",
       "why": "It is the celebration of basmati's separation and fragrance: the grain's job is to stay distinct, fragrant, and al dente. Where Yangzhou fried rice treats rice as a medium, biryani treats it as the star."
-     }
+     },
+     "carrier": "Indus and Ganges rice cultivators"
     },
     {
      "place": "Laos",
@@ -2161,7 +2265,8 @@
       "name": "Steamed glaberrima rice with peanut or leaf sauce",
       "blurb": "The home grain of the second domestication.",
       "why": "It is rice the world forgot. While sativa conquered the planet, glaberrima fed West Africa for 3,000 years and now survives mostly as heritage seed: the dish is evidence of a parallel food system being erased by the Asian variety."
-     }
+     },
+     "carrier": "Jola dike-and-drainage farmers"
     },
     {
      "place": "Northern Kyushu",
@@ -2176,7 +2281,8 @@
       "name": "Onigiri",
       "blurb": "Salted rice, pressed, with umeboshi or salmon and a nori band.",
       "why": "It is rice as infrastructure: portable, rationable, durable. The onigiri proves the Japanese use: rice so central it had to become food you could carry to war and temple alike."
-     }
+     },
+     "carrier": "Migrants from the Korean Peninsula"
     },
     {
      "place": "Albufera, Valencia",
@@ -2191,7 +2297,8 @@
       "name": "Paella valenciana",
       "blurb": "Rabbit, chicken, beans, socarrat.",
       "why": "It defends the grain against its own success. The 'real' paella is the inland farmers' dish, not the seafood tourist version: and the socarrat proves rice has a second life at the bottom of the pan."
-     }
+     },
+     "carrier": "Moorish settlers (from 711)"
     },
     {
      "place": "Cairo",
@@ -2206,7 +2313,8 @@
       "name": "Pilaf",
       "blurb": "Toasted long grain, broth, aromatics, separate grains.",
       "why": "It is a technique masquerading as a dish. The pilaf proves that how rice is cooked (fat first, measured liquid, no stirring) can be more defining than which rice is used."
-     }
+     },
+     "carrier": "Arab traders and settlers"
     },
     {
      "place": "Po Valley, Lombardy",
@@ -2236,7 +2344,8 @@
       "name": "Hoppin' John",
       "blurb": "Black-eyed peas and rice, the Lowcountry's New Year dish. A 19th-century dish, not a plantation-era recipe: the dossier keeps it only as a later descendant, with that caveat.",
       "why": "It is the edible descendant of the rice-coast culture in America: rice and cowpeas, the pairing of the West African kitchen, surviving as ritual food two centuries after the fields went silent."
-     }
+     },
+     "carrier": "Enslaved West Africans (rice-coast expertise)"
     },
     {
      "place": "Los Ba\u00f1os",
@@ -2251,7 +2360,8 @@
       "name": "Plain steamed IR8",
       "blurb": "A bowl of white rice.",
       "why": "No technique, no garnish, no region. The plain bowl is the honest evidence of what the Green Revolution produced: calories, at scale, for the half of humanity that lives on rice."
-     }
+     },
+     "carrier": "IRRI breeders at Los Ba\u00f1os"
     }
    ],
    "sources": [
@@ -2274,6 +2384,522 @@
     {
      "label": "USDA Rice Explorer 2024: India 150.0 / China 145.3 Mt milled, world 541.3 Mt",
      "url": "https://ipad.fas.usda.gov/cropexplorer/cropview/commodityView.aspx?cropid=0422110&sel_year=2024&rankby=Production"
+    }
+   ]
+  },
+  {
+   "id": "banana",
+   "name": "Banana",
+   "color": "#eec233",
+   "standard": "new",
+   "tagline": "The seedless mutant that fed nations, then became a single clone",
+   "framing": "A seedless mutant banana selected by New Guinea highlanders ~6,500 years ago crossed the tropics as both dessert fruit and cooking staple \u2014 split into AAA dessert and AAB/ABB cooking genome groups in island Southeast Asia \u2014 and the export trade then collapsed the whole species into a single sterile clone, the Cavendish, which a soil fungus is now killing.",
+   "stops": [
+    {
+     "place": "Kuk Swamp, Papua New Guinea highlands",
+     "country": "Papua New Guinea",
+     "lat": -5.78,
+     "lon": 144.33,
+     "year": -5000,
+     "era": "c. 5000 BCE",
+     "note": "No arrival: the homeland. Papuan highland cultivators drained swamp plots and tended Musa stands; phytoliths show a move from manipulation (c. 10,200\u20139,910 cal BP) to deliberate cultivation (c. 6,950\u20136,440 cal BP). They selected seedless Musa acuminata subsp. banksii mutants \u2014 a sterile sport that survives only because people propagate it by suckers.",
+     "use": "Starchy food crop alongside taro in a mixed-cultivation system. No dish survives from prehistory, and none is invented here: the honest highlight is the technology itself, vegetative propagation of a sterile plant, and the banana leaf as cooking vessel, wrapping material, and craft fibre.",
+     "highlightDish": {
+      "name": "No dish \u2014 and that is the argument",
+      "blurb": "The leaf-wrapped cooking technique: banana leaf as pot, wrapper, and plate.",
+      "why": "When no food record exists, the honest highlight is the tool, not an invented recipe. The leaf is the prehistoric kitchen technology that survives everywhere bananas are eaten \u2014 steaming, wrapping, serving."
+     }
+    },
+    {
+     "place": "Island Southeast Asia (Philippines / northern New Guinea)",
+     "country": "Philippines",
+     "lat": 5.0,
+     "lon": 120.0,
+     "year": -2000,
+     "era": "c. 2000 BCE",
+     "note": "Cultivated A-genome bananas spread westward into the range of wild Musa balbisiana (B genome); natural hybridization produced triploid cultivars \u2014 AAA dessert bananas, AAB plantains, ABB cooking bananas. Austronesian-speaking seafarers carried these hybrids onward across the Indian Ocean world. The date is debated.",
+     "use": "This is where the banana split in two. AAA types became the sweet dessert fruit; AAB and ABB types became cooked staples \u2014 boiled, roasted, pounded, fried \u2014 because their starch needs heat to become digestible. Every later stop is downstream of this split.",
+     "highlightDish": {
+      "name": "Pisang goreng",
+      "blurb": "Battered deep-fried banana, the Indonesian/Malaysian street snack.",
+      "why": "It proves the cooking banana's logic \u2014 starch, batter, heat \u2014 the sweet AAA banana fried like a vegetable. The 'introduced by Portuguese in 1511' origin story is unverified food-blog lore and is not stated here."
+     }
+    },
+    {
+     "place": "South Asia (India)",
+     "country": "India",
+     "lat": 21.0,
+     "lon": 78.0,
+     "year": -327,
+     "era": "c. 327 BCE",
+     "note": "Westward along Southeast Asian maritime and overland routes; by the time of Alexander's expedition (327 BCE) bananas were established in India. India became the deepest secondary-diversity zone \u2014 and eventually the world's top producer.",
+     "use": "India used the banana in every register: ripe dessert fruit; nendran plantain cooked as a vegetable; raw banana dried and powdered as babies' first food; plantain leaf as plate and ritual offering. The industrial form: deep-fried banana chips (nenthra-kaaya upperi), sliced nendran fried in coconut oil.",
+     "highlightDish": {
+      "name": "Kerala nendran chips (nenthra-kaaya upperi)",
+      "blurb": "Sliced nendran plantain fried in coconut oil and salted, served at weddings and the Onam sadya.",
+      "why": "It is the cooking banana at its most disciplined \u2014 a snack with wedding-and-festival status. It proves the AAB banana is a starch crop in India's hands, not a fruit."
+     }
+    },
+    {
+     "place": "East African Great Lakes (Uganda)",
+     "country": "Uganda",
+     "lat": 0.35,
+     "lon": 32.58,
+     "year": 300,
+     "era": "c. 300 CE",
+     "note": "Triploid bananas introduced from Southeast Asia via Indian Ocean trade in the early centuries CE (exact carrier debated \u2014 Austronesian sailors, Indian merchants, or both). They diversified locally into the East African Highland bananas (AAA, Mutika/Lujugira subgroup), genetically near-uniform, likely descended from a single ancestral clone, now 500+ local cultivar names.",
+     "use": "The region's defining staple. Green bananas are peeled, wrapped in banana leaves, steamed for hours in a sufuria over coals, then mashed \u2014 matoke. In Uganda the word for matoke is synonymous with the word for food. Consumption runs ~0.70 kg per person per day, the highest banana consumption in the world.",
+     "highlightDish": {
+      "name": "Matoke",
+      "blurb": "Leaf-steamed, mashed green banana with groundnut or meat sauce.",
+      "why": "It is the meal itself, not a side. Matoke proves the cooking banana's ultimate role: staple carbohydrate, steamed in its own leaf, feeding a country at 0.7 kg a day."
+     }
+    },
+    {
+     "place": "West and Central Africa (Congo Basin / forest zone)",
+     "country": "Cameroon",
+     "lat": 4.0,
+     "lon": 12.0,
+     "year": 800,
+     "era": "c. 800 CE",
+     "note": "Plantains (AAB Plantain subgroup) spread through the forest zone; timing is debated \u2014 the orthodox Indian Ocean route vs. contested claims of very early arrival from the disputed Cameroon phytolith evidence. The word 'banana' itself likely entered European languages from here, possibly from Wolof, first recorded in English in the 1590s.",
+     "use": "The plantain became the forest-zone staple: boiled, roasted over coals, pounded into fufu, fried as dodo. The pounding technique is the key export: enslaved Africans would later carry it to the Caribbean.",
+     "highlightDish": {
+      "name": "Fufu",
+      "blurb": "Pounded boiled plantain.",
+      "why": "It is the ancestor in this journey's most important dish lineage \u2014 fufu (West Africa) to mofongo (Puerto Rico). The technique, not the fruit, is what traveled."
+     }
+    },
+    {
+     "place": "Abbasid Middle East and the Mediterranean",
+     "country": "Jordan",
+     "lat": 31.95,
+     "lon": 35.93,
+     "year": 850,
+     "era": "c. 850 CE",
+     "note": "Arab merchants carried the banana west along trade routes; references appear in 9th-century Islamic texts, and bananas were established in Palestine and Egypt by the 10th century; Granada's bananas were later prized in the medieval Arab world.",
+     "use": "Luxury and medicine. In the medieval Arab world the banana was a garden and court fruit \u2014 prized, cultivated in palace and monastery gardens, written about as a medicinal and delightful food rather than a staple. This is the lightest stop: the use-story is status, not sustenance.",
+     "highlightDish": {
+      "name": "The ripe banana itself, in Abbasid palace gardens",
+      "blurb": "No recipe: the fruit eaten as the fruit, the dessert-banana role stripped to its minimum.",
+      "why": "When a culture treats the banana as luxury, no transformation is the point. Between India's chips and Uganda's staple, the medieval Arab world treated it as the dessert it looked like \u2014 proof the same plant could be luxury or subsistence depending on who was eating."
+     }
+    },
+    {
+     "place": "Canary Islands to Santo Domingo, Hispaniola",
+     "country": "Dominican Republic",
+     "lat": 18.49,
+     "lon": -69.89,
+     "year": 1516,
+     "era": "1516",
+     "note": "Portuguese sailors brought the banana to the Canary Islands from West Africa in the early 15th century; the Canaries became the Atlantic staging post. Fray Tom\u00e1s de Berlanga carried banana plants from Gran Canaria to Santo Domingo in 1516. In 1516 Berlanga was a Dominican friar and missionary \u2014 not yet Bishop of Panama (that came in 1534). From Hispaniola the banana spread to the mainland and the Caribbean.",
+     "use": "Provision-ground crop. Enslaved Africans grew bananas on the small provision plots alongside sugar plantations \u2014 boiled, roasted, fried \u2014 and the plantain knowledge of the Caribbean kitchen is substantially African foodways transplanted.",
+     "highlightDish": {
+      "name": "Tostones",
+      "blurb": "Green plantain, fried, smashed, fried again, salted.",
+      "why": "Twice-cooked, they are the provision-ground logic made edible \u2014 the starchy plantain rendered crisp through the double fry, African technique in a Caribbean kitchen, a street food that needs no recipe beyond heat and salt."
+     }
+    },
+    {
+     "place": "Caribbean plantain kitchen (Puerto Rico)",
+     "country": "Puerto Rico",
+     "lat": 18.22,
+     "lon": -66.59,
+     "year": 1750,
+     "era": "c. 1750",
+     "note": "Centuries of African, Ta\u00edno, and Spanish foodways fusing on the islands; the banana had been there since 1516, but the creole cuisine matured in the plantation era.",
+     "use": "Mofongo \u2014 fried green plantains mashed in a pil\u00f3n with garlic and chicharr\u00f3n. The roots are West African fufu brought by enslaved laborers, Ta\u00edno pil\u00f3n-mashing attested archaeologically, Spanish sofrito folded in. Three food cultures in one mortar.",
+     "highlightDish": {
+      "name": "Mofongo",
+      "blurb": "Fried green plantain mashed with garlic and chicharr\u00f3n, often with broth poured over.",
+      "why": "It is the journey's fufu lineage completed \u2014 West African technique, Ta\u00edno tool, Spanish seasoning. No dish proves the banana's role as a carrier of culture better: the plant is African, the mortar is Ta\u00edno, the flavor is Spanish, and it is none of those alone."
+     }
+    },
+    {
+     "place": "United States, the banana-republic era",
+     "country": "Honduras",
+     "lat": 15.5,
+     "lon": -88.0,
+     "year": 1900,
+     "era": "c. 1900",
+     "note": "Lorenzo Dow Baker's 1870 Jamaica venture brought bananas to the US market; Boston Fruit merged with Minor C. Keith's Costa Rican railroad-and-land enterprises to form the United Fruit Company in 1899 \u2014 capitalized at ~$11.2M, by 1930 the largest employer in Central America, shipping on its 'Great White Fleet'. O. Henry coined 'banana republic' in Cabbages and Kings (1904) from his 1896\u201397 stay in Honduras.",
+     "use": "The Gros Michel ('Big Mike') export monoculture made the banana America's cheap year-round fruit. The dark side: the 1928 Ci\u00e9naga 'Banana Massacre' in Colombia and the 1954 CIA-backed coup in Guatemala. And the kitchen use: banana bread \u2014 first printed in Pillsbury's Balanced Recipes (1933), enabled by mass-market baking soda and Depression-era thrift.",
+     "highlightDish": {
+      "name": "Banana bread",
+      "blurb": "Originally made with Gros Michel, now with Cavendish.",
+      "why": "It is the export banana's only real American dish \u2014 and it exists because the banana became so cheap that throwing overripe ones away was the scandal, not eating them. The bread is the thrift of the empire, baked."
+     }
+    },
+    {
+     "place": "Guayaquil, Ecuador \u2014 the export trade today",
+     "country": "Ecuador",
+     "lat": -2.19,
+     "lon": -79.89,
+     "year": 2024,
+     "era": "c. 2024",
+     "note": "Not an arrival \u2014 a reckoning. Panama disease (Fusarium oxysporum f. sp. cubense, Tropical Race 1) swept Gros Michel plantations in the 1940s\u201350s; the industry replanted with the TR1-resistant Cavendish by the late 1950s\u201360s. The Cavendish is a sterile AAA triploid propagated only by suckers and tissue culture: every export banana is effectively a clone of a single plant. Tropical Race 4, identified in Taiwan in 1989, kills Cavendish too; it has reached Latin America (Colombia, Peru); there is no cure, and the fungus persists in soil for decades. A GM banana was approved in Australia/NZ in Feb 2024. This stop is anchored at Ecuador, the world's largest banana exporter (~6.5 Mt, ~32% of world exports, FAO).",
+     "use": "The 'one clone' story is the export story, not the whole banana: only ~15% of the harvest is exported; hundreds of local cultivars feed everyone else. But for the export trade, the entire global business is one genotype.",
+     "highlightDish": {
+      "name": "A Cavendish, peeled and eaten",
+      "blurb": "The most-eaten fruit in the Western world, no recipe needed.",
+      "why": "It is the evidence itself. The dish needs no recipe because the banana needs no recipe \u2014 and that is the point: one plant, no variation, billions of identical fruits a year, one fungus away from the Gros Michel's fate."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Britannica, 'Banana' \u2014 New Guinea domestication, Africa, Canaries to Hispaniola, Alexander in India",
+     "url": "https://www.britannica.com/plant/banana-plant"
+    },
+    {
+     "label": "Smithsonian Magazine, 'Where We Got the Term Banana Republic'",
+     "url": "https://www.smithsonianmag.com/smart-news/where-we-got-term-banana-republic-180961813/"
+    },
+    {
+     "label": "Smithsonian Magazine, 'A Brief History of Puerto Rico's Beloved Mofongo'",
+     "url": "https://www.smithsonianmag.com/travel/a-brief-history-of-puerto-ricos-beloved-mofongo-180979947/"
+    },
+    {
+     "label": "Denham et al. via phys.org (2018) \u2014 Kuk Swamp phytolith chronology",
+     "url": "https://phys.org/news/2018-07-prehistoric-people-domesticated-bananas-world.html"
+    },
+    {
+     "label": "USITC Executive Briefing on Trade, Sep 2024 \u2014 Gros Michel, TR1, Cavendish, GM banana approval",
+     "url": "https://primarynewssource.org/wp-content/uploads/ebot_decarlo_legrand_bananas.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pineapple",
+   "name": "Pineapple",
+   "color": "#ef8f2a",
+   "standard": "new",
+   "tagline": "From Guaran\u00ed staple to rented luxury to canned commodity",
+   "framing": "The only fruit that went from a Guaran\u00ed staple to Europe's most precious status symbol and back down to a canned commodity without changing species.",
+   "stops": [
+    {
+     "place": "Paran\u00e1\u2013Paraguay Basin, southern Brazil / Paraguay",
+     "country": "Paraguay",
+     "lat": -24.0,
+     "lon": -57.0,
+     "year": -1200,
+     "era": "c. 1200 BCE",
+     "note": "The wild plant itself; no carrier. Guaran\u00ed peoples of southern Brazil and Paraguay selected the edible, seedless-fleshed forms from wild Ananas comosus and spread them by overland exchange across South America. The genus name Ananas comes from the Tup\u00ed-Guaran\u00ed word nanas, 'excellent fruit,' recorded by Andr\u00e9 Thevet in 1568.",
+     "use": "Eaten fresh and ripe as a staple fruit; the Guaran\u00ed word nanas ('excellent fruit') records its status as food, not novelty. Role: everyday sweetener and fresh fruit in the diet, before any transformation.",
+     "highlightDish": {
+      "name": "Fresh pineapple, eaten ripe straight from the field",
+      "blurb": "The baseline: the Guaran\u00ed ate it as ordinary food.",
+      "why": "Every later stop is a transformation of this one act of eating; the Guaran\u00ed ate it as ordinary food, which is precisely what made the European luxury reading so strange."
+     }
+    },
+    {
+     "place": "Central Mexico",
+     "country": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "year": 500,
+     "era": "c. 500 CE",
+     "note": "Carried north by Indigenous exchange networks long before Europeans; cultivated by the Maya and Aztecs (archaeological window 200 BCE\u2013700 CE).",
+     "use": "Absorbed into existing Mesoamerican foodways. Most distinctively, the pineapple rind and core \u2014 the parts Europeans would throw away \u2014 were adopted into tepache, the Nahua fermented drink whose name comes from Nahuatl tep\u012batl ('drink of corn'): originally a maize ferment, re-based on wild pineapple yeasts and sugar once the fruit arrived. Technique: wild fermentation of rinds with piloncillo and spices, 2\u20133 days. Role: low-alcohol daily drink.",
+     "highlightDish": {
+      "name": "Tepache",
+      "blurb": "Pineapple rinds, piloncillo, cinnamon, wild-fermented.",
+      "why": "It proves pineapple's first act in Mexico was absorption into an older Indigenous tradition, not conquest of it; the rind, not the flesh, became the point."
+     }
+    },
+    {
+     "place": "Guadeloupe, Caribbean",
+     "country": "Guadeloupe",
+     "lat": 16.25,
+     "lon": -61.58,
+     "year": 1493,
+     "era": "1493",
+     "note": "Found, not carried. Columbus's men came ashore in November 1493 (second voyage) and found pineapples among provisions in a Carib village; they tasted them on the spot. Columbus brought the plant back to Spain and named it pi\u00f1a de Indes, 'pine of the Indians.'",
+     "use": "Eaten fresh by the crew; recorded with astonishment (Oviedo's Historia General de las Indias, 1535, called it 'prince of all fruits' and carried the first published illustration). Fruit could not survive the Atlantic crossing, so Europe got descriptions and preserves, not fresh fruit.",
+     "highlightDish": {
+      "name": "Fresh pineapple, Guadeloupe, November 1493",
+      "blurb": "The tasting itself: the documented origin point of the pineapple's European career.",
+      "why": "It fixes the direction right: the knowledge flowed from Carib kitchens to Europe, not the reverse."
+     }
+    },
+    {
+     "place": "Goa and the Indian Ocean coast",
+     "country": "India",
+     "lat": 15.5,
+     "lon": 73.83,
+     "year": 1550,
+     "era": "c. 1550",
+     "note": "Carried by the Portuguese from Brazil to India by c. 1550 (Portuguese traders are also credited with bringing it from the Moluccas around 1548); from India it moved with Portuguese shipping to the east and west African coasts and reached China in the late Ming (recorded growing there by the 1590s).",
+     "use": "Eaten fresh and adopted fast into local cuisines; Tamil speakers called it annachi pazham. In India it joined the sweet course as a sour-sweet element in desserts; pineapple-leaf fibre textile use is also recorded in India before it was documented in the Philippines. Role: everyday fresh fruit and dessert ingredient, not a luxury \u2014 the tropics had no shortage.",
+     "highlightDish": {
+      "name": "Pineapple kesari (ananas sheera)",
+      "blurb": "Semolina sweet studded with pineapple.",
+      "why": "The modern South Indian festival dessert is the endpoint of a 470-year naturalisation: a Portuguese import became so ordinary it sits in temple-style sweets. (The dish's classic form is much later than 1550; the naturalisation began then.)"
+     }
+    },
+    {
+     "place": "Luzon, Philippines",
+     "country": "Philippines",
+     "lat": 14.6,
+     "lon": 121.0,
+     "year": 1650,
+     "era": "c. 1650",
+     "note": "Brought by the Spanish from Latin America, the 'Red Spanish' cultivar, in the 16th\u201317th centuries; by 1586 fruits were already being sent to the Philippines from China.",
+     "use": "This is the pineapple's strangest transformation: in the Philippines the fruit itself was reportedly unremarkable, but the long stiff leaves yielded pi\u00f1a fibre \u2014 a diaphanous, translucent cloth that became the material of the barong tagalog and other formal wear. Role: textile fibre first, fruit second \u2014 the only stop where the plant mattered more for its leaves than its taste.",
+     "highlightDish": {
+      "name": "Pi\u00f1a barong tagalog \u2014 a textile, not a dish",
+      "blurb": "Said plainly: there is no dish that proves this stop, and that is the proof. The Philippines valued the leaf over the fruit.",
+      "why": "It is the journey's sharpest pivot, showing a place redefining which part of the plant counts."
+     }
+    },
+    {
+     "place": "Leiden and England \u2014 the hothouse century",
+     "country": "Netherlands",
+     "lat": 52.16,
+     "lon": 4.49,
+     "year": 1658,
+     "era": "c. 1658",
+     "note": "Dutch estate growers, supplied by Dutch West India Company stock from the Caribbean, cracked heated-glasshouse ('stove') cultivation. The first European hothouse fruitings are traditionally credited to Pieter de la Court at Meerburg near Leiden c. 1658 (contested; Agnes Block's Vijverhof fruiting is a rival claim). British gardeners were sent to Dutch estates to learn the method, and after the Glorious Revolution of 1688 Dutch techniques became the blueprint for English 'pineries.'",
+     "use": "Grown at enormous cost in heated glasshouses and tan-bark pits; the fruit was displayed, not eaten \u2014 confectioners rented single pineapples by the hour as dinner-table ornaments, passing one fruit through successive customers until it rotted. It was carved into furniture, gateposts, and architecture, and painted in the famous c. 1675\u201380 portrait of Charles II being presented with one. Role: pure status symbol, priced (per an 18th-century account) about the same as a new coach.",
+     "highlightDish": {
+      "name": "A rented pineapple centrepiece, England, 18th century",
+      "blurb": "Whole, uncut, on loan.",
+      "why": "The only fruit in history too precious to eat is the perfect evidence of this stop; the luxury phase is proven by the uneaten fruit."
+     }
+    },
+    {
+     "place": "O\u02bbahu, Hawaii \u2014 the plantation turn",
+     "country": "United States",
+     "lat": 21.5,
+     "lon": -158.04,
+     "year": 1903,
+     "era": "1903",
+     "note": "Spanish adviser Don Francisco de Paula y Mar\u00edn planted the first pineapples in Hawaii in 1813. Captain John Kidwell introduced the Smooth Cayenne variety in trials in 1885 (often repeated as 1879; the documented date is 1885) \u2014 the variety that could be canned. James Dole formed the Hawaiian Pineapple Company on 4 December 1901, planted 60 acres at Wahiaw\u0101, and put up his first cannery pack in summer 1903: 1,893 cases, rising to 125,000 by 1905. Henry Ginaca's shelling-and-coring machine (1911) mechanised the line.",
+     "use": "Form shifted from fresh fruit to the canned ring/chunk. Technique: industrial peeling, coring, slicing, heat-processing; later the 1922 purchase of most of L\u0101na\u02bbi built the world's largest plantation. Role: export commodity; by the early 1960s Hawaii supplied over 80% of the world's canned pineapple, and pineapple was Hawaii's second industry after sugar.",
+     "highlightDish": {
+      "name": "Canned pineapple rings (commodity form)",
+      "blurb": "Not a recipe, the product: the industrial era's signature form.",
+      "why": "The ring is the industrial era's signature form; everything from upside-down cake to hotel breakfast trays depends on this exact shape arriving identical from a tin."
+     }
+    },
+    {
+     "place": "United States \u2014 the marketing era",
+     "country": "United States",
+     "lat": 36.85,
+     "lon": -76.29,
+     "year": 1925,
+     "era": "1925",
+     "note": "By ship from Hawaii, in tins; Dole needed mainland demand to absorb the plantation glut.",
+     "use": "In 1925 the Hawaiian Pineapple Company ran a recipe contest advertised in women's magazines, judged with Fannie Farmer's School, Good Housekeeping and McCall's on the panel. It expected hundreds of entries and received over 60,000 \u2014 more than 2,500 of them for pineapple upside-down cake. The winner was Mrs. Robert Davis of Norfolk, Virginia. Dole promoted her recipe in booklets, ads, and radio, and the cake became a mid-century American standard. The cake predated the contest \u2014 the contest proved and amplified it; Dole did not invent the cake, and did not invent canning, he industrialised both.",
+     "highlightDish": {
+      "name": "Pineapple upside-down cake",
+      "blurb": "Caramelised canned rings, brown sugar, maraschino cherry, in a skillet.",
+      "why": "2,500 independent contest entries are market research proving the dish already belonged to American home cooks; Dole's genius was bottling it. It is the commodity era's dish the way the rented centrepiece was the luxury era's."
+     }
+    },
+    {
+     "place": "Bukidnon, Mindanao, Philippines \u2014 the second industrial pole",
+     "country": "Philippines",
+     "lat": 8.37,
+     "lon": 124.86,
+     "year": 1926,
+     "era": "1926",
+     "note": "The California Packing Corporation (Calpak) set up the Philippine Packing Corporation in 1926, starting from an experimental plot at Diklum, Bukidnon; first commercial planting 1928, first cannery harvest 1930. (Seed stock came from pest-devastated Hawaiian fields.)",
+     "use": "Pineapple returned to the Philippines as industrial monoculture on the Bukidnon plateau \u2014 over 14,000\u201320,000 hectares under Del Monte Philippines, claimed as one of the world's largest integrated pineapple operations (growing plus cannery plus juice). Form: canned fruit and, crucially, juice \u2014 the Philippines is the Asia-Pacific region's dominant pineapple-juice producer. Role: global commodity input for juice, cocktail, and processed-fruit supply chains.",
+     "highlightDish": {
+      "name": "Pineapple juice",
+      "blurb": "Chilled, from a carton.",
+      "why": "Juice is the honest endpoint of the commoditisation arc; the fruit is no longer seen, named, or priced as itself, only as a sweet input."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Smithsonian Libraries blog, 'The Prickly Meanings of the Pineapple' \u2014 Columbus 1493, Portuguese spread, Oviedo 1535",
+     "url": "https://blog.library.si.edu/"
+    },
+    {
+     "label": "ITFNet, 'Pineapple \u2014 Introduction' \u2014 Tup\u00ed-Guaran\u00ed domestication, Portuguese to India c. 1548, China by 1594",
+     "url": "https://www.itfnet.org/"
+    },
+    {
+     "label": "Hawaiian Encyclopedia, '1900\u20131950: The Pineapple Industry' \u2014 Mar\u00edn 1813, Kidwell 1885, Dole 1901/1903, Ginaca 1911",
+     "url": "https://www.hawaiianencyclopedia.com/"
+    },
+    {
+     "label": "Del Monte Philippines, official history \u2014 Philippine Packing Corporation founded 1926, Diklum plot, first cannery harvest 1930",
+     "url": "https://www.delmontephil.com/"
+    },
+    {
+     "label": "Mapping Philippine Material Culture \u2014 pi\u00f1a fibre exhibits, Spanish introduction, fruits sent from China by 1586",
+     "url": "https://philippinestudies.uk/"
+    }
+   ]
+  },
+  {
+   "id": "peanut",
+   "name": "Peanut",
+   "color": "#b08968",
+   "standard": "new",
+   "tagline": "The legume that crossed the Atlantic twice and became oil, stew, and sandwich",
+   "framing": "A South American legume that traveled the Columbian Exchange twice \u2014 first carried out by Europeans, then reintroduced to North America by enslaved Africans \u2014 and became the defining fat of Chinese cooking, the stew base of West Africa, and America's most mythologized crop.",
+   "stops": [
+    {
+     "place": "Villamontes, Bolivia \u2014 Origin",
+     "country": "Bolivia",
+     "lat": -21.25,
+     "lon": -63.47,
+     "year": -3000,
+     "era": "c. 3000 BCE",
+     "note": "This is the origin stop \u2014 nothing arrived. In the SE Bolivia / NW Argentina transition zone, people moving wild A. duranensis and A. ipa\u00ebnsis brought the two species into proximity; a native bee crossed them, and chromosome doubling made the sterile hybrid fertile. The allotetraploid origin is settled genomics, but the date of domestication is not \u2014 c. 3000 BCE reflects the archaeological record of cultivated peanuts in coastal Peru (~5000 BP), not a dated domestication event.",
+     "use": "Eaten roasted and ground; the geocarpic pod (fruit that ripens underground) made it storable and portable. Ground into sauces served with tubers \u2014 the Andean pattern of a fat-and-protein-rich paste complementing starch staples.",
+     "highlightDish": {
+      "name": "Sopa de man\u00ed (Bolivian peanut soup)",
+      "blurb": "Ground roasted peanuts simmered into a broth with potatoes and meat.",
+      "why": "It is the living descendant of the origin-zone use \u2014 peanuts as a ground, stew-thickening protein source \u2014 still cooked within a few hundred kilometers of where the crop was born."
+     }
+    },
+    {
+     "place": "Tenochtitlan (Mexico City), Mexico \u2014 Pre-Columbian",
+     "country": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "year": 1400,
+     "era": "c. 1400",
+     "note": "Spread northward through the Americas long before Columbus; by the time of the Aztec empire the peanut was an established crop called tlalcacahuatl ('earth cacao'). Sahag\u00fan's Florentine Codex (c. 1569\u20131577) includes a drawing of the plant, proving cultivation in central Mexico at contact.",
+     "use": "Toasted and ground, eaten as a snack and ground into chile-based sauces; the Nahuatl name compares it to cacao, the other prized seed food. Peanuts reached the Caribbean too, where Columbus's contemporaries would later encounter them.",
+     "highlightDish": {
+      "name": "Salsa de cacahuate",
+      "blurb": "A modern Mexican sauce of toasted ground peanuts blended with chile and garlic.",
+      "why": "The exact Aztec preparations are poorly documented, so the honest move is the modern descendant \u2014 it preserves the pre-Columbian technique (toast, grind, add chile) and the Nahuatl-derived name, showing the form survived the conquest."
+     }
+    },
+    {
+     "place": "Fuzhou, Fujian, China \u2014 Early modern to today",
+     "country": "China",
+     "lat": 26.08,
+     "lon": 119.3,
+     "year": 1620,
+     "era": "c. 1620",
+     "note": "Portuguese traders introduced the peanut to Fujian in the early 17th century (Ming dynasty); by the end of that century it had spread to Zhenjiang and beyond. American missionaries later introduced the Virginia variety in the mid-19th century. The exact Asian route is debated \u2014 Spanish sources point to a Mexico to Philippines to China path, Portuguese sources to direct trade \u2014 but Fujian as the entry point is consistent.",
+     "use": "Primarily crushed for oil \u2014 peanut oil became one of China's principal cooking oils, prized for high smoke point in stir-frying \u2014 and secondarily as boiled, roasted, and candied snacks carrying cultural weight: hu\u0101sh\u0113ng ('flower of life') symbolizes fertility and longevity, eaten at New Year.",
+     "highlightDish": {
+      "name": "Kung pao chicken (gongbao jiding)",
+      "blurb": "Sichuan chicken wok-tossed with dried chiles and a handful of peanuts.",
+      "why": "The peanut is neither sauce nor oil here but texture \u2014 the cool crunch against chile heat \u2014 showing a cuisine that adopted the peanut so completely it made it the signature element of a national dish."
+     }
+    },
+    {
+     "place": "Gold Coast (Accra), Ghana \u2014 Colonial",
+     "country": "Ghana",
+     "lat": 5.6,
+     "lon": -0.19,
+     "year": 1680,
+     "era": "c. 1680",
+     "note": "Portuguese traders carried the peanut from Brazil across the Atlantic. The common '16th century' dating is an inference, not documented: the first reliable record is Giovanni Antonio Cavazzi da Montecuccolo's account from the 1650s in what is now Congo/Angola, and by the late 1600s Dutch writer Willem Bosman reported three kinds of underground beans on the Gold Coast \u2014 one, 'Angola beans,' only recently known and brought from Angola.",
+     "use": "Eaten fried ('a very agreeable sort of Food, if fryed, as we commonly do Ches-nuts,' wrote Bosman) and boiled \u2014 snack and side preparations, not yet a cuisine's foundation. West Africa already grew two native groundnuts \u2014 Bambara groundnut and Kersting's groundnut \u2014 and the local word for Bambara groundnut (mancarra) was simply transferred to the peanut in Portuguese territories, blurring the records.",
+     "highlightDish": {
+      "name": "Fried peanuts, the 'Angola beans' way",
+      "blurb": "Plain fried like chestnuts.",
+      "why": "It is the only Old World preparation actually documented at this stop; the evidence does not support a cuisine 'remade' yet \u2014 that took another two centuries and colonial cash-crop economics."
+     }
+    },
+    {
+     "place": "Charleston, South Carolina, United States \u2014 Colonial / Antebellum",
+     "country": "United States",
+     "lat": 32.78,
+     "lon": -79.93,
+     "year": 1750,
+     "era": "c. 1750",
+     "note": "Enslaved Africans carried peanuts back across the Atlantic on slave ships \u2014 a reintroduction to the Americas, and the ancestors of the Carolina African Runner, a variety unlike anything in South America. White colonists mostly ignored it; early colonial 'ground-nut' references were to an unrelated tuber.",
+     "use": "Grown by enslaved people for their own sustenance and fed to hogs; eaten boiled or roasted as cheap protein. The names stuck: 'goober' and 'pindar' come from the Kikongo/Kimbundu words nguba and mpinda for the peanut, via Gullah \u2014 the crop's language crossed the ocean with the crop. Confederate soldiers' 1860s song 'Eating Goober Peas' memorialized it as the food of hard times.",
+     "highlightDish": {
+      "name": "Southern boiled peanuts",
+      "blurb": "Raw peanuts boiled for hours in salted water until soft.",
+      "why": "Boiling, rather than European roasting, is the West African technique preserved in the American South; the dish is the African leg of the journey still legible on the plate."
+     }
+    },
+    {
+     "place": "Java, Indonesia \u2014 Colonial",
+     "country": "Indonesia",
+     "lat": -7.26,
+     "lon": 112.75,
+     "year": 1850,
+     "era": "c. 1850",
+     "note": "Peanuts reached Southeast Asia through Spanish networks \u2014 carried from Mexico via the Philippines on the Manila galleon trade (hence the old name 'manila nuts'). By the 19th century they were established enough in Java to anchor a new street food.",
+     "use": "Ground roasted with chiles, garlic, palm sugar, and tamarind or kecap manis into a thick sauce \u2014 the peanut converted into a condiment rather than a staple. Satay itself emerged in Java from the encounter of local grilling with 18th-century Indian and Arab trader influences; the peanut sauce is a regional accompaniment (not universal \u2014 sate padang uses a beef-broth sauce), and colonial observers were recording satay as street food by the 19th century.",
+     "highlightDish": {
+      "name": "Sate ayam with peanut sauce",
+      "blurb": "Charcoal-grilled chicken skewers dipped in ground-peanut, chile, and sweet-soy sauce.",
+      "why": "It shows the peanut fully naturalized \u2014 an American legume, carried by Spanish galleons, ground the Javanese way, and now the first thing the world tastes of Indonesian food."
+     }
+    },
+    {
+     "place": "Pune, Maharashtra, India \u2014 Colonial industrial",
+     "country": "India",
+     "lat": 18.52,
+     "lon": 73.86,
+     "year": 1850,
+     "era": "c. 1850",
+     "note": "The peanut reached India in the 1500s via Portuguese trade networks (first landings were on the coasts, including the Coromandel). It stayed marginal until the 19th century, when oil demand scaled it up \u2014 the area planted in India grew enormously between 1850 and 1895.",
+     "use": "Split into two roles that persist today: groundnut oil became the default cooking fat of Gujarat and Maharashtra (the seed is roughly half oil, and Indian sources call groundnut the 'kingpin of oilseeds'), and roasted peanuts became the vegetarian protein garnish \u2014 dry chutneys, chivda, and fasting foods, where peanut's high protein fits vegetarian diets without violating caste food rules.",
+     "highlightDish": {
+      "name": "Shengdana chutney",
+      "blurb": "Dry-roasted peanuts pounded with garlic, cumin, and dried chile.",
+      "why": "It is the peanut absorbed into Indian vegetarian cuisine at its most everyday \u2014 not a curry centerpiece but a coarse, salty condiment that appears on millions of thalis \u2014 proof of adoption deeper than oil economics."
+     }
+    },
+    {
+     "place": "Saint-Louis / the groundnut basin, Senegal \u2014 Colonial industrial",
+     "country": "Senegal",
+     "lat": 16.03,
+     "lon": -16.49,
+     "year": 1860,
+     "era": "c. 1860",
+     "note": "Already present in small quantities, the peanut was scaled up in the mid-19th century when France \u2014 worried about relying on British-controlled India for plant oils, and with Marseille soap makers substituting peanut oil for olive oil after frosts hit olive groves \u2014 pushed its colonies to grow oilseeds. With the slave trade ending, West African slaveholders redeployed captive labor from selling people to growing peanuts for export. Senegal's peanut exports went from roughly a ton in 1840 to about 95,000 tons in 1898, and long made up around 90% of Senegal's exports.",
+     "use": "Grown as a cash crop for crushing into oil (soap, lubricant, and food). The 'peanut rush' drew on unfree labor even after abolition; one Ndakaaru chief's line captured the logic: 'instead of selling [slaves], let's use our slaves to cultivate our fields.' Peanuts became cheap and abundant enough to cook with at home, every day.",
+     "highlightDish": {
+      "name": "Maf\u00e9 (Senegalese groundnut stew)",
+      "blurb": "Chicken or beef simmered with tomato, onion, and chile in a sauce thickened with ground-peanut paste, served over rice.",
+      "why": "The Mandinka/Bambara groundnut-stew tradition (tigad\u00e8gu\u00e8na, literally 'peanut-butter sauce') predates the peanut boom, but the colonial groundnut flood is what turned it from an occasional dish into West Africa's everyday stew \u2014 the exact mechanism behind the 'remade cooking' claim, quantified rather than romanticized."
+     }
+    },
+    {
+     "place": "Tuskegee, Alabama, United States \u2014 Industrial",
+     "country": "United States",
+     "lat": 32.43,
+     "lon": -85.71,
+     "year": 1916,
+     "era": "1916",
+     "note": "Already growing; what arrived was the industry and the myth. Peanut-paste patents were filed by Marcellus Gilmore Edson (1884) and John Harvey Kellogg (1895) \u2014 Kellogg ground boiled peanuts into a paste as a health food \u2014 so peanut butter as a commercial product predates Carver entirely. George Washington Carver, hired at Tuskegee in 1896, preached rotating nitrogen-depleting cotton with nitrogen-fixing peanuts and sweet potatoes to save exhausted Southern soils, then developed industrial uses (paints, plastics, dyes, soaps) to create demand for the resulting peanut surplus.",
+     "use": "Carver did not invent peanut butter and never claimed to; his famous 1916 bulletin How to Grow the Peanut and 105 Ways of Preparing it for Human Consumption compiled recipes from cookbooks and other agricultural bulletins. The '300 products' figure is legendary \u2014 historians trace it to posthumous inflation of his genuine chemurgy work. His real contribution was agronomic: making the peanut economically worth growing.",
+     "highlightDish": {
+      "name": "The peanut butter sandwich",
+      "blurb": "Ground roasted peanuts, salt, oil.",
+      "why": "It is the proof of the American transformation (from hog feed to lunchbox icon), and the dossier's fact-check lesson in edible form: the dish's patents (1884, 1895) predate the man myth credits with inventing it."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "Bertioli et al., 'A single hybrid origin of cultivated peanut' (peer-reviewed) \u2014 duranensis x ipa\u00ebnsis allotetraploid origin, SE Bolivia/NW Argentina",
+     "url": "https://pmc.ncbi.nlm.nih.gov/"
+    },
+    {
+     "label": "Jeremy Cherfas, 'Peanuts and world affairs' \u2014 Portuguese-to-Africa route, 1650s first reliable record, Bosman, Carolina African Runner",
+     "url": "https://jeremycherfas.net/"
+    },
+    {
+     "label": "The Conversation, 'Climate change: how Senegal's colonial history made it more vulnerable' \u2014 Senegal export figures, French oil demand, redeployed slave labor",
+     "url": "https://theconversation.com/"
+    },
+    {
+     "label": "Jori Lewis, Slaves for Peanuts (The New Press) \u2014 the Senegal peanut-rush narrative and unfree labor",
+     "url": "https://thenewpress.com/"
+    },
+    {
+     "label": "NPR Illinois, 'A Legume With Many Names: The Story of Goober' (citing Andrew Smith's Peanuts) \u2014 nguba/mpinda etymology, slave-ship reintroduction",
+     "url": "https://www.nprillinois.org/"
     }
    ]
   }
