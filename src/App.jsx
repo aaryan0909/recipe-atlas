@@ -84,6 +84,11 @@ export default function App() {
   const [pickedStop, setPickedStop] = useState(null)
   const [mapNote, setMapNote] = useState(null)
   const [quiz, setQuiz] = useState(null)
+  // Phase C (backlog #75, progressive route reveal): the ghost route spoils
+  // the journey on frame one, so it stays hidden while the film plays.
+  // It appears only when the film completes or the reader starts exploring
+  // on their own (slider, era tick, stop tap, carrier chip).
+  const [explored, setExplored] = useState(false)
   const timerRef = useRef(null)
 
   useEffect(() => {
@@ -182,6 +187,7 @@ export default function App() {
     setPlaying(true)
     setMapNote(null)
     setQuiz(null)
+    setExplored(false)
   }
 
   const answerQuiz = (oi) => {
@@ -197,6 +203,27 @@ export default function App() {
     } else {
       setQuiz({ ...quiz, step: quiz.step + 1, picked: null, feedback: null })
     }
+  }
+
+  // Carriers strip: one chip per distinct carrier on this journey, in stop
+  // order. Clicking a chip jumps to the first stop that carrier appears at,
+  // so a reader can follow one group across stops. Stops with no
+  // dossier-supported carrier carry no `carrier` field and are skipped here.
+  // Plain computation, not a hook: this section runs after the early
+  // loading/error returns, so no hook may be added here.
+  const carriers = (() => {
+    const seen = new Map()
+    stops.forEach((s, i) => {
+      if (s.carrier && !seen.has(s.carrier)) seen.set(s.carrier, i)
+    })
+    return [...seen.entries()].map(([carrier, firstStop]) => ({ carrier, firstStop }))
+  })()
+
+  const followCarrier = (firstStop) => {
+    setPlaying(false)
+    setPickedStop(firstStop)
+    setYear(stops[firstStop].year)
+    setExplored(true)
   }
 
   const onCountry = (name) => {
@@ -273,7 +300,7 @@ export default function App() {
                 <title>{f.properties.name}</title>
               </path>
             ))}
-            <path d={geo.path(fullRoute)} className="route-ghost" />
+            {(year >= maxYear || explored) && <path d={geo.path(fullRoute)} className="route-ghost" />}
             {liveRoute && <path d={geo.path(liveRoute)} className="route-live" />}
             {routePts.length > 0 && (() => {
               const [tx, ty] = geo.projection(routePts[routePts.length - 1])
@@ -288,7 +315,7 @@ export default function App() {
               const isRevealed = s.year <= year
               const isActive = i === selectedStop
               return (
-                <g key={s.place} className="stop" onClick={() => { setPickedStop(i); if (!isRevealed) setYear(s.year) }}>
+                <g key={s.place} className="stop" onClick={() => { setPickedStop(i); setExplored(true); if (!isRevealed) setYear(s.year) }}>
                   <circle cx={x} cy={y} r="16" className="hit" />
                   {isActive && isRevealed && <circle cx={x} cy={y} r="10" className="pulse" />}
                   <circle cx={x} cy={y} r={isActive ? 6 : 4.5} className={isRevealed ? 'dot on' : 'dot'} />
@@ -311,11 +338,11 @@ export default function App() {
               max={maxYear}
               value={year}
               aria-label="Timeline"
-              onChange={(e) => { setPlaying(false); setPickedStop(null); setYear(Number(e.target.value)) }}
+              onChange={(e) => { setPlaying(false); setPickedStop(null); setYear(Number(e.target.value)); setExplored(true) }}
             />
             <div className="era-ticks">
               {stops.map((s, i) => (
-                <button key={s.place} className={i === selectedStop ? 'tick on' : 'tick'} onClick={() => { setPlaying(false); setYear(s.year); setPickedStop(i) }}>
+                <button key={s.place} className={i === selectedStop ? 'tick on' : 'tick'} onClick={() => { setPlaying(false); setYear(s.year); setPickedStop(i); setExplored(true) }}>
                   {s.era}
                 </button>
               ))}
@@ -329,6 +356,23 @@ export default function App() {
         </div>
 
         <aside className="stop-card">
+          {carriers.length > 0 && (
+            <div className="carriers-strip">
+              <h3>The people who carried it</h3>
+              <p className="carriers-hint">Tap a group to jump to its first stop on this journey.</p>
+              <div className="carrier-chips">
+                {carriers.map(({ carrier, firstStop }) => (
+                  <button
+                    key={carrier}
+                    className="carrier-chip"
+                    onClick={() => followCarrier(firstStop)}
+                  >
+                    {carrier}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           <div key={selectedStop} className="stop-card-body">
           <p className="kicker">{journey.name} · {activeStop.era}</p>
           {journey.standard === 'new' && (
@@ -336,6 +380,9 @@ export default function App() {
           )}
           <h2>{activeStop.place}</h2>
           <p className="country-name">{activeStop.country}</p>
+          {activeStop.carrier && (
+            <p className="carrier-line"><strong>Carried by:</strong> {activeStop.carrier}</p>
+          )}
           <p className="note">{activeStop.note}</p>
           {activeStop.use && (
             <>

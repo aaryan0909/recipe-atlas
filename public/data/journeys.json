@@ -2792,6 +2792,480 @@
           "url": "https://www.nprillinois.org/"
         }
       ]
+    },
+    {
+      "id": "cassava",
+      "name": "Cassava",
+      "color": "#795548",
+      "standard": "new",
+      "tagline": "The poisonous root that became the staple of 800 million people",
+      "framing": "A poisonous-by-default Amazonian root whose toxicity forced the invention of an entire food technology — grating, pressing, fermenting, drying — and which is now the staple of more than 800 million people, most of them in Africa.",
+      "sources": [
+        {
+          "label": "Olsen & Schaal, 'Evidence on the origin of cassava' (PNAS, 1999) — single-origin domestication from wild M. esculenta ssp. flabellifolia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC21904/"
+        },
+        {
+          "label": "ScienceDaily (1999), 'Where The Wild Ones Are: Origins Of Staple Crop Found' (reporting Olsen & Schaal)",
+          "url": "https://www.sciencedaily.com/releases/1999/06/990603070709.htm"
+        },
+        {
+          "label": "Montagnac et al., 'Processing Techniques to Reduce Toxicity and Antinutrients of Cassava' (2009) — cyanogen chemistry and ~96–99% removal",
+          "url": "https://doi.org/10.1111/j.1541-4337.2008.00064.x"
+        },
+        {
+          "label": "Wikipedia, 'Cassava' — history, farinha/gari, detoxification",
+          "url": "https://en.wikipedia.org/wiki/Cassava"
+        }
+      ],
+      "stops": [
+        {
+          "place": "Porto Velho, Rondônia, Brazil",
+          "country": "Brazil",
+          "lat": -8.76,
+          "lon": -63.9,
+          "year": -8000,
+          "era": "c. 8000 BCE",
+          "note": "No arrival: the homeland. Along the southern Amazon margin, people began cultivating wild flabellifolia, selecting larger storage roots and splitting the crop into sweet types (edible after simple boiling) and bitter types (high-yielding, pest-resistant, inedible raw). The date is genetic inference (c. 10,000 years ago), not a dated archaeological event.",
+          "use": "Roasted and boiled roots; the first grated preparations. Sweet types could be eaten like potatoes after peeling and boiling; bitter types demanded processing from the start — the poison selected for detox technology.",
+          "highlightDish": {
+            "name": "Beiju de tapioca",
+            "blurb": "A thin crisp griddled from pure cassava starch settled out of the pressed juice.",
+            "why": "Beiju is the crop's first safe fraction — the starch that sinks while the poison stays in the liquid — an indigenous invention still griddled on street carts across Brazil, and proof the detox knowledge predates everything that follows."
+          }
+        },
+        {
+          "place": "Belém, Pará, Brazil",
+          "country": "Brazil",
+          "lat": -1.46,
+          "lon": -48.49,
+          "year": -1000,
+          "era": "c. 1000 BCE",
+          "note": "Already growing across Amazonia; what arrived here was the technology, refined over centuries along the lower Amazon: the tipiti (a woven basketry press that wrings grated pulp dry), fermentation of the pulp, roasting into farinha, and the parallel track — resting the pressed juice, letting the starch settle, then fermenting and long-boiling the liquid into tucupi. Without the tipiti there is no farinha, no slave-ship ration, no gari.",
+          "use": "Bitter cassava (mandioca brava) grated, tipiti-pressed, and toasted into farinha — a meal that keeps for months without refrigeration. The press-juice, raw poison, became tucupi, the golden sour sauce; cauim, a fermented cassava beer, turned the same root into ritual drink. Crushing ruptures cells so linamarase meets the cyanogenic glycosides; fermentation and heat drive the hydrogen cyanide off. Proper processing removes roughly 98% of cyanogens.",
+          "highlightDish": {
+            "name": "Pato no tucupi",
+            "blurb": "Duck slow-cooked in tucupi with jambu, the tongue-tingling Amazonian herb, the centerpiece of Belém's Círio de Nazaré festival.",
+            "why": "Tucupi is the detox science served as sauce — the poisonous press-juice, rested, fermented, and boiled into safety — and this festival dish is the proof that indigenous food technology, not European import, defines Amazonian cooking."
+          }
+        },
+        {
+          "place": "Santo Domingo, Dominican Republic",
+          "country": "Dominican Republic",
+          "lat": 18.47,
+          "lon": -69.93,
+          "year": 1492,
+          "era": "1492",
+          "note": "Cassava reached the Greater Antilles millennia before Columbus via island-hopping cultivation; when he landed on Hispaniola in 1492 it was already a staple. The Taíno baked it into casabe on a clay griddle (burén) — flat, crisp rounds that keep for months. The English word 'cassava' comes from the Taíno casabi, the bread. The Old World met cassava as a finished cuisine, not a raw material.",
+          "use": "Taíno women grated roots, pressed the pulp, and baked thin rounds — the Caribbean version of the Amazonian chain, adapted to a griddle. Casabe traveled: it provisioned Spanish ships and soldiers because it did not spoil.",
+          "highlightDish": {
+            "name": "Casabe",
+            "blurb": "The plain, cracker-like flatbread still baked in the Dominican Republic and sold in New York bodegas.",
+            "why": "It is the pre-Columbian form, unchanged in five centuries, and it named the crop for the world."
+          }
+        },
+        {
+          "place": "Salvador, Bahia, Brazil",
+          "country": "Brazil",
+          "lat": -12.97,
+          "lon": -38.5,
+          "year": 1600,
+          "era": "c. 1600",
+          "note": "The Portuguese arrived as students, not inventors: Tupí peoples taught colonists to grate, press, and toast farinha. Within decades it was the provisioning flour of the colony — the ration that fed enslaved labor on plantations and on slave ships. From Bahia and Pernambuco, Portuguese ships carried stem cuttings east: to São Tomé c. 1600–1620, then to the Kongo kingdom and Angola by c. 1625. Cassava became the logistical fuel of the Atlantic slave economy.",
+          "use": "Farinha as daily bread-substitute, ration, and trade good. The word 'tapioca' comes from the Tupi tipioca — the meal that settles out of the expressed juice, baked into pellets (tipiocet).",
+          "highlightDish": {
+            "name": "Farofa",
+            "blurb": "Farinha toasted in fat with onion, sometimes dendê oil, bacon, or egg, served beside nearly every Brazilian meal.",
+            "why": "Farofa is the indigenous meal taken back into the kitchen and dressed up — the ration turned into the country's universal accompaniment, the living proof that Portugal adopted Amazonian food technology wholesale."
+          }
+        },
+        {
+          "place": "Luanda, Angola",
+          "country": "Angola",
+          "lat": -8.84,
+          "lon": -13.23,
+          "year": 1630,
+          "era": "c. 1630",
+          "note": "Cuttings from Brazil via São Tomé; by c. 1625 cassava was established in Kongo and Angola, the area around Luanda becoming a production center. Angolans called the imported flour farinha do Brasil ('Brazilian flour'), as distinct from farinha da Europa (wheat flour) — the names alone record the crop's origin story. Africa got the poison without the manual: the tipiti and the full Amazonian chain did not cross the Atlantic with the cuttings.",
+          "use": "The detox knowledge had to be rebuilt. Central Africans developed their own methods: soaking roots for days, fermenting the pulp, pounding and drying, milling into fuba (flour). Cassava was provisioning food for the plantation coast before it was anyone's cuisine. Every African cassava food (funge, fufu, gari, chikwangue) is a fermentation or soaking method, not a copy of farinha.",
+          "highlightDish": {
+            "name": "Funge de bombo",
+            "blurb": "Fuba stirred into boiling water until it becomes a smooth, gray, gelatinous porridge, eaten with fish, chicken, or bean stews; considered with moamba de galinha to be Angola's national dish.",
+            "why": "Funge is the crop fully naturalized — an American root, an African technique, a Portuguese name — now the daily starch of a nation that grows it on the same coast where the cuttings first landed."
+          }
+        },
+        {
+          "place": "Lagos, Nigeria",
+          "country": "Nigeria",
+          "lat": 6.52,
+          "lon": 3.37,
+          "year": 1840,
+          "era": "c. 1840",
+          "note": "Cassava had been on the West African coast since the 1500s but stayed marginal — a ration crop in a yam-and-plantain world. The turn came in the 1840s, when formerly enslaved people repatriated from Brazil to the Bight of Benin (the Agudas) arrived knowing how to make farinha. They adapted it into gari, and from the coast it spread inland through the 19th and 20th centuries, pushed hard by colonial administrations as famine insurance, until it displaced yams across the humid forest zone.",
+          "use": "Gari — sour, shelf-stable granules that keep without refrigeration and cook in minutes: peel, grate, pack the pulp in sacks to ferment 1–5 days while pressing out the juice, then roast the granules dry. Fermented doughs too: akpu/fufu (pounded fermented paste) and lafun. Gari became the base of eba, the stiff dough scooped with soups.",
+          "highlightDish": {
+            "name": "Eba with egusi soup",
+            "blurb": "Gari stirred into hot water until smooth and elastic, served with melon-seed soup.",
+            "why": "Eba is the proof of the transformation — the Brazilian ration flour, re-fermented on African terms, now the center of the plate in the country that grows more cassava than any other on earth."
+          }
+        },
+        {
+          "place": "Yogyakarta, Java, Indonesia",
+          "country": "Indonesia",
+          "lat": -7.8,
+          "lon": 110.37,
+          "year": 1850,
+          "era": "c. 1850",
+          "note": "Portuguese merchants planted cassava in the archipelago in the 17th century (it appears in the records by the late 1700s as ubi kayu, 'wooden root'), but it stayed minor until the 1800s. Drought and food shortages pushed the Dutch colonial government of Java to import new varieties from the West Indies in the 1840s; by 1892, twenty-one of twenty-five Java residencies grew it. During World War II, with rice imports cut, cassava kept people alive across the region.",
+          "use": "On Java's thin, acidic soils where rice failed, cassava became the poor people's rice — dried into gaplek, ground and steamed into tiwul (fake rice granules), pounded with palm sugar into getuk, fermented into tape singkong. Tiwul and nasi gaplek became synonymous with poverty and remote villages.",
+          "highlightDish": {
+            "name": "Tiwul",
+            "blurb": "Dried cassava ground into coarse meal, steamed, and eaten with savory dishes or grated coconut in place of rice.",
+            "why": "Tiwul is the famine logic made permanent — a root processed into imitation rice — and the dish that shows cassava's Asian role at its starkest: not a delicacy, a survival starch."
+          }
+        },
+        {
+          "place": "Thiruvananthapuram, Kerala, India",
+          "country": "India",
+          "lat": 8.52,
+          "lon": 76.94,
+          "year": 1885,
+          "era": "c. 1885",
+          "note": "The Indian entry is debated — Portuguese plantings in Goa in the 17th century are one candidate; a Philippines-to-Assam/Bengal route and a c. 1800 arrival are others. What is documented is the Travancore campaign: after late-19th-century famines, Maharaja Visakham Thirunal Rama Varma (reigned 1880–1885) promoted cassava as a rice substitute, imported varieties, and personally demonstrated how to prepare it. The popular 'the king introduced it' version is legend; cultivation in Kerala predates his reign — he popularized it.",
+          "use": "Boiled and mashed — kappa vevichathu — folded with coconut, shallots, and chili; sliced and fried into chips; eaten at breakfast, with tea, with fish curry. When Burma's rice shipments stopped in World War II, kappa spared Kerala a famine; households grew it in backyards.",
+          "highlightDish": {
+            "name": "Kappa vevichathu with meen curry",
+            "blurb": "Mashed tapioca folded with crushed coconut, shallots, and green chili, served with a fiery red fish curry soured with kudampuli.",
+            "why": "It is cassava at its simplest — boiled, mashed, spiced — proving a famine crop can become beloved on its own terms, not merely as a rice substitute; toddy shops and Sunday lunches across Travancore still pair them."
+          }
+        },
+        {
+          "place": "Rayong, Thailand",
+          "country": "Thailand",
+          "lat": 12.68,
+          "lon": 101.28,
+          "year": 1970,
+          "era": "c. 1970",
+          "note": "No one knows exactly when cassava reached Thailand — the Thai Tapioca Starch Association assumes c. 1786 from Malaysia; other accounts say the 1850s. It stayed local until after World War II, when Chinese-Thai trading networks built a modern export industry — starch for Europe, then, from the 1960s, dried chips and pellets for West German animal feed, then the pivot to China. Since the 1980s Thailand has been the world's leading cassava exporter.",
+          "use": "In Thailand cassava is barely eaten fresh — it is an industrial crop: roots chipped and sun-dried, or pulped for native and modified starch, feeding animal-feed mills, food manufacturers, and bioethanol plants. The northeast became the growing heartland.",
+          "highlightDish": {
+            "name": "Sakoo sai moo",
+            "blurb": "Small tapioca pearls soaked, kneaded, and steamed around a sweet-savory pork, peanut, and pickled-radish filling, served with lettuce and chili.",
+            "why": "The pearl is the export industry's product, and this street snack is the commodity re-entering the kitchen — cassava valued here not as starch tonnage but as chew."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Sweet Potato",
+      "color": "#c2185b",
+      "standard": "new",
+      "tagline": "The root that crossed the Pacific centuries before Columbus",
+      "framing": "A South American root that crossed the Pacific centuries before Columbus did — carried by Polynesian voyagers, not European ships — and then crossed it again on Spanish galleons, becoming China's famine insurance, Okinawa's staple, and America's mislabeled 'yam.'",
+      "sources": [
+        {
+          "label": "Denham, 'Ancient and historic dispersals of sweet potato in Oceania' (PNAS, 2013) — pre-Columbian introduction c. AD 1200–1300, tripartite hypothesis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3568348/"
+        },
+        {
+          "label": "NPR, 'How The Sweet Potato Crossed The Pacific Way Before The Europeans Did' (2013) — Roullier et al. genetic evidence",
+          "url": "https://www.weku.org/2013-01-23/how-the-sweet-potato-crossed-the-pacific-before-columbus"
+        },
+        {
+          "label": "Challenging National Narratives: On the Origins of Sweet Potato in China (Springer, 2017) — Chen Zhenlong 1593, three introduction routes",
+          "url": "https://doi.org/10.1007/978-981-10-4053-5_4"
+        }
+      ],
+      "stops": [
+        {
+          "place": "Chilca Canyon / Casma Valley, Peru",
+          "country": "Peru",
+          "lat": -9.4,
+          "lon": -77.9,
+          "year": -1500,
+          "era": "c. 1500 BCE",
+          "note": "No arrival: the homeland zone. Domestication happened somewhere in Central/tropical South America (Mexico/Venezuela to the northwest Andes); the Peruvian coast preserves the earliest evidence because its aridity favors preservation, not because it was the domestication center. The oldest reported remains are Chilca Canyon tubers dated c. 8000 BCE, but whether those were cultivated or foraged is doubted. The firmer evidence is Casma Valley, c. 1500–1800 BCE: tubers found with pottery, domestic structures, and agricultural mounds — cultivated, not gathered.",
+          "use": "Baked in earth ovens (the Andean huatia technique), eaten alongside maize and squash as the starchy base. Later Andean cultures treated it as a major crop — the Moche (100–800 CE) even modeled sweet potatoes in pottery.",
+          "highlightDish": {
+            "name": "Huatia-baked sweet potato (camote a la brasa)",
+            "blurb": "Tubers baked in a pit of heated stones and earth.",
+            "why": "It is the oldest documented technique applied to the crop — the Andean answer to a root with no mill, no pot, and no processing needed — and it is still cooked in the Peruvian highlands."
+          }
+        },
+        {
+          "place": "Mangaia, Cook Islands",
+          "country": "Cook Islands",
+          "lat": -21.93,
+          "lon": -157.93,
+          "year": 1050,
+          "era": "c. 1050",
+          "note": "Carried east across the Pacific by Polynesian voyagers who reached the South American coast and brought the crop home. Carbonised tuber fragments from the Cook Islands radiocarbon-date to c. 1000–1100 CE; genetic work (Roullier et al., PNAS 2013) confirms introduction to Central Polynesia by c. AD 1200–1300. The mechanism is debated: the dossier follows the human-voyager reading; a 2018 genomic study floated natural oceanic drift of a wild ancestor as a minority hypothesis.",
+          "use": "Grown in mounds, baked in earth ovens (umu), and folded into voyaging food culture. In New Zealand the Māori kūmara became a prestige crop with its own planting rituals — a South American root treated as a sacred taonga.",
+          "highlightDish": {
+            "name": "Umu-baked kūmara",
+            "blurb": "The root baked whole in a pit oven with heated stones, eaten with its skin blackened.",
+            "why": "It closes the circle with stop 1 — the same earth-oven technique, carried across 8,000 km of ocean, still legible in the method."
+          }
+        },
+        {
+          "place": "Hispaniola, Caribbean",
+          "country": "Dominican Republic",
+          "lat": 18.74,
+          "lon": -70.16,
+          "year": 1492,
+          "era": "1492",
+          "note": "The first Europeans to taste the sweet potato were members of Columbus's 1492 expedition, who found the Taíno cultivating batata. The Spanish carried it back to Europe — within years it was being grown in southern Spain, and it reached Elizabethan England as the 'Spanish potato,' a luxury served in puddings and pies at banquets and sold crystallized by street vendors.",
+          "use": "In Europe it was an exotic delicacy, not a staple — expensive, sweet, and status-marked. Its name did the lasting damage: the Taíno batata fused with the Quechua papa (the Andean potato, encountered decades later) into Spanish patata, which became English 'potato' — a Caribbean word naming a South American plant it barely resembles.",
+          "highlightDish": {
+            "name": "Candied batata slices, Elizabethan London style",
+            "blurb": "Sweet potato crystallized in sugar, sold on the street.",
+            "why": "It captures the crop's brief European career as aristocratic candy, before the ordinary potato arrived and stole both the name and the market."
+          }
+        },
+        {
+          "place": "Gold Coast (Accra), Ghana",
+          "country": "Ghana",
+          "lat": 5.6,
+          "lon": -0.19,
+          "year": 1550,
+          "era": "c. 1550",
+          "note": "Portuguese mariners carried the sweet potato south along the 'batata line' to West Africa in the 1500s. Precise documentation is thin — the dating is a well-grounded inference from Portuguese trade patterns, not a recorded landing; treat the year as approximate.",
+          "use": "A drought-season reserve and everyday boiled or roasted staple, slotted into the culinary grammar of the true yam (Dioscorea): boiled whole, roasted in coals, pounded. Its short growing cycle (90–120 days) and tolerance of poor soils made it the crop that held when rains failed. The leaves, too, are eaten as greens — a use Europe never adopted.",
+          "highlightDish": {
+            "name": "Coal-roasted sweet potato, dry-season food",
+            "blurb": "The tuber roasted in the embers and eaten plain.",
+            "why": "No sauce, no recipe, no technique to import — the preparation is the argument. The crop's African career was built on needing nothing but fire."
+          }
+        },
+        {
+          "place": "Fuzhou, Fujian, China",
+          "country": "China",
+          "lat": 26.08,
+          "lon": 119.3,
+          "year": 1593,
+          "era": "1593",
+          "note": "Fujian merchant Chen Zhenlong, trading in Spanish-ruled Luzon, saw the crop's drought tolerance and high yields on poor land; with the Spanish banning its export, he wound vine cuttings into ships' ropes and smuggled them home in 1593. In 1594, a famine year, his son Chen Jinglun presented the crop to Fujian's governor Jin Xuezeng, who ordered province-wide cultivation. It was named jinshu — 'golden root' — because it saved lives. Two other routes are recorded in county annals (Chen Yi from Vietnam 1582; Lin Huailan from Vietnam); Fujian-first is the consensus.",
+          "use": "The anti-rice: planted on thin hillside soils too poor for paddy, needing no irrigation, harvested fast in famine years. Hakka migrants pushed onto marginal land adopted it wholesale; it underwrote Qing-dynasty population growth on land rice could never feed.",
+          "highlightDish": {
+            "name": "Kao digua",
+            "blurb": "The whole root roasted in embers and sold on winter streets.",
+            "why": "It is the crop exactly as the famine years knew it — no mill, no processing, no recipe. The technology that fed millions was heat and a root."
+          }
+        },
+        {
+          "place": "Kadena, Okinawa, Japan",
+          "country": "Japan",
+          "lat": 26.36,
+          "lon": 127.76,
+          "year": 1605,
+          "era": "1605",
+          "note": "In 1605, the Ryukyuan sailor Noguni Sokan brought sweet potato plants from Fujian — only about a decade after the crop reached China — and grew them in his yard at Kadena. From Okinawa the crop crossed to Satsuma domain (Kagoshima) in 1705. It languished as a novelty on the mainland until the Great Kyōhō Famine of 1732, when the scholar Aoki Konyō — later honored as kansho sensei, 'Professor Sweet Potato' — bred cold-tolerant varieties that could grow in central and northern Japan.",
+          "use": "In the Ryukyus it became the staple carbohydrate itself, displacing rice on islands too poor for paddy — the purple-fleshed beni-imo remains Okinawa's identity crop. In Satsuma it became feedstock for imo jōchū (sweet-potato shochu), the distilled spirit of Kagoshima, brewed from the tuber when rice was too precious (or too taxed) to distill.",
+          "highlightDish": {
+            "name": "Imo jōchū",
+            "blurb": "Kagoshima's sweet-potato distilled spirit.",
+            "why": "It is the sweet potato fully absorbed into Japan's fiscal and food economy — the crop that replaced rice in the still because rice belonged to the tax collector."
+          }
+        },
+        {
+          "place": "Louisiana, United States",
+          "country": "United States",
+          "lat": 30.98,
+          "lon": -91.96,
+          "year": 1930,
+          "era": "c. 1930",
+          "note": "Already long present — enslaved Africans had carried the crop's cultivation knowledge with them; it was grown in the colonial South and reached New England by the 1700s. What arrived in the 1930s was the name: Louisiana growers, wanting to distinguish their moist orange-fleshed varieties from drier white ones, began marketing them as 'yams' — borrowed from the African nyami ('to eat'), the word for the true yam. The USDA now requires 'yam' labels to also say 'sweet potato'; the misnomer stuck anyway. The 'yam' label origin is marketing-industry folklore; the USDA dual-label rule is the hard fact.",
+          "use": "Baked, candied with marshmallow, and above all baked into sweet potato pie — the Southern holiday dessert that took the crop from field staple to celebration food. True yams (Dioscorea) are almost never sold in mainstream US stores; every American 'yam' is a sweet potato.",
+          "highlightDish": {
+            "name": "Sweet potato pie",
+            "blurb": "Orange flesh baked into a spiced custard in a flaky crust.",
+            "why": "It is the proof of full naturalization — an American root, given an African name by marketers, baked into the Thanksgiving table as if it had always been there."
+          }
+        },
+        {
+          "place": "Shanghai, China — the crop today",
+          "country": "China",
+          "lat": 31.23,
+          "lon": 121.47,
+          "year": 2024,
+          "era": "2024",
+          "note": "Not an arrival — the present tense of the journey. China grows about 51 million tons a year — roughly 55% of world output (2024) — most of it consumed domestically as food, animal feed, and industrial starch/alcohol. The number-two producer is Malawi (7.8M t) and number three Tanzania (4.4M t). In the US, North Carolina grows over 60% of the national crop. Orange-fleshed varieties are now a public-health tool — International Potato Center programs use them against vitamin A deficiency in sub-Saharan Africa.",
+          "use": "East Asia industrializes it (starch, alcohol, feed), Africa eats it as drought insurance and vitamin-A medicine, America candies it for the holidays — the same root, three different centuries' answers to hunger.",
+          "highlightDish": {
+            "name": "No dish — the ledger, not the kitchen",
+            "blurb": "The today stop is the production ledger: 51 million tons in China, Malawi and Tanzania next, North Carolina leading the US.",
+            "why": "The dossier's argument: this stop is the ledger, not the kitchen — the numbers are the dish. The sweet potato that fed Qing peasants and Okinawan farmers is now an industrial starch crop in China and a nutrition intervention in Africa."
+          }
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "color": "#00838f",
+      "standard": "new",
+      "tagline": "The base note nearly every cuisine is built on",
+      "framing": "The onion is the one ingredient nearly every cuisine builds on — the base note that went from Central Asian steppe grass to Egyptian tomb offering to the characteristic flavor of the world's oldest cookbook, and no cuisine has ever replaced it.",
+      "sources": [
+        {
+          "label": "PROTA, 'Allium cepa' — Central Asian origin, A. vavilovii as closest wild relative, westward route",
+          "url": "https://prota.prota4u.org/protav8.asp?g=pe&p=Allium+cepa"
+        },
+        {
+          "label": "Aramco World, 'New Flavors for the Oldest Recipes' (2012) — Yale tablets, onion as 'the characteristic ingredient'",
+          "url": "http://archive.aramcoworld.com/issue/201206/new.flavors.for.the.oldest.recipes.htm"
+        },
+        {
+          "label": "Apicius, De Re Coquinaria, Book VII (LacusCurtius) — Bulbos recipes 304–307, onions as a dish",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Apicius/7*.html"
+        },
+        {
+          "label": "Wikipedia, 'French onion soup' — Ménagier 1393, La Varenne 1680, Les Halles gratinée",
+          "url": "https://en.wikipedia.org/wiki/French_onion_soup"
+        },
+        {
+          "label": "Global Dining, 'Encebollado' (Ecuador) — onions introduced to the Americas by Spanish explorers",
+          "url": "https://www.globaldining.ch/what-to-eat-ecuador-encebollado/"
+        }
+      ],
+      "stops": [
+        {
+          "place": "Kopet Dag foothills, Central Asia",
+          "country": "Turkmenistan",
+          "lat": 37.8,
+          "lon": 58.0,
+          "year": -3000,
+          "era": "c. 3000 BCE",
+          "note": "No arrival: the homeland. Wild Allium species grew in the mountain steppe; foragers ate the bulbs raw, and at some unrecorded point began selecting the bigger, milder, more bulbing plants that became Allium cepa — a species now known only from cultivation. Domestication date is uncertain; 'c. 3000 BCE' is convention, not evidence.",
+          "use": "Raw bulb, eaten as found — pungent, sulfurous, tear-inducing. The use form here is the ur-form: the whole underground bulb as a durable, portable food, no cooking technology required. The bulb onion became the first storable flavor — a seasoning that could be dried, carried across deserts, and replanted from seed or bulb.",
+          "highlightDish": {
+            "name": "The raw bulb itself",
+            "blurb": "No dish yet exists — only the bulb pulled from the ground.",
+            "why": "Honesty demands it. Every later stop has a recipe; at the origin there is only the bulb. The dossier admits what it cannot know."
+          }
+        },
+        {
+          "place": "Nile Valley, Egypt",
+          "country": "Egypt",
+          "lat": 29.98,
+          "lon": 31.13,
+          "year": -2600,
+          "era": "c. 2600 BCE",
+          "note": "From Mesopotamia/Central Asia westward into Egypt by the Old Kingdom. Onion is depicted in garden scenes from the Old Kingdom onward; the 5th-dynasty pyramid texts of Unas (c. 2420 BCE) name it; it sits on offering tables from the 4th dynasty, usually beside bread. The onion became the first vegetable with theology — simultaneously a god-adjacent symbol and a worker's ration.",
+          "use": "Sacred food and corpse technology. The concentric rings symbolized eternity, so onions went into tombs — placed in mummy body cavities from the 13th dynasty onward, including Ramesses IV's eye sockets, believed to stimulate the dead to breathe again. Meanwhile the living ate them: rations, offerings, the food the Israelites pined for in the desert (Numbers 11:5).",
+          "highlightDish": {
+            "name": "Ful medames",
+            "blurb": "Slow-cooked fava beans served with raw onion, oil, and lemon, Egypt's national breakfast.",
+            "why": "The ful itself is modern; the onion's role is the point. In Egypt the onion never graduated to garnish or luxury — three thousand years after the tomb offerings, it is still served raw alongside the poor man's beans, the same ration logic as the pyramid-era offerings."
+          }
+        },
+        {
+          "place": "Babylon, Mesopotamia",
+          "country": "Iraq",
+          "lat": 32.54,
+          "lon": 44.42,
+          "year": -1750,
+          "era": "c. 1750 BCE",
+          "note": "From Central Asia, documented in Sumerian literature by 2500 BC. The hard evidence is the Yale Babylonian culinary tablets (YBC 4644, Old Babylonian period, c. 1700 BCE) — probably the world's oldest cookbooks, translated by Jean Bottéro. This is where 'the base note of every cuisine' begins, on clay.",
+          "use": "The base of the broth. Bottéro called the onion 'the characteristic ingredient of the cuisine' — every single recipe features onions, garlic, and leeks, simmered slowly with meat, fat, water, and beer in covered pots. The onion's job was to build the pot's flavor foundation, 3,700 years before the French named that technique.",
+          "highlightDish": {
+            "name": "Tah'u stew",
+            "blurb": "Lamb leg with onions, beer, cumin, beetroot, and coriander from YBC 4644 (Biblical Archaeology Society recreation).",
+            "why": "It is the oldest documented onion recipe on earth, and the onion is not a garnish or afterthought — it is in the ingredient list of a 3,700-year-old royal-style stew, doing precisely what onions still do in every pot today."
+          }
+        },
+        {
+          "place": "Northern India",
+          "country": "India",
+          "lat": 27.5,
+          "lon": 81.0,
+          "year": -600,
+          "era": "c. 600 BCE",
+          "note": "From Central Asia eastward by the first millennium BCE; old Vedic writings reference it, and the 6th-century BCE medical treatise Charaka-Samhita celebrates the onion as diuretic, good for digestion, heart, eyes, and joints (reported via the National Onion Association's history — the only lineage for the Charaka claim; treat as reported). In India the onion became an identity line: the same bulb is both the nation's base note and, for devout Hindus, Buddhists, and Jains, a spiritual pollutant (tamasic food).",
+          "use": "Pyaaz — the universal base. The onion became the foundation of nearly every savory preparation: the first thing in the pan, fried into the masala, ground into the gravy. It is also the cheapest and most widely available vegetable for the poor.",
+          "highlightDish": {
+            "name": "Do-piaza (Murgh dopiaza)",
+            "blurb": "Meat curry in which onions are added twice, in two forms (fried into the masala and later as whole or quartered onions); the name literally means 'two onions.'",
+            "why": "It is the rare dish in any cuisine named FOR the onion rather than merely containing it — and the Mughal legend (a courtier of Akbar, Mullah Do-Piaza, accidentally doubling the onions) is told as folklore, which is the honest framing: the name proves the onion earned star billing in the one cuisine that uses it most."
+          }
+        },
+        {
+          "place": "Olympia, Greece",
+          "country": "Greece",
+          "lat": 37.64,
+          "lon": 21.63,
+          "year": -400,
+          "era": "c. 400 BCE",
+          "note": "From Egypt and the Near East into the Mediterranean; by the classical period onions were standard Greek garden crops. Greece is the first stop where the use is about the body rather than the pot — the bulb as pharmacology.",
+          "use": "Athlete fuel and medicine. Greek Olympians reportedly ate pounds of onions, drank onion juice, and rubbed onions on their bodies before competition, believing it would lighten the balance of the blood. Hippocrates (5th c. BCE) prescribed onions as diuretic, wound healer, and pneumonia fighter; Dioscorides (1st c. CE) catalogued medicinal uses.",
+          "highlightDish": {
+            "name": "Stifado (kouneli stifado)",
+            "blurb": "Rabbit (or beef) braised with whole pearl onions, red wine, cinnamon, and cloves — the stew defined not by its meat but by its onions.",
+            "why": "It is the long arc of the Greek onion in one pot — from the athlete's raw ration to the national braise, where the onion is the co-star and the dish's identity. The Venetians' stufado arrived in Greece in the 13th century and the stew took the whole small onion as its signature."
+          }
+        },
+        {
+          "place": "Campania, Italy",
+          "country": "Italy",
+          "lat": 40.75,
+          "lon": 14.49,
+          "year": 79,
+          "era": "c. 79 CE",
+          "note": "From Egypt into the Mediterranean and thence across the Roman world; the Romans grew onions in dedicated gardens (cepinae) tended by specialist gardeners (ceparii), and carried them on campaign to their provinces in England and Germany — the vector that took the onion north of the Alps. Rome industrialized the onion — specialized growers, military logistics, a written cookbook — and exported it across an empire.",
+          "use": "Ubiquitous kitchen allium with a medical dossier. Pliny the Elder wrote of Pompeii's onions and catalogued Roman beliefs about the onion's powers — improving vision, inducing sleep, healing mouth sores, dog bites, toothache, dysentery, and lumbago. Roman soldiers ate onions regularly and gladiators were rubbed down with onion to firm their muscles. In the cookbook attributed to Apicius, onions appear in many recipes — as the chopped base of meat stews and as a dish in their own right.",
+          "highlightDish": {
+            "name": "Apicius's \"Bulbos\" (VII.304-306)",
+            "blurb": "Onions (and related bulbs) served raw, sliced, with oil, broth, vinegar, and cumin; or soaked, parboiled, fried in oil with thyme, honey, vinegar, and reduced wine.",
+            "why": "It is the only classical recipe that treats the onion as the dish rather than the seasoning — a plate OF onions, dressed. Rome ate the onion both ways, and this proves it took the bulb seriously as food, not just flavor."
+          }
+        },
+        {
+          "place": "Aachen, Frankish Europe",
+          "country": "Germany",
+          "lat": 50.78,
+          "lon": 6.08,
+          "year": 800,
+          "era": "c. 800",
+          "note": "Already present from the Roman introductions; Charlemagne's Capitulare de Villis (written 792-800, governing the royal estates) orders onions (cepa) to be grown in the gardens, alongside shallots, leeks, and garlic. Monastic gardens — the period's agricultural R&D — all grew it. The onion became infrastructure: medieval Europe's cuisine is built on three vegetables because three vegetables are what would reliably grow — and the onion is the only one of the three that is also a seasoning.",
+          "use": "One of the three pillars of medieval European cooking — beans, cabbage, and onions — the food of both poor and wealthy. Prescribed for headaches, snakebites, and hair loss; used as rent payments and wedding gifts. The onion stores through winter, grows in poor soil, and feeds a household when nothing else will.",
+          "highlightDish": {
+            "name": "The onion soup of Le Ménagier de Paris (1393)",
+            "blurb": "A medieval household book whose onion soup recipe calls for ginger and saffron, rare and expensive spices.",
+            "why": "It is the onion soup for the rich — the one moment the humble bulb appears in a luxury preparation — and it proves the onion's medieval range: rent-payment vegetable on the estate, saffron-scented soup in the Paris household book."
+          }
+        },
+        {
+          "place": "Santo Domingo, Caribbean",
+          "country": "Dominican Republic",
+          "lat": 18.5,
+          "lon": -69.9,
+          "year": 1550,
+          "era": "c. 1550",
+          "note": "With the Spanish colonists in the early 1500s — onions are Old-World-to-New-World transfers of the Columbian exchange. The National Onion Association's history holds that Columbus's second voyage (1493) carried onion seed to Hispaniola and crews sowed onions there in 1494; this is single-origin trade-lore, kept here as reported, not verified. What is documented: by the 1500s Spanish kitchens were planting onions across the Caribbean and mainland. The onion the Spanish brought had itself arrived in Iberia under Arab rule of Al-Andalus in the 8th century — so the American onion is a Central Asian bulb that crossed the Mediterranean twice before crossing the Atlantic.",
+          "use": "The Iberian base transplanted. In the Americas it joined native wild alliums (e.g. Allium tricoccum, ramps) that Native peoples already used. The onion closed the circle — the last continent it had not reached — arriving as a colonist's necessity crop and ending up naming dishes.",
+          "highlightDish": {
+            "name": "Encebollado",
+            "blurb": "Ecuador's coastal fish soup, albacore tuna and yuca under a mound of lime-pickled red onion, the name literally 'onioned' / 'covered in onion.'",
+            "why": "It is the American answer to do-piaza — a national dish named for the onion. The Spanish carried the bulb across the Atlantic; five centuries later a coastal soup wears its name. The ingredient that started as a steppe grass now has eponymous dishes on four continents."
+          }
+        },
+        {
+          "place": "Paris, France",
+          "country": "France",
+          "lat": 48.86,
+          "lon": 2.34,
+          "year": 1850,
+          "era": "c. 1850",
+          "note": "Long established; the story here is the dish. Onion soup runs through French cookbooks — La Varenne's Le Cuisinier françois (1680) gives two recipes; Dumas's Grand dictionnaire de cuisine (1873) reports the legend that Stanislas Leszczynski tasted it at a Champagne inn and carried the recipe to Versailles. The modern soupe à l'oignon gratinée dates to mid-19th-century Les Halles, Paris's great central market.",
+          "use": "The poor man's soup perfected. The surrounding restaurants served caramelized-onion broth with a heavy gratin of cheese, becoming the breakfast of the forts des Halles — the night-shift market porters — and the hangover remedy of Parisian night owls. French technique (the long caramelization) turned the cheapest vegetable into a bistro icon. The onion completed the class round trip — from the Ménagier's saffron version (1393) back down to the market porters' breakfast, and the porters' version is the one the world remembers.",
+          "highlightDish": {
+            "name": "Gratinée des Halles",
+            "blurb": "Deeply caramelized onions in beef broth under toasted bread and a slab of melted Gruyère.",
+            "why": "It is the dish that made the onion famous rather than merely useful. Every other stop proves the onion as base, ration, or medicine; Les Halles is the only stop where the onion is the entire point of a celebrated dish — a peasant bulb under a cheese crust that transcended class, served to porters at dawn and partygoers at 3 a.m."
+          }
+        }
+      ]
     }
   ],
   "notes": "Journeys are editorial summaries of well-established food history (Columbian exchange, Portuguese and Dutch trade routes, Arab sugar expansion). Dates marked c. are approximate."
