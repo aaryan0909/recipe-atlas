@@ -77,7 +77,10 @@ button { font-family: inherit; cursor: pointer; }
   transition: all 0.15s ease;
 }
 .tab:hover { color: var(--text); border-color: var(--tab); }
-.tab.active { background: var(--tab); border-color: var(--tab); color: #fff; font-weight: 600; }
+/* Active tab: journey colour darkened 45% toward black so white text clears
+   4.5:1 on every journey colour (backlog: white on #e4572e was 3.68:1; the
+   lightest colours, maize/banana, clear ~6:1 at this mix). */
+.tab.active { background: color-mix(in srgb, var(--tab) 45%, #000); border-color: var(--tab); color: #fff; font-weight: 600; }
 
 .stage {
   display: grid;
@@ -256,6 +259,36 @@ button { font-family: inherit; cursor: pointer; }
 }
 .quiz-actions button:first-child { background: var(--accent); color: #fff; border-color: var(--accent); }
 .stop-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.4px; color: var(--muted); margin: 18px 0 10px; }
+
+/* --- 2026-10-31 carriers layer: "The people who carried it" --- */
+.carriers-strip {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px 16px;
+  margin-bottom: 16px;
+}
+.carriers-strip h3 { margin: 0 0 4px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.4px; color: var(--muted); }
+.carriers-hint { margin: 0 0 10px; font-size: 0.85rem; color: var(--muted); line-height: 1.45; }
+.carrier-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.carrier-chip {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-align: left;
+}
+.carrier-chip:hover { border-color: var(--accent); }
+.carrier-line {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+}
 .dish-list { display: grid; gap: 8px; }
 .dish {
   display: flex; gap: 10px; align-items: center;
@@ -379,4 +412,15 @@ footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px;
 @media (max-width: 900px) {
   .timeline input[type='range'] { width: 100%; margin-top: 10px; height: 32px; }
   .year-read { margin: 0 0 0 12px; }
+}
+
+/* --- 2026-11-17 Phase C / backlog phone pass --- */
+/* Journey tabs: 22 pills wrapped into a wall on phones. One horizontal
+   scroll row instead; each pill keeps its 44px target. */
+@media (max-width: 900px) {
+  .journey-tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
+  .tab { flex: 0 0 auto; }
+  /* Stop labels shrink near-unreadable at phone width (13 SVG units at a
+     ~350px map). 16 units is a modest lift; the film camera is the real fix. */
+  .stop-label { font-size: 16px; }
 }

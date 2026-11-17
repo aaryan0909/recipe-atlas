@@ -28,8 +28,19 @@ const TRAVELER = {
   vanilla: { emoji: '🍦', line: 'Plain? I am the original plot twist.' },
   wheat: { emoji: '🌾', line: 'Bread, noodles, pasta, tortilla. Range.' },
   rice: { emoji: '🍚', line: 'Sticky, fluffy, crispy-bottomed. I contain multitudes.' },
+  garlic: { emoji: '🧄', line: 'I fed pyramid builders, scared off demons, and ended up in ice cream. Range.' },
+  ginger: { emoji: '🫚', line: 'A pound of me cost a sheep in 1300. Now I am in your tea.' },
+  turmeric: { emoji: '🟡', line: 'I was a dye, a ritual paste, and a medicine for 3,000 years before anyone put me in a curry.' },
 }
 const FALLBACK_TRAVELER = { emoji: '✦', line: 'I have traveled a long way to get to your kitchen.' }
+
+// Phase C (backlog, 2026-11-17): the film autoplays on load and on every
+// journey switch, which ignores prefers-reduced-motion. With reduced motion
+// preferred, the journey loads paused at its first stop instead.
+function prefersReducedMotion() {
+  return typeof window !== 'undefined'
+    && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+}
 
 function rotate(arr, n) {
   const k = ((n % arr.length) + arr.length) % arr.length
@@ -105,7 +116,7 @@ export default function App() {
         const defJourney = journeysDoc.journeys.find((j) => j.standard === 'new') || journeysDoc.journeys[0]
         setJourneyId(defJourney.id)
         setYear(defJourney.stops[0].year)
-        setPlaying(true)
+        setPlaying(!prefersReducedMotion())
       })
       .catch((e) => setError(e.message))
   }, [])
@@ -184,7 +195,7 @@ export default function App() {
     setJourneyId(id)
     setYear(j.stops[0].year)
     setPickedStop(null)
-    setPlaying(true)
+    setPlaying(!prefersReducedMotion())
     setMapNote(null)
     setQuiz(null)
     setExplored(false)
