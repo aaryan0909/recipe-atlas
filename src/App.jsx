@@ -31,6 +31,9 @@ const TRAVELER = {
   garlic: { emoji: '🧄', line: 'I fed pyramid builders, scared off demons, and ended up in ice cream. Range.' },
   ginger: { emoji: '🫚', line: 'A pound of me cost a sheep in 1300. Now I am in your tea.' },
   turmeric: { emoji: '🟡', line: 'I was a dye, a ritual paste, and a medicine for 3,000 years before anyone put me in a curry.' },
+  nutmeg: { emoji: '🌰', line: 'I cost a treaty article. Now I am in your eggnog. Inflation works both ways.' },
+  cloves: { emoji: '🌸', line: 'I paid for the first trip around the world. These days I mostly go up in smoke.' },
+  cardamom: { emoji: '🌿', line: 'Kerala pod, Arab coffee, Swedish bun. I get around.' },
 }
 const FALLBACK_TRAVELER = { emoji: '✦', line: 'I have traveled a long way to get to your kitchen.' }
 
@@ -168,7 +171,31 @@ export default function App() {
     return <div className="boot"><p>Could not load the atlas data: {error}</p></div>
   }
   if (!bundle || !journey || !geo) {
-    return <div className="boot"><p>Loading the atlas…</p></div>
+    // Phase C (backlog: reserved-height loading skeleton): the bare
+    // "Loading the atlas…" line popped the whole layout in at once. The
+    // skeleton reserves the masthead, tabs, framing and stage heights so
+    // the page lands in place when the data arrives.
+    return (
+      <div className="page" aria-busy="true" aria-label="Loading the atlas">
+        <header className="masthead">
+          <div>
+            <h1>Recipe Atlas</h1>
+            <p className="tagline">How food moved through the world</p>
+          </div>
+          <div className="stats"><span>Loading journeys…</span></div>
+        </header>
+        <div className="skel-tabs" aria-hidden="true">
+          <span className="skel skel-tab" /><span className="skel skel-tab" />
+          <span className="skel skel-tab" /><span className="skel skel-tab" />
+        </div>
+        <p className="skel skel-line" aria-hidden="true" />
+        <section className="skel-stage" aria-hidden="true">
+          <div className="skel skel-map" />
+          <div className="skel skel-card" />
+        </section>
+        <p className="boot-note">Loading the atlas…</p>
+      </div>
+    )
   }
 
   const { meta } = bundle

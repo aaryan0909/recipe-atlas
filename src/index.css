@@ -31,6 +31,30 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 1.2rem;
 }
 
+/* Phase C loading skeleton (backlog): reserved-height placeholders that
+   mirror the masthead / tabs / stage layout, so the page does not pop in.
+   The shimmer is a gentle opacity pulse; reduced-motion users get static
+   blocks instead. */
+.skel { display: block; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; animation: skelPulse 1.6s ease-in-out infinite; }
+@keyframes skelPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.skel-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 14px; }
+.skel-tab { width: 110px; height: 38px; border-radius: 999px; }
+.skel-tab:nth-child(2) { width: 130px; }
+.skel-tab:nth-child(3) { width: 96px; }
+.skel-tab:nth-child(4) { width: 118px; }
+.skel-line { height: 22px; margin: 0 0 10px; max-width: 640px; }
+.skel-stage { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; align-items: start; }
+.skel-map { aspect-ratio: 960 / 500; border-radius: 14px; min-height: 240px; }
+.skel-card { min-height: 420px; border-radius: 14px; }
+.boot-note { color: var(--muted); font-family: var(--serif); font-size: 1.1rem; text-align: center; margin: 18px 0 0; }
+@media (max-width: 900px) {
+  .skel-stage { grid-template-columns: 1fr; }
+  .skel-card { min-height: 300px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skel { animation: none; }
+}
+
 .page {
   max-width: 1280px;
   margin: 0 auto;
